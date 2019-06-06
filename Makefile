@@ -9,23 +9,24 @@ GITHUB_PAGES_BRANCH=gh-pages
 
 .PHONY: help
 help:
-	@echo 'Makefile for a pelican Web site                                           '
+	@echo '                                                                          '
+	@echo 'Makefile for gitbook note                                                 '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
 	@echo '   make clean                          remove the generated files         '
-
-	@echo '   make publish                        generate using production settings '
+	@echo '                                                                          '
 	@echo '   make serve [PORT=4000]              serve site at http://localhost:4000'
-
+	@echo '                                                                          '
+	@echo '   make publish                        generate using production settings '
 	@echo '   make github                         upload the web site via gh-pages   '
 	@echo '                                                                          '
-
 	@echo '                                                                          '
+
 
 .PHONY: clean
 clean:
-	# [ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
-	rm -rf $(OUTPUTDIR)/*
+	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	#rm -rf $(OUTPUTDIR)/*
 
 .PHONY: serve
 serve:
