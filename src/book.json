@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "mermaid-gb3",
+    "splitter",
+    "anchor-navigation-ex",
+    "expandable-chapters",
+    "-lunr",
+    "-search",
+    "search-pro"
+  ],
+  "pluginsConfig": {}
+}
