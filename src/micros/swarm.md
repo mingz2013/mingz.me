@@ -9,7 +9,7 @@
 * Docker Machine 创建 Docker 主机
 * Docker Swarm 配置集群节点
 * Docker Service 部署单个集群服务
-* Docker Stack 部署多个集群服务，以及 GUI 管理页面
+* Docker Stack 部署多个服务，以及 GUI 管理页面
 
 * docker-machine、docker swarm、docker node、docker service 和 docker stack 常用命令
 
@@ -39,12 +39,20 @@ Swarm是Docker公司在2014年12月初发布的一套较为简单的工具，用
 
 
 ## Docker Stack
+stack 是构成特定环境中的 service 集合, 它是自动部署多个相互关联的服务的简便方法，而无需单独定义每个服务。
 
+docker stack忽略构建命令，无法使用stack构建新镜像。
+
+stack 是一组相互关联的服务，它是服务的上一层，这些服务共享依赖关系，并且可以一起编排和缩放。
+单个 stack 能够定义和协调整个应用程序的功能，简单来说 stack 就是一组服务的集合。
+
+
+## Docker Network
 
 
 ## 集群管理面板
 - Shipyard
-- Portainer
+- Portainer  **
 - Panamax
 - Seagull
 
@@ -68,7 +76,6 @@ Swarm是Docker公司在2014年12月初发布的一套较为简单的工具，用
 - openshift
 
 
-
 ## Docker持续集成
 
 - Drone 轻量级CI工具
@@ -78,7 +85,11 @@ Swarm是Docker公司在2014年12月初发布的一套较为简单的工具，用
 
 
 
+## 私有镜像仓库
 
+- https://github.com/docker/distribution 
+- VMWare Harbor
+- SUSE Portus
 
 
 
