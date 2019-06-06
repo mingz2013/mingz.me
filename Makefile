@@ -13,6 +13,8 @@ help:
 	@echo 'Makefile for gitbook note                                                 '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
+	@echo '   make install                        install the node modules           '
+	@echo '                                                                          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '                                                                          '
 	@echo '   make serve [PORT=4000]              serve site at http://localhost:4000'
