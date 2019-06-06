@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Makefile" description="&#9;@echo '   make clean                          rem..." line="17" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-    </list>
+    <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
