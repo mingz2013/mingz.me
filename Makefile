@@ -13,7 +13,7 @@ help:
 	@echo 'Makefile for gitbook note                                                 '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
-	@echo '   make install                        install the node modules           '
+	@echo '   make install                        install plugins                    '
 	@echo '                                                                          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '                                                                          '
