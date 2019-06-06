@@ -7,7 +7,7 @@ OUTPUTDIR=$(BASEDIR)/build
 
 GITHUB_PAGES_BRANCH=gh-pages
 
-
+.PHONY: help
 help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
@@ -15,19 +15,19 @@ help:
 	@echo '   make clean                          remove the generated files         '
 
 	@echo '   make publish                        generate using production settings '
-	@echo '   make serve [PORT=4000]              serve site at http://localhost:8000'
+	@echo '   make serve [PORT=4000]              serve site at http://localhost:4000'
 
 	@echo '   make github                         upload the web site via gh-pages   '
 	@echo '                                                                          '
 
 	@echo '                                                                          '
 
-
+.PHONY: clean
 clean:
 	# [ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 	rm -rf $(OUTPUTDIR)/*
 
-
+.PHONY: serve
 serve:
 ifdef PORT
 	$(GITBOOK) serve $(INPUTDIR) $(OUTPUTDIR) --port $(PORT)
@@ -35,13 +35,11 @@ else
 	$(GITBOOK) serve $(INPUTDIR) $(OUTPUTDIR)
 endif
 
-
+.PHONY: publish
 publish:
 	$(GITBOOK) build $(INPUTDIR) $(OUTPUTDIR)
 
-
+.PHONY: github
 github: publish
 	ghp-import -m "make github" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) -p
 	git add .; git commit -m "update node book"; git push origin master
-
-.PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
