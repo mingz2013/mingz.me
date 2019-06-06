@@ -1,0 +1,700 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Centos7 UTF8编码配置 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../micros/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../algorithm/">
+            
+                <a href="../algorithm/">
+            
+                    
+                    algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../compiler/">
+            
+                <a href="../compiler/">
+            
+                    
+                    compiler
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../compiler/compiler.html">
+            
+                <a href="../compiler/compiler.html">
+            
+                    
+                    编程语言泛讲
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../compiler/ollvm.html">
+            
+                <a href="../compiler/ollvm.html">
+            
+                    
+                    ollvm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../lang/">
+            
+                <a href="../lang/">
+            
+                    
+                    lang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../lang/golang/">
+            
+                <a href="../lang/golang/">
+            
+                    
+                    golang
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../lang/html/">
+            
+                <a href="../lang/html/">
+            
+                    
+                    html
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../lang/js/">
+            
+                <a href="../lang/js/">
+            
+                    
+                    js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../lang/python/">
+            
+                <a href="../lang/python/">
+            
+                    
+                    python
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="centos7_utf8.html">
+            
+                <a href="centos7_utf8.html">
+            
+                    
+                    Centos7 UTF8编码配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../micros/">
+            
+                <a href="../micros/">
+            
+                    
+                    micros
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../micros/microservice.html">
+            
+                <a href="../micros/microservice.html">
+            
+                    
+                    MicroService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../micros/consul.html">
+            
+                <a href="../micros/consul.html">
+            
+                    
+                    Consul
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../micros/go-micro.html">
+            
+                <a href="../micros/go-micro.html">
+            
+                    
+                    go-micro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../micros/spring-cloud.html">
+            
+                <a href="../micros/spring-cloud.html">
+            
+                    
+                    SpringCloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../micros/docker.html">
+            
+                <a href="../micros/docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../micros/compose.html">
+            
+                <a href="../micros/compose.html">
+            
+                    
+                    Docker Compose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../micros/swarm.html">
+            
+                <a href="../micros/swarm.html">
+            
+                    
+                    Docker Swarm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../micros/mesos.html">
+            
+                <a href="../micros/mesos.html">
+            
+                    
+                    Mesos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../micros/k8s.html">
+            
+                <a href="../micros/k8s.html">
+            
+                    
+                    Kubernetes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../micros/devops.html">
+            
+                <a href="../micros/devops.html">
+            
+                    
+                    DevOps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../micros/openshift-3.html">
+            
+                <a href="../micros/openshift-3.html">
+            
+                    
+                    OpenShift 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.12" data-path="../micros/serverless.html">
+            
+                <a href="../micros/serverless.html">
+            
+                    
+                    Serverless
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.13" data-path="../micros/istio.html">
+            
+                <a href="../micros/istio.html">
+            
+                    
+                    Istio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.14" data-path="../micros/openshift-4.html">
+            
+                <a href="../micros/openshift-4.html">
+            
+                    
+                    OpenShift 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.15" data-path="../micros/chaos-engineering.html">
+            
+                <a href="../micros/chaos-engineering.html">
+            
+                    
+                    Chaos Engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../network/">
+            
+                <a href="../network/">
+            
+                    
+                    network
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../network/network.html">
+            
+                <a href="../network/network.html">
+            
+                    
+                    network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Centos7 UTF8编码配置</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x67E5;&#x770B;&#x7CFB;&#x7EDF;&#x7248;&#x672C;&#x4FE1;&#x606F;">&#x67E5;&#x770B;&#x7CFB;&#x7EDF;&#x7248;&#x672C;&#x4FE1;&#x606F;</h2>
+<p><code>$cat /etc/redhat-release</code></p>
+<pre><code>CentOS Linux release 7.1.1503 (Core)
+</code></pre><p><code>$uname -m</code></p>
+<pre><code>x86_64
+</code></pre><p><code>$uname -r</code></p>
+<pre><code>3.10.0-229.el7.x86_64
+</code></pre><p><code>$uname -a</code></p>
+<pre><code>Linux VM_7_30_centos 3.10.0-229.el7.x86_64 #1 SMP Fri Mar 6 11:36:42 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+</code></pre><h2 id="&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x914D;&#x7F6E;">&#x5F53;&#x524D;&#x6587;&#x4EF6;&#x914D;&#x7F6E;</h2>
+<p><code>$cat /etc/locale.conf</code></p>
+<pre><code>LANG=&quot;C&quot;
+</code></pre><h2 id="&#x67E5;&#x770B;locale&#x73AF;&#x5883;&#x53D8;&#x91CF;">&#x67E5;&#x770B;locale&#x73AF;&#x5883;&#x53D8;&#x91CF;</h2>
+<p><code>$locale</code></p>
+<pre><code>LANG=C
+LC_CTYPE=&quot;C&quot;
+LC_NUMERIC=&quot;C&quot;
+LC_TIME=&quot;C&quot;
+LC_COLLATE=&quot;C&quot;
+LC_MONETARY=&quot;C&quot;
+LC_MESSAGES=&quot;C&quot;
+LC_PAPER=&quot;C&quot;
+LC_NAME=&quot;C&quot;
+LC_ADDRESS=&quot;C&quot;
+LC_TELEPHONE=&quot;C&quot;
+LC_MEASUREMENT=&quot;C&quot;
+LC_IDENTIFICATION=&quot;C&quot;
+LC_ALL=
+</code></pre><h2 id="&#x4FEE;&#x6539;">&#x4FEE;&#x6539;</h2>
+<p><code>$vim /etc/locale.conf</code></p>
+<pre><code>#LANG=&quot;C&quot;
+LANG=&quot;en_US.UTF-8&quot;
+</code></pre><h2 id="&#x91CD;&#x65B0;&#x767B;&#x5F55;">&#x91CD;&#x65B0;&#x767B;&#x5F55;</h2>
+<p><code>$exit</code></p>
+<p><code>$login</code></p>
+<h2 id="&#x67E5;&#x770B;locale&#x73AF;&#x5883;&#x53D8;&#x91CF;">&#x67E5;&#x770B;locale&#x73AF;&#x5883;&#x53D8;&#x91CF;</h2>
+<p><code>$locale</code></p>
+<pre><code>LANG=en_US.UTF-8
+LC_CTYPE=&quot;en_US.UTF-8&quot;
+LC_NUMERIC=&quot;en_US.UTF-8&quot;
+LC_TIME=&quot;en_US.UTF-8&quot;
+LC_COLLATE=&quot;en_US.UTF-8&quot;
+LC_MONETARY=&quot;en_US.UTF-8&quot;
+LC_MESSAGES=&quot;en_US.UTF-8&quot;
+LC_PAPER=&quot;en_US.UTF-8&quot;
+LC_NAME=&quot;en_US.UTF-8&quot;
+LC_ADDRESS=&quot;en_US.UTF-8&quot;
+LC_TELEPHONE=&quot;en_US.UTF-8&quot;
+LC_MEASUREMENT=&quot;en_US.UTF-8&quot;
+LC_IDENTIFICATION=&quot;en_US.UTF-8&quot;
+LC_ALL=
+</code></pre><h2 id="&#x67E5;&#x770B;&#x5F53;&#x524D;&#x5B89;&#x88C5;&#x7684;&#x8BED;&#x8A00;&#x5305;">&#x67E5;&#x770B;&#x5F53;&#x524D;&#x5B89;&#x88C5;&#x7684;&#x8BED;&#x8A00;&#x5305;</h2>
+<p><code>$locale -a | grep en_US</code></p>
+<pre><code>en_US
+en_US.iso88591
+en_US.iso885915
+en_US.utf8
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: linux">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../micros/" class="navigation navigation-next " aria-label="Next page: micros">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Centos7 UTF8编码配置","level":"1.5.1","depth":2,"next":{"title":"micros","level":"1.6","depth":1,"path":"micros/index.md","ref":"micros/index.md","articles":[{"title":"MicroService","level":"1.6.1","depth":2,"path":"micros/microservice.md","ref":"micros/microservice.md","articles":[]},{"title":"Consul","level":"1.6.2","depth":2,"path":"micros/consul.md","ref":"micros/consul.md","articles":[]},{"title":"go-micro","level":"1.6.3","depth":2,"path":"micros/go-micro.md","ref":"micros/go-micro.md","articles":[]},{"title":"SpringCloud","level":"1.6.4","depth":2,"path":"micros/spring-cloud.md","ref":"micros/spring-cloud.md","articles":[]},{"title":"Docker","level":"1.6.5","depth":2,"path":"micros/docker.md","ref":"micros/docker.md","articles":[]},{"title":"Docker Compose","level":"1.6.6","depth":2,"path":"micros/compose.md","ref":"micros/compose.md","articles":[]},{"title":"Docker Swarm","level":"1.6.7","depth":2,"path":"micros/swarm.md","ref":"micros/swarm.md","articles":[]},{"title":"Mesos","level":"1.6.8","depth":2,"path":"micros/mesos.md","ref":"micros/mesos.md","articles":[]},{"title":"Kubernetes","level":"1.6.9","depth":2,"path":"micros/k8s.md","ref":"micros/k8s.md","articles":[]},{"title":"DevOps","level":"1.6.10","depth":2,"path":"micros/devops.md","ref":"micros/devops.md","articles":[]},{"title":"OpenShift 3","level":"1.6.11","depth":2,"path":"micros/openshift-3.md","ref":"micros/openshift-3.md","articles":[]},{"title":"Serverless","level":"1.6.12","depth":2,"path":"micros/serverless.md","ref":"micros/serverless.md","articles":[]},{"title":"Istio","level":"1.6.13","depth":2,"path":"micros/istio.md","ref":"micros/istio.md","articles":[]},{"title":"OpenShift 4","level":"1.6.14","depth":2,"path":"micros/openshift-4.md","ref":"micros/openshift-4.md","articles":[]},{"title":"Chaos Engineering","level":"1.6.15","depth":2,"path":"micros/chaos-engineering.md","ref":"micros/chaos-engineering.md","articles":[]}]},"previous":{"title":"linux","level":"1.5","depth":1,"path":"linux/index.md","ref":"linux/index.md","articles":[{"title":"Centos7 UTF8编码配置","level":"1.5.1","depth":2,"path":"linux/centos7_utf8.md","ref":"linux/centos7_utf8.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"linux/centos7_utf8.md","mtime":"2019-06-06T04:23:31.982Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:13:44.387Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

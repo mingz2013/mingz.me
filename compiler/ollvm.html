@@ -1,0 +1,698 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ollvm · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../lang/" />
+    
+    
+    <link rel="prev" href="compiler.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../algorithm/">
+            
+                <a href="../algorithm/">
+            
+                    
+                    algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    compiler
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="compiler.html">
+            
+                <a href="compiler.html">
+            
+                    
+                    编程语言泛讲
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="ollvm.html">
+            
+                <a href="ollvm.html">
+            
+                    
+                    ollvm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../lang/">
+            
+                <a href="../lang/">
+            
+                    
+                    lang
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../lang/golang/">
+            
+                <a href="../lang/golang/">
+            
+                    
+                    golang
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../lang/html/">
+            
+                <a href="../lang/html/">
+            
+                    
+                    html
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../lang/js/">
+            
+                <a href="../lang/js/">
+            
+                    
+                    js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../lang/python/">
+            
+                <a href="../lang/python/">
+            
+                    
+                    python
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../linux/">
+            
+                <a href="../linux/">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../linux/centos7_utf8.html">
+            
+                <a href="../linux/centos7_utf8.html">
+            
+                    
+                    Centos7 UTF8编码配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../micros/">
+            
+                <a href="../micros/">
+            
+                    
+                    micros
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../micros/microservice.html">
+            
+                <a href="../micros/microservice.html">
+            
+                    
+                    MicroService
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../micros/consul.html">
+            
+                <a href="../micros/consul.html">
+            
+                    
+                    Consul
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../micros/go-micro.html">
+            
+                <a href="../micros/go-micro.html">
+            
+                    
+                    go-micro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../micros/spring-cloud.html">
+            
+                <a href="../micros/spring-cloud.html">
+            
+                    
+                    SpringCloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../micros/docker.html">
+            
+                <a href="../micros/docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../micros/compose.html">
+            
+                <a href="../micros/compose.html">
+            
+                    
+                    Docker Compose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../micros/swarm.html">
+            
+                <a href="../micros/swarm.html">
+            
+                    
+                    Docker Swarm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../micros/mesos.html">
+            
+                <a href="../micros/mesos.html">
+            
+                    
+                    Mesos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../micros/k8s.html">
+            
+                <a href="../micros/k8s.html">
+            
+                    
+                    Kubernetes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../micros/devops.html">
+            
+                <a href="../micros/devops.html">
+            
+                    
+                    DevOps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../micros/openshift-3.html">
+            
+                <a href="../micros/openshift-3.html">
+            
+                    
+                    OpenShift 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.12" data-path="../micros/serverless.html">
+            
+                <a href="../micros/serverless.html">
+            
+                    
+                    Serverless
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.13" data-path="../micros/istio.html">
+            
+                <a href="../micros/istio.html">
+            
+                    
+                    Istio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.14" data-path="../micros/openshift-4.html">
+            
+                <a href="../micros/openshift-4.html">
+            
+                    
+                    OpenShift 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.15" data-path="../micros/chaos-engineering.html">
+            
+                <a href="../micros/chaos-engineering.html">
+            
+                    
+                    Chaos Engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../network/">
+            
+                <a href="../network/">
+            
+                    
+                    network
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../network/network.html">
+            
+                <a href="../network/network.html">
+            
+                    
+                    network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ollvm</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x505A;&#x7684;&#x4E8B;&#x60C5;">&#x505A;&#x7684;&#x4E8B;&#x60C5;</h1>
+<ul>
+<li>&#x4E4B;&#x524D;&#x5DF2;&#x7ECF;&#x505A;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x8D44;&#x6E90;&#x52A0;&#x5BC6;&#xFF0C;&#x7B26;&#x53F7;&#x6DF7;&#x6DC6;</li>
+<li>&#x672C;&#x6B21;&#x505A;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x4EE3;&#x7801;&#x81A8;&#x80C0;&#xFF0C;&#x53D8;&#x5F62;</li>
+</ul>
+<h1 id="&#x540D;&#x8BCD;&#x4ECB;&#x7ECD;">&#x540D;&#x8BCD;&#x4ECB;&#x7ECD;</h1>
+<h2 id="gcc">gcc</h2>
+<p>GNU&#x7F16;&#x8BD1;&#x5668;&#x5957;&#x4EF6;&#xFF08;GNU Compiler Collection&#xFF09;&#x5305;&#x62EC;C&#x3001;C++&#x3001;Objective-C&#x3001;Fortran&#x3001;Java&#x3001;Ada&#x548C;Go&#x8BED;&#x8A00;&#x7684;&#x524D;&#x7AEF;&#xFF0C;&#x4E5F;&#x5305;&#x62EC;&#x4E86;&#x8FD9;&#x4E9B;&#x8BED;&#x8A00;&#x7684;&#x5E93;&#xFF08;&#x5982;libstdc++&#x3001;libgcj&#x7B49;&#x7B49;&#xFF09;&#x3002;GCC&#x7684;&#x521D;&#x8877;&#x662F;&#x4E3A;GNU&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E13;&#x95E8;&#x7F16;&#x5199;&#x7684;&#x4E00;&#x6B3E;&#x7F16;&#x8BD1;&#x5668;&#x3002;GNU&#x7CFB;&#x7EDF;&#x662F;&#x5F7B;&#x5E95;&#x7684;&#x81EA;&#x7531;&#x8F6F;&#x4EF6;&#x3002;&#x6B64;&#x5904;&#xFF0C;&#x201C;&#x81EA;&#x7531;&#x201D;&#x7684;&#x542B;&#x4E49;&#x662F;&#x5B83;&#x5C0A;&#x91CD;&#x7528;&#x6237;&#x7684;&#x81EA;&#x7531;&#x3002;</p>
+<h2 id="llvm">llvm</h2>
+<p>LLVM&#x662F;&#x6784;&#x67B6;&#x7F16;&#x8BD1;&#x5668;(compiler)&#x7684;&#x6846;&#x67B6;&#x7CFB;&#x7EDF;&#xFF0C;&#x4EE5;C++&#x7F16;&#x5199;&#x800C;&#x6210;&#xFF0C;&#x7528;&#x4E8E;&#x4F18;&#x5316;&#x4EE5;&#x4EFB;&#x610F;&#x7A0B;&#x5E8F;&#x8BED;&#x8A00;&#x7F16;&#x5199;&#x7684;&#x7A0B;&#x5E8F;&#x7684;&#x7F16;&#x8BD1;&#x65F6;&#x95F4;(compile-time)&#x3001;&#x94FE;&#x63A5;&#x65F6;&#x95F4;(link-time)&#x3001;&#x8FD0;&#x884C;&#x65F6;&#x95F4;(run-time)&#x4EE5;&#x53CA;&#x7A7A;&#x95F2;&#x65F6;&#x95F4;(idle-time)&#xFF0C;&#x5BF9;&#x5F00;&#x53D1;&#x8005;&#x4FDD;&#x6301;&#x5F00;&#x653E;&#xFF0C;&#x5E76;&#x517C;&#x5BB9;&#x5DF2;&#x6709;&#x811A;&#x672C;&#x3002;</p>
+<h2 id="clang">clang</h2>
+<p>Clang&#x662F;&#x4E00;&#x4E2A;C&#x8BED;&#x8A00;&#x3001;C++&#x3001;Objective-C&#x8BED;&#x8A00;&#x7684;&#x8F7B;&#x91CF;&#x7EA7;&#x7F16;&#x8BD1;&#x5668;&#x3002;&#x6E90;&#x4EE3;&#x7801;&#x53D1;&#x5E03;&#x4E8E;BSD&#x534F;&#x8BAE;&#x4E0B;&#x3002;Clang&#x5C06;&#x652F;&#x6301;&#x5176;&#x666E;&#x901A;lambda&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;&#x7684;&#x7B80;&#x5316;&#x5904;&#x7406;&#x4EE5;&#x53CA;&#x66F4;&#x597D;&#x7684;&#x5904;&#x7406;constexpr&#x5173;&#x952E;&#x5B57;&#x3002;</p>
+<h2 id="ollvm">ollvm</h2>
+<p>OLLVM&#xFF08;Obfuscator-LLVM&#xFF09;&#x662F;&#x745E;&#x58EB;&#x897F;&#x5317;&#x5E94;&#x7528;&#x79D1;&#x6280;&#x5927;&#x5B66;&#x5B89;&#x5168;&#x5B9E;&#x9A8C;&#x5BA4;&#x4E8E;2010&#x5E74;6&#x6708;&#x4EFD;&#x53D1;&#x8D77;&#x7684;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#xFF0C;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x7684;&#x76EE;&#x6807;&#x662F;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;LLVM&#x7F16;&#x8BD1;&#x5957;&#x4EF6;&#x7684;&#x5F00;&#x6E90;&#x5206;&#x652F;&#xFF0C;&#x80FD;&#x591F;&#x901A;&#x8FC7;&#x4EE3;&#x7801;&#x6DF7;&#x6DC6;&#x548C;&#x9632;&#x7BE1;&#x6539;&#xFF0C;&#x589E;&#x52A0;&#x5BF9;&#x9006;&#x5411;&#x5DE5;&#x7A0B;&#x7684;&#x96BE;&#x5EA6;&#xFF0C;&#x63D0;&#x4F9B;&#x66F4;&#x9AD8;&#x7684;&#x8F6F;&#x4EF6;&#x5B89;&#x5168;&#x6027;&#x3002;&#x76EE;&#x524D;&#xFF0C;OLLVM&#x5DF2;&#x7ECF;&#x652F;&#x6301;LLVM-4.0.1&#x7248;&#x672C;&#x3002;OLLVM&#x7684;&#x6DF7;&#x6DC6;&#x64CD;&#x4F5C;&#x5C31;&#x662F;&#x5728;&#x4E2D;&#x95F4;&#x8868;&#x793A;IR&#x5C42;&#xFF0C;&#x901A;&#x8FC7;&#x7F16;&#x5199;Pass&#x6765;&#x6DF7;&#x6DC6;IR&#xFF0C;&#x7136;&#x540E;&#x540E;&#x7AEF;&#x4F9D;&#x636E;IR&#x6765;&#x751F;&#x6210;&#x7684;&#x76EE;&#x6807;&#x4EE3;&#x7801;&#x4E5F;&#x5C31;&#x88AB;&#x6DF7;&#x6DC6;&#x4E86;&#x3002;&#x5F97;&#x76CA;&#x4E8E;LLVM&#x7684;&#x8BBE;&#x8BA1;&#xFF0C;OLLVM&#x9002;&#x7528;LLVM&#x652F;&#x6301;&#x7684;&#x6240;&#x6709;&#x8BED;&#x8A00;&#xFF08;C, C++, Objective-C, Ada &#x548C; Fortran&#xFF09;&#x548C;&#x76EE;&#x6807;&#x5E73;&#x53F0;&#xFF08;x86, x86-64, PowerPC, PowerPC-64, ARM, Thumb, SPARC, Alpha, CellSPU,MIPS, MSP430, SystemZ, &#x548C; XCore&#xFF09;</p>
+<h1 id="llvm&#x76F8;&#x5173;&#x67B6;&#x6784;&#x4E0E;&#x539F;&#x7406;">llvm&#x76F8;&#x5173;&#x67B6;&#x6784;&#x4E0E;&#x539F;&#x7406;</h1>
+<p><a href="https://llvm.org/docs/" target="_blank">https://llvm.org/docs/</a></p>
+<p><a href="http://www.aosabook.org/en/llvm.html" target="_blank">http://www.aosabook.org/en/llvm.html</a></p>
+<p><a href="https://llvm.org/docs/WritingAnLLVMPass.html" target="_blank">https://llvm.org/docs/WritingAnLLVMPass.html</a></p>
+<h1 id="ollvm&#x6269;&#x5C55;&#x5185;&#x5BB9;">ollvm&#x6269;&#x5C55;&#x5185;&#x5BB9;</h1>
+<p><a href="https://github.com/obfuscator-llvm/obfuscator/wiki" target="_blank">https://github.com/obfuscator-llvm/obfuscator/wiki</a></p>
+<ol>
+<li><p>-fla &#x63A7;&#x5236;&#x6D41;&#x6241;&#x5E73;&#x5316;&#x7684;PASS&#x53C2;&#x6570;</p>
+</li>
+<li><p>-sub&#x6307;&#x4EE4;&#x66FF;&#x6362;&#x7684;PASS&#x53C2;&#x6570;</p>
+</li>
+<li><p>-bcf&#x865A;&#x5047;&#x63A7;&#x5236;&#x6D41;&#x7684;PASS&#x53C2;&#x6570;</p>
+</li>
+</ol>
+<p><a href="https://blog.csdn.net/chrisnotfound/article/details/79026449" target="_blank">https://blog.csdn.net/chrisnotfound/article/details/79026449</a></p>
+<h1 id="demo">demo</h1>
+<p>&#x7528;Armariris&#x6F14;&#x793A;&#x7F16;&#x8BD1;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;C&#x6E90;&#x7801;&#xFF0C;&#x8BD5;&#x7528;&#x5404;&#x79CD;&#x53C2;&#x6570;&#x3002;</p>
+<p>&#x5BF9;&#x7F16;&#x8BD1;&#x51FA;&#x7684;&#x4E8C;&#x8FDB;&#x5236;&#x8FDB;&#x884C;&#x5206;&#x6790;&#xFF0C;&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x5927;&#x5C0F;&#xFF0C;&#x7528;ida&#x5206;&#x6790;&#x4E8C;&#x8FDB;&#x5236;&#xFF0C;&#x5C55;&#x793A;&#x6D41;&#x56FE;&#x3002;</p>
+<h1 id="&#x653B;&#x4E0E;&#x9632;">&#x653B;&#x4E0E;&#x9632;</h1>
+<p><a href="https://bbs.pediy.com/thread-217727.htm" target="_blank">https://bbs.pediy.com/thread-217727.htm</a></p>
+<p><a href="http://www.freebuf.com/articles/terminal/130142.html" target="_blank">http://www.freebuf.com/articles/terminal/130142.html</a></p>
+<h1 id="github">github</h1>
+<ul>
+<li><a href="https://github.com/llvm-mirror/llvm" target="_blank">llvm</a></li>
+<li><a href="https://github.com/obfuscator-llvm/obfuscator" target="_blank">ollvm</a></li>
+<li><a href="https://github.com/HikariObfuscator/Hikari" target="_blank">Hikari</a></li>
+<li><a href="https://github.com/GoSSIP-SJTU/Armariris" target="_blank">Armariris</a></li>
+<li><a href="https://github.com/trailofbits/mcsema" target="_blank">mcsema</a></li>
+</ul>
+<h1 id="&#x53C2;&#x8003;&#x4E66;&#x7C4D;">&#x53C2;&#x8003;&#x4E66;&#x7C4D;</h1>
+<ul>
+<li>&#x300A;iOS&#x5E94;&#x7528;&#x9006;&#x5411;&#x4E0E;&#x5B89;&#x5168;&#x300B;</li>
+<li>&#x300A;&#x7F16;&#x8BD1;&#x4E0E;&#x53CD;&#x7F16;&#x8BD1;&#x6280;&#x672F;&#x5B9E;&#x6218;&#x300B;</li>
+<li>&#x300A;LLVM Cookbook&#x4E2D;&#x6587;&#x7248;&#x300B;</li>
+</ul>
+<h1 id="links">links</h1>
+<ul>
+<li><a href="https://www.gnu.org/software/gcc/" target="_blank">gcc</a></li>
+<li><a href="http://clang.llvm.org/" target="_blank">clang</a></li>
+<li><a href="https://www.cnblogs.com/zuopeng/p/4141467.html" target="_blank">LLVM&#x548C;GCC&#x7684;&#x533A;&#x522B;</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="compiler.html" class="navigation navigation-prev " aria-label="Previous page: 编程语言泛讲">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../lang/" class="navigation navigation-next " aria-label="Next page: lang">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ollvm","level":"1.3.2","depth":2,"next":{"title":"lang","level":"1.4","depth":1,"path":"lang/index.md","ref":"lang/index.md","articles":[{"title":"golang","level":"1.4.1","depth":2,"path":"lang/golang/index.md","ref":"lang/golang/index.md","articles":[]},{"title":"html","level":"1.4.2","depth":2,"path":"lang/html/index.md","ref":"lang/html/index.md","articles":[]},{"title":"js","level":"1.4.3","depth":2,"path":"lang/js/index.md","ref":"lang/js/index.md","articles":[]},{"title":"python","level":"1.4.4","depth":2,"path":"lang/python/index.md","ref":"lang/python/index.md","articles":[]}]},"previous":{"title":"编程语言泛讲","level":"1.3.1","depth":2,"path":"compiler/compiler.md","ref":"compiler/compiler.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"compiler/ollvm.md","mtime":"2019-06-06T04:23:31.964Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:13:44.387Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
