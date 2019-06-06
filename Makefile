@@ -23,6 +23,10 @@ help:
 	@echo '                                                                          '
 
 
+.PHONY: install
+install:
+	$(GITBOOK) install $(INPUTDIR)
+
 .PHONY: clean
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
