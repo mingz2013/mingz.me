@@ -26,7 +26,6 @@ help:
 .PHONY: clean
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
-	#rm -rf $(OUTPUTDIR)/*
 
 .PHONY: serve
 serve:
@@ -37,7 +36,7 @@ else
 endif
 
 .PHONY: publish
-publish:
+publish: clean
 	$(GITBOOK) build $(INPUTDIR) $(OUTPUTDIR)
 
 .PHONY: github
