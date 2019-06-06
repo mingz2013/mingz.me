@@ -12,16 +12,33 @@
         
         
     
+    
     <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
@@ -44,6 +61,9 @@
         
     
         
+    
+
+
     
 
         
@@ -561,21 +581,21 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="consul">Consul</h1>
-<h2 id="&#x6982;&#x5FF5;">&#x6982;&#x5FF5;</h2>
-<h3 id="&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;">&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;</h3>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#consul"><b>1. </b>Consul</a></li><ul><li><span class="title-icon "></span><a href="#&#x6982;&#x5FF5;"><b>1.1. </b>&#x6982;&#x5FF5;</a></li><ul><li><span class="title-icon "></span><a href="#&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;"><b>1.1.1. </b>&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;</a></li><li><span class="title-icon "></span><a href="#consul_1"><b>1.1.2. </b>Consul</a></li></ul><li><span class="title-icon "></span><a href="#&#x6F14;&#x793A;"><b>1.2. </b>&#x6F14;&#x793A;</a></li><ul><li><span class="title-icon "></span><a href="#install-consul"><b>1.2.1. </b>install consul</a></li><li><span class="title-icon "></span><a href="#run-the-agent"><b>1.2.2. </b>run the agent</a></li><li><span class="title-icon "></span><a href="#services"><b>1.2.3. </b>services</a></li><li><span class="title-icon "></span><a href="#connect"><b>1.2.4. </b>Connect</a></li><li><span class="title-icon "></span><a href="#consul-cluster"><b>1.2.5. </b>Consul Cluster</a></li><li><span class="title-icon "></span><a href="#health-checks"><b>1.2.6. </b>Health Checks</a></li><li><span class="title-icon "></span><a href="#kv-data"><b>1.2.7. </b>KV Data</a></li><li><span class="title-icon "></span><a href="#web-ui"><b>1.2.8. </b>Web UI</a></li></ul><li><span class="title-icon "></span><a href="#todos-demo"><b>1.3. </b>todos demo</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><b>1.4. </b>&#x53C2;&#x8003;&#x8D44;&#x6599;</a></li><ul><li><span class="title-icon "></span><a href="#github"><b>1.4.1. </b>GitHub</a></li><li><span class="title-icon "></span><a href="#website"><b>1.4.2. </b>Website</a></li></ul></ul></ul></div><a href="#consul" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="consul"><a name="consul" class="anchor-navigation-ex-anchor" href="#consul"><i class="fa fa-link" aria-hidden="true"></i></a>1. Consul</h1>
+<h2 id="&#x6982;&#x5FF5;"><a name="&#x6982;&#x5FF5;" class="anchor-navigation-ex-anchor" href="#&#x6982;&#x5FF5;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x6982;&#x5FF5;</h2>
+<h3 id="&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;"><a name="&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;" class="anchor-navigation-ex-anchor" href="#&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.1. &#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;</h3>
 <p><img src="images/consul-01.png" alt="&#x670D;&#x52A1;&#x6CE8;&#x518C;&#x4E0E;&#x53D1;&#x73B0;&#x65B9;&#x6848;&#x5BF9;&#x6BD4;"></p>
-<h3 id="consul">Consul</h3>
-<h2 id="&#x6F14;&#x793A;">&#x6F14;&#x793A;</h2>
-<h3 id="install-consul">install consul</h3>
+<h3 id="consul_1"><a name="consul_1" class="anchor-navigation-ex-anchor" href="#consul_1"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.2. Consul</h3>
+<h2 id="&#x6F14;&#x793A;"><a name="&#x6F14;&#x793A;" class="anchor-navigation-ex-anchor" href="#&#x6F14;&#x793A;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x6F14;&#x793A;</h2>
+<h3 id="install-consul"><a name="install-consul" class="anchor-navigation-ex-anchor" href="#install-consul"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.1. install consul</h3>
 <p><code>$brew install consul</code></p>
-<h4 id="verifying-the-installation">verifying the installation</h4>
+<h4 id="verifying-the-installation"><a name="verifying-the-installation" class="anchor-navigation-ex-anchor" href="#verifying-the-installation"><i class="fa fa-link" aria-hidden="true"></i></a>verifying the installation</h4>
 <p><code>$consul</code></p>
-<h3 id="run-the-agent">run the agent</h3>
-<h4 id="starting-the-agent">starting the agent</h4>
+<h3 id="run-the-agent"><a name="run-the-agent" class="anchor-navigation-ex-anchor" href="#run-the-agent"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.2. run the agent</h3>
+<h4 id="starting-the-agent"><a name="starting-the-agent" class="anchor-navigation-ex-anchor" href="#starting-the-agent"><i class="fa fa-link" aria-hidden="true"></i></a>starting the agent</h4>
 <p><code>$consul agent -dev</code></p>
 <p>&#x4E3A;&#x4E86;&#x7B80;&#x5355;&#xFF0C;&#x6211;&#x4EEC;&#x4EE5;&#x5F00;&#x53D1;&#x6A21;&#x5F0F;&#x542F;&#x52A8;consul agent&#x3002;&#x8FD9;&#x4E2A;&#x6A21;&#x5F0F;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x548C;&#x5BB9;&#x6613;&#x7684;&#x542F;&#x52A8;&#x4E00;&#x4E2A;&#x5355;&#x8282;&#x70B9;&#x7684;consul&#x73AF;&#x5883;. &#x8FD9;&#x4E2A;&#x6A21;&#x5F0F;&#x4E0D;&#x9002;&#x5408;&#x7528;&#x4E8E;&#x751F;&#x4EA7;&#x73AF;&#x5883;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4E0D;&#x4FDD;&#x5B58;&#x4EFB;&#x4F55;&#x72B6;&#x6001;&#x3002;</p>
-<h4 id="cluster-members">cluster members</h4>
+<h4 id="cluster-members"><a name="cluster-members" class="anchor-navigation-ex-anchor" href="#cluster-members"><i class="fa fa-link" aria-hidden="true"></i></a>cluster members</h4>
 <pre><code>$consul members
 Node         Address         Status  Type    Build  Protocol  DC   Segment
 avril.local  127.0.0.1:8301  alive   server  1.3.0  2         dc1  &lt;all&gt;
@@ -619,16 +639,16 @@ avril.local  127.0.0.1:8301  alive   server  1.3.0  2         dc1  &lt;all&gt;
 ;; SERVER: 127.0.0.1#8600(127.0.0.1)
 ;; WHEN: Tue Oct 23 15:50:13 CST 2018
 ;; MSG SIZE  rcvd: 41
-</code></pre><h4 id="stopping-the-agent">stopping the agent</h4>
+</code></pre><h4 id="stopping-the-agent"><a name="stopping-the-agent" class="anchor-navigation-ex-anchor" href="#stopping-the-agent"><i class="fa fa-link" aria-hidden="true"></i></a>stopping the agent</h4>
 <p>&#x4F60;&#x53EF;&#x4EE5;<code>ctrl-C</code>&#x53BB;&#x4F18;&#x96C5;&#x7684;&#x505C;&#x6B62;&#x8FD9;&#x4E2A;agent&#xFF0C;&#x5F53;&#x4E2D;&#x65AD;&#x8FD9;&#x4E2A;agent&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x5B83;&#x79BB;&#x5F00;&#x7684;cluster&#xFF0C;and shut down&#x3002;</p>
 <p>&#x4E3A;&#x4E86;&#x4F18;&#x96C5;&#x7684;leaving&#xFF0C;consul &#x901A;&#x77E5;&#x5176;&#x4ED6;&#x96C6;&#x7FA4;&#x6210;&#x5458;&#xFF0C;&#x8FD9;&#x4E2A;&#x8282;&#x70B9;&#x79BB;&#x5F00;&#x4E86;&#x3002;&#x5982;&#x679C;&#x4F60;&#x5F3A;&#x884C;kill&#x8FD9;&#x4E2A;agent &#x8FDB;&#x7A0B;&#xFF0C;&#x5176;&#x4ED6;&#x6210;&#x5458;&#x5C06;&#x53D1;&#x73B0;&#x8FD9;&#x4E2A;node fail&#x7684;&#x3002;
 &#x5F53;&#x4E00;&#x4E2A;&#x6210;&#x5458;&#x79BB;&#x5F00;&#xFF0C;&#x5B83;&#x7684;&#x670D;&#x52A1;&#x548C;&#x68C0;&#x67E5;&#xFF0C;&#x5C06;&#x4ECE;catalog&#x79FB;&#x9664;&#x3002;&#x5F53;&#x4E00;&#x4E2A;&#x6210;&#x5458;fails&#xFF0C;&#x5B83;&#x7684;&#x5065;&#x5EB7;&#x4EC5;&#x4EC5;&#x6807;&#x8BB0;&#x4E3A;critical, &#x4F46;&#x5B83;&#x4E0D;&#x4F1A;&#x4ECE;catalog&#x4E2D;&#x79FB;&#x9664;&#x3002;
 cansul&#x5F80;&#x5F80;&#x4F1A;&#x91CD;&#x8FDE; failed nodes&#xFF0C;&#x5141;&#x8BB8;&#x5B83;&#x4ECE;&#x597D;&#x7684;&#x7F51;&#x7EDC;&#x72B6;&#x6001;&#x4E0B;&#x6062;&#x590D;&#x3002;&#x7136;&#x800C;&#x79BB;&#x5F00;&#x7684;&#x8282;&#x70B9;&#x6C38;&#x8FDC;&#x4E0D;&#x4F1A;&#x8054;&#x7CFB;&#x3002;</p>
 <p>&#x53E6;&#x5916;&#xFF0C;&#x5982;&#x679C;&#x4E00;&#x4E2A;agent &#x6B63;&#x5728;&#x64CD;&#x4F5C;&#x4E00;&#x4E2A;server&#xFF0C;&#x4E00;&#x4E2A;&#x4F18;&#x96C5;&#x7684;&#x79BB;&#x5F00;&#x65B9;&#x5F0F;&#x662F;&#x91CD;&#x8981;&#x7684;&#xFF0C;&#x53BB;&#x907F;&#x514D;&#x9020;&#x6210;&#x4E00;&#x4E9B;&#x8D85;&#x51FA;&#x63A7;&#x5236;&#x7684;&#x5F71;&#x54CD;.</p>
-<h3 id="services">services</h3>
-<h4 id="registering-services">registering services</h4>
+<h3 id="services"><a name="services" class="anchor-navigation-ex-anchor" href="#services"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.3. services</h3>
+<h4 id="registering-services"><a name="registering-services" class="anchor-navigation-ex-anchor" href="#registering-services"><i class="fa fa-link" aria-hidden="true"></i></a>registering services</h4>
 <p>&#x5728;&#x524D;&#x9762;&#x7684;&#x6B65;&#x9AA4;&#x91CC;&#xFF0C;&#x6211;&#x4EEC;&#x8FD0;&#x884C;&#x4E86;&#x6211;&#x4EEC;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;agent&#xFF0C;&#x67E5;&#x770B;&#x4E86;&#x96C6;&#x7FA4;&#x7684;&#x6210;&#x5458;&#xFF0C;&#x5E76;&#x4E14;&#x8BBF;&#x95EE;&#x4E86;&#x8FD9;&#x4E2A;&#x8282;&#x70B9;&#x3002;&#x5728;&#x672C;&#x8282;guide&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x6CE8;&#x518C;&#x6211;&#x4EEC;&#x7B2C;&#x4E00;&#x4E2A;service&#xFF0C;&#x5E76;&#x4E14;query&#x8FD9;&#x4E2A;service&#x3002;</p>
-<h4 id="defining-a-service">defining a service</h4>
+<h4 id="defining-a-service"><a name="defining-a-service" class="anchor-navigation-ex-anchor" href="#defining-a-service"><i class="fa fa-link" aria-hidden="true"></i></a>defining a service</h4>
 <p>&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#xFF0C;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#x5B9A;&#x4E49;&#x6587;&#x4EF6;&#xFF0C;&#x6216;&#x8005;&#x8C03;&#x7528;&#x4E00;&#x4E2A;&#x5408;&#x9002;&#x7684;HTTP API</p>
 <p>&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#x5B9A;&#x4E49;&#xFF0C;&#x662F;&#x6700;&#x5E38;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#x53BB;&#x6CE8;&#x518C;service&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x6211;&#x4EEC;&#x7528;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5F00;&#x542F;&#x4E0B;&#x4E00;&#x6B65;&#x3002;&#x6211;&#x4EEC;&#x5C06;&#x57FA;&#x4E8E;&#x4E0A;&#x4E00;&#x6B65;&#x7684;agent &#x914D;&#x7F6E;&#x3002;</p>
 <p>&#x9996;&#x5148;&#xFF0C;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x76EE;&#x5F55;&#x7528;&#x4E8E;consul configuration&#x3002;consul loads &#x6240;&#x6709;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;in the &#x914D;&#x7F6E;&#x76EE;&#x5F55;&#xFF0C;&#x6240;&#x4EE5;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x5728;unix&#x7CFB;&#x7EDF;&#x4E0A;&#x662F;&#x5B9A;&#x4E49;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;like <code>/etc/consul.d</code>(the .d suffix implies &quot;this directory contaions a set of configuration files&quot;).</p>
@@ -640,9 +660,9 @@ cansul&#x5F80;&#x5F80;&#x4F1A;&#x91CD;&#x8FDE; failed nodes&#xFF0C;&#x5141;&#x8B
 <code>$ consul agent -dev -config-dir=/etc/consul.d</code></p>
 <p>&#x4F60;&#x53EF;&#x4EE5;&#x6CE8;&#x610F;&#x5230;&#x4ED6;&#x7684;&#x8F93;&#x51FA;&#xFF0C;&#x540C;&#x6B65;&#x7684;&#x8FD9;&#x4E2A;web service&#x3002;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x8FD9;&#x4E2A;agent&#x52A0;&#x8F7D;&#x4E86;&#x8FD9;&#x4E2A;&#x670D;&#x52A1;&#x914D;&#x7F6E;&#xFF0C;&#x4ECE;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x91CC;&#xFF0C;&#x5E76;&#x4E14;&#x6210;&#x529F;&#x6CE8;&#x518C;&#x4E86;&#x4ED6;&#x5728;&#x8FD9;&#x670D;&#x52A1;catalog&#x3002;</p>
 <p>&#x5982;&#x679C;&#x4F60;&#x60F3;&#x53BB;&#x6CE8;&#x518C;multiple services&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;multiple service&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5728;&#x8FD9;&#x914D;&#x7F6E;&#x76EE;&#x5F55;&#x91CC;&#x3002;</p>
-<h4 id="querying-services">querying services</h4>
+<h4 id="querying-services"><a name="querying-services" class="anchor-navigation-ex-anchor" href="#querying-services"><i class="fa fa-link" aria-hidden="true"></i></a>querying services</h4>
 <p>Once the agent is started and the service is synced, we can query the service using either the DNS or HTTP API.</p>
-<h5 id="dns-api">DNS API</h5>
+<h5 id="dns-api"><a name="dns-api" class="anchor-navigation-ex-anchor" href="#dns-api"><i class="fa fa-link" aria-hidden="true"></i></a>DNS API</h5>
 <p>&#x8BA9;&#x6211;&#x4EEC;&#x9996;&#x5148;&#x8BF7;&#x6C42;&#x6211;&#x4EEC;&#x7684;&#x670D;&#x52A1;&#xFF0C;&#x7528;DNS API&#x3002;for the DNS API, the DNS name for servics is NAME.service.consul. By default, all DNS names are always in the consul namespace, though this is configurable. The service subdomain tells Consul we&apos;re querying services, and the NAME is the name of the service.</p>
 <p>For the web service we registered, these conventions and settings yield a fully-qualified domain name of web.service.consul</p>
 <pre><code>$ dig &amp;127.0.0.1 -p 8600 web.service.consul
@@ -652,7 +672,7 @@ cansul&#x5F80;&#x5F80;&#x4F1A;&#x91CD;&#x8FDE; failed nodes&#xFF0C;&#x5141;&#x8B
 </code></pre><p>&#x8FD9;&#x4E2A;&#x670D;&#x52A1;&#x8BB0;&#x5F55;&#xFF0C;&#x8BF4;&#xFF0C;&#x8FD9;&#x4E2A;web service &#x8FD0;&#x884C;&#x5728;80&#x7AEF;&#x53E3;&#xFF0C;&#x5E76;&#x4E14;&#x5728;&#x8282;&#x70B9;&#x3002;&#x3002;&#x4E0A;&#xFF0C;&#x5E76;&#x4E14;&#x989D;&#x5916;&#x7684;&#x4FE1;&#x606F;&#x8FD4;&#x56DE;&#x4E86;&#xFF0C;&#x901A;&#x8FC7;&#x8FD9;DNS&#xFF0C;with the &#x4E00;&#x4E2A;&#x8BB0;&#x5F55; for the node&#x3002;</p>
 <p>&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;DNS API&#x53BB;&#x8FC7;&#x6EE4;&#x670D;&#x52A1;&#x7528;tags&#xFF0C;</p>
 <pre><code>$ dig @127.0.0.1 -p 8600 rails.web.service.consul
-</code></pre><h5 id="http-api">HTTP API</h5>
+</code></pre><h5 id="http-api"><a name="http-api" class="anchor-navigation-ex-anchor" href="#http-api"><i class="fa fa-link" aria-hidden="true"></i></a>HTTP API</h5>
 <pre><code>$ curl http://localhost:8500/v1/catalog/service/web
 [{&quot;Node&quot;:&quot;Armons-MacBook-Air&quot;,&quot;Address&quot;:&quot;172.20.20.11&quot;,&quot;ServiceID&quot;:&quot;web&quot;, \
     &quot;ServiceName&quot;:&quot;web&quot;,&quot;ServiceTags&quot;:[&quot;rails&quot;],&quot;ServicePort&quot;:80}]
@@ -660,22 +680,22 @@ cansul&#x5F80;&#x5F80;&#x4F1A;&#x91CD;&#x8FDE; failed nodes&#xFF0C;&#x5141;&#x8B
 <pre><code>$ curl &apos;http://localhost:8500/v1/health/service/web?passing&apos;
 [{&quot;Node&quot;:&quot;Armons-MacBook-Air&quot;,&quot;Address&quot;:&quot;172.20.20.11&quot;,&quot;Service&quot;:{ \
     &quot;ID&quot;:&quot;web&quot;, &quot;Service&quot;:&quot;web&quot;, &quot;Tags&quot;:[&quot;rails&quot;],&quot;Port&quot;:80}, &quot;Checks&quot;: ...}]
-</code></pre><h4 id="updating-services">updating services</h4>
+</code></pre><h4 id="updating-services"><a name="updating-services" class="anchor-navigation-ex-anchor" href="#updating-services"><i class="fa fa-link" aria-hidden="true"></i></a>updating services</h4>
 <p>&#x670D;&#x52A1;&#x5B9A;&#x4E49;&#x53EF;&#x4EE5;&#x88AB;&#x66F4;&#x65B0;&#xFF0C;&#x901A;&#x8FC7;&#x6539;&#x53D8;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;&#x548C;&#x53D1;&#x9001; a SIGHUP to the agent. &#x8FD9;&#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x66F4;&#x65B0;services &#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x505C;&#x673A;&#x6216;&#x4E0D;&#x53EF;&#x7528;&#x3002;</p>
 <p>&#x8FD9;HTTP API&#x53EF;&#x4EE5;&#x88AB;&#x7528;&#x6765;&#xFF0C;add&#xFF0C;remove&#xFF0C;modify services dynamically&#x3002;</p>
-<h3 id="connect">Connect</h3>
-<h3 id="consul-cluster">Consul Cluster</h3>
-<h3 id="health-checks">Health Checks</h3>
-<h3 id="kv-data">KV Data</h3>
-<h3 id="web-ui">Web UI</h3>
-<h2 id="todos-demo">todos demo</h2>
+<h3 id="connect"><a name="connect" class="anchor-navigation-ex-anchor" href="#connect"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.4. Connect</h3>
+<h3 id="consul-cluster"><a name="consul-cluster" class="anchor-navigation-ex-anchor" href="#consul-cluster"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.5. Consul Cluster</h3>
+<h3 id="health-checks"><a name="health-checks" class="anchor-navigation-ex-anchor" href="#health-checks"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.6. Health Checks</h3>
+<h3 id="kv-data"><a name="kv-data" class="anchor-navigation-ex-anchor" href="#kv-data"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.7. KV Data</h3>
+<h3 id="web-ui"><a name="web-ui" class="anchor-navigation-ex-anchor" href="#web-ui"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.8. Web UI</h3>
+<h2 id="todos-demo"><a name="todos-demo" class="anchor-navigation-ex-anchor" href="#todos-demo"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. todos demo</h2>
 <p>TODO</p>
-<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
-<h3 id="github">GitHub</h3>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a name="&#x53C2;&#x8003;&#x8D44;&#x6599;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
+<h3 id="github"><a name="github" class="anchor-navigation-ex-anchor" href="#github"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1. GitHub</h3>
 <ul>
 <li><a href="https://github.com/hashicorp/consul" target="_blank">https://github.com/hashicorp/consul</a></li>
 </ul>
-<h3 id="website">Website</h3>
+<h3 id="website"><a name="website" class="anchor-navigation-ex-anchor" href="#website"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.2. Website</h3>
 <ul>
 <li><a href="https://www.consul.io/" target="_blank">https://www.consul.io/</a></li>
 </ul>
@@ -722,29 +742,34 @@ cansul&#x5F80;&#x5F80;&#x4F1A;&#x91CD;&#x8FDE; failed nodes&#xFF0C;&#x5141;&#x8B
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Consul","level":"1.6.2","depth":2,"next":{"title":"go-micro","level":"1.6.3","depth":2,"path":"micros/go-micro.md","ref":"micros/go-micro.md","articles":[]},"previous":{"title":"MicroService","level":"1.6.1","depth":2,"path":"micros/microservice.md","ref":"micros/microservice.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"micros/consul.md","mtime":"2019-06-06T04:23:31.961Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:13:44.387Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Consul","level":"1.6.2","depth":2,"next":{"title":"go-micro","level":"1.6.3","depth":2,"path":"micros/go-micro.md","ref":"micros/go-micro.md","articles":[]},"previous":{"title":"MicroService","level":"1.6.1","depth":2,"path":"micros/microservice.md","ref":"micros/microservice.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-gb3","splitter","anchor-navigation-ex","expandable-chapters","-lunr","-search","search-pro"],"pluginsConfig":{"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"micros/consul.md","mtime":"2019-06-06T04:23:31.961Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:23:10.290Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
         
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
         
     
         
@@ -755,6 +780,8 @@ cansul&#x5F80;&#x5F80;&#x4F1A;&#x91CD;&#x8FDE; failed nodes&#xFF0C;&#x5141;&#x8B
         <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
 
     </body>
 </html>

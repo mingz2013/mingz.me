@@ -12,16 +12,33 @@
         
         
     
+    
     <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
@@ -44,6 +61,9 @@
         
     
         
+    
+
+
     
 
         
@@ -561,9 +581,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="istio">Istio</h1>
-<h2 id="&#x6982;&#x8FF0;">&#x6982;&#x8FF0;</h2>
-<h3 id="service-mesh">Service Mesh</h3>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#istio"><b>1. </b>Istio</a></li><ul><li><span class="title-icon "></span><a href="#&#x6982;&#x8FF0;"><b>1.1. </b>&#x6982;&#x8FF0;</a></li><ul><li><span class="title-icon "></span><a href="#service-mesh"><b>1.1.1. </b>Service Mesh</a></li><li><span class="title-icon "></span><a href="#istio_1"><b>1.1.2. </b>Istio</a></li></ul><li><span class="title-icon "></span><a href="#todos-demo"><b>1.2. </b>todos demo</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><b>1.3. </b>&#x53C2;&#x8003;&#x8D44;&#x6599;</a></li><ul><li><span class="title-icon "></span><a href="#github"><b>1.3.1. </b>GitHub</a></li><li><span class="title-icon "></span><a href="#website"><b>1.3.2. </b>WebSite</a></li><li><span class="title-icon "></span><a href="#books"><b>1.3.3. </b>Books</a></li></ul></ul></ul></div><a href="#istio" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="istio"><a name="istio" class="anchor-navigation-ex-anchor" href="#istio"><i class="fa fa-link" aria-hidden="true"></i></a>1. Istio</h1>
+<h2 id="&#x6982;&#x8FF0;"><a name="&#x6982;&#x8FF0;" class="anchor-navigation-ex-anchor" href="#&#x6982;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x6982;&#x8FF0;</h2>
+<h3 id="service-mesh"><a name="service-mesh" class="anchor-navigation-ex-anchor" href="#service-mesh"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.1. Service Mesh</h3>
 <p>&#x8981;&#x8BA8;&#x8BBA;&#x670D;&#x52A1;&#x7F51;&#x683C;&#xFF08;Service Mesh&#xFF09;&#xFF0C;&#x5C31;&#x5FC5;&#x987B;&#x63D0;&#x5230;&#x5FAE;&#x670D;&#x52A1;&#xFF08;Microservices&#xFF09;&#x3002;</p>
 <p>&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x5FAE;&#x670D;&#x52A1;&#x67B6;&#x6784;&#x4EA7;&#x751F;&#x7684;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x4EE5;k8s&#x4E3A;&#x4EE3;&#x8868;&#x7684;&#x5BB9;&#x5668;&#x4E91;&#x7CFB;&#x7EDF;&#x51FA;&#x73B0;&#x4E86;&#x3002;&#x8FD9;&#x7C7B;&#x5BB9;&#x5668;&#x4E91;&#x7CFB;&#x7EDF;&#x4EE5;&#x5BB9;&#x5668;&#x6280;&#x672F;&#x4E3A;&#x57FA;&#x7840;&#xFF0C;&#x5728;&#x8FDB;&#x7A0B;&#x7EA7;&#x522B;&#x4E3A;&#x5FAE;&#x670D;&#x52A1;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x81F4;&#x7684;&#x90E8;&#x7F72;&#xFF0C;&#x8C03;&#x5EA6;&#xFF0C;&#x4F38;&#x7F29;&#xFF0C;&#x76D1;&#x63A7;&#xFF0C;&#x65E5;&#x5FD7;&#x7B49;&#x529F;&#x80FD;&#x3002;</p>
 <p>&#x7136;&#x800C;&#xFF0C;&#x9664;&#x4E86;&#x8FDB;&#x7A0B;&#x672C;&#x8EAB;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x5FAE;&#x670D;&#x52A1;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x548C;&#x8054;&#x7CFB;&#x66F4;&#x52A0;&#x590D;&#x6742;&#xFF0C;&#x5176;&#x4E2D;&#x7684;&#x89C2;&#x6D4B;&#xFF0C;&#x63A7;&#x5236;&#x548C;&#x670D;&#x52A1;&#x8D28;&#x91CF;&#x7B49;&#x90FD;&#x6210;&#x4E3A;&#x5FAE;&#x670D;&#x52A1;&#x65B9;&#x6848;&#x7684;&#x77ED;&#x677F;&#xFF0C;&#x56E0;&#x6B64;&#x968F;&#x7740;k8s&#x6210;&#x4E3A;&#x4E8B;&#x5B9E;&#x6807;&#x51C6;&#xFF0C;Service mesh&#x987A;&#x52BF;&#x767B;&#x573A;&#x3002;</p>
@@ -595,9 +615,9 @@
 <p>k8s&#x5C31;&#x662F;&#x5FAE;&#x670D;&#x52A1;&#x7EA7;&#x522B;&#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x3002;</p>
 <p>Helm&#x662F;k8s&#x7684;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF0C;&#x7C7B;&#x4F3C;&#x4E8E;yum&#xFF0C;apt-get&#x3002;</p>
 <p><img src="images/servicemesh-01.png" alt="Servie Mesh&#x7F51;&#x7EDC;&#x67B6;&#x6784;"></p>
-<h4 id="sidecar">Sidecar</h4>
+<h4 id="sidecar"><a name="sidecar" class="anchor-navigation-ex-anchor" href="#sidecar"><i class="fa fa-link" aria-hidden="true"></i></a>Sidecar</h4>
 <p><img src="images/sidecar-01.jpeg" alt="SideCar"></p>
-<h3 id="istio">Istio</h3>
+<h3 id="istio_1"><a name="istio_1" class="anchor-navigation-ex-anchor" href="#istio_1"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.2. Istio</h3>
 <p>&#x4E8B;&#x5B9E;&#x4E0A;&#x7684;&#x6807;&#x51C6;</p>
 <p>2017&#x5E74;5&#x6708;&#xFF0C;Google&#xFF0C;IBM&#x548C;Lyft&#x5BA3;&#x5E03;&#x4E86;Istio&#x7684;&#x8BDE;&#x751F;&#x3002;Istio&#x4EE5;Envoy&#x4E3A;&#x6570;&#x636E;&#x5E73;&#x9762;&#xFF0C;&#x901A;&#x8FC7;Sidecar&#x7684;&#x65B9;&#x5F0F;&#x8BA9;Envoy&#x540C;&#x4E1A;&#x52A1;&#x5BB9;&#x5668;&#x4E00;&#x8D77;&#x8FD0;&#x884C;&#xFF0C;&#x5E76;&#x52AB;&#x6301;&#x5176;&#x901A;&#x4FE1;&#xFF0C;&#x63A5;&#x53D7;&#x63A7;&#x5236;&#x5E73;&#x9762;&#x7684;&#x7EDF;&#x4E00;&#x7BA1;&#x7406;&#xFF0C;&#x5728;&#x6B64;&#x57FA;&#x7840;&#x4E0A;&#x4E3A;&#x670D;&#x52A1;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x63D0;&#x4F9B;&#x4E86;&#x4E30;&#x5BCC;&#x7684;&#x8FDE;&#x63A5;&#xFF0C;&#x63A7;&#x5236;&#xFF0C;&#x89C2;&#x5BDF;&#xFF0C;&#x5B89;&#x5168;&#x7B49;&#x7279;&#x6027;&#x3002;</p>
 <p>Istio&#x4E00;&#x7ECF;&#x53D1;&#x5E03;&#xFF0C;&#x4FBF;&#x7ACB;&#x523B;&#x83B7;&#x5F97;Red Hat&#xFF0C;F5&#x7B49;&#x5927;&#x724C;&#x5382;&#x5546;&#x7684;&#x54CD;&#x5E94;&#xFF0C;&#x867D;&#x7136;&#x7ACB;&#x8DB3;&#x4E0D;&#x7A33;&#xFF0C;&#x4F46;&#x5404;&#x4E2A;&#x5408;&#x4F5C;&#x65B9;&#x90FD;&#x5C55;&#x793A;&#x4E86;&#x5BF9;&#x793E;&#x533A;&#xFF0C;&#x884C;&#x4E1A;&#x7684;&#x5F3A;&#x5927;&#x5F71;&#x54CD;&#x529B;&#x3002;&#x4E8E;&#x662F;&#xFF0C;Istio&#x5F88;&#x5FEB;&#x5C31;&#x8D85;&#x8D8A;&#x4E86;Linkerd&#xFF0C;&#x6210;&#x4E3A;Service Mesh&#x7684;&#x4EE3;&#x8868;&#x4EA7;&#x54C1;&#x3002;</p>
@@ -608,19 +628,19 @@
 <li>&#x7B56;&#x7565;&#xFF1A;&#x5728;&#x63A7;&#x5236;&#x9762;&#x5B9A;&#x5236;&#x7B56;&#x7565;&#xFF0C;&#x5E76;&#x5728;&#x670D;&#x52A1;&#x4E2D;&#x5B9E;&#x65BD;</li>
 <li>&#x89C2;&#x5BDF;&#xFF1A;&#x5BF9;&#x670D;&#x52A1;&#x4E4B;&#x95F4;&#x7684;&#x8C03;&#x7528;&#x8FDB;&#x884C;&#x8DDF;&#x8E2A;&#x548C;&#x6D4B;&#x91CF;&#xFF0C;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x7684;&#x72B6;&#x6001;&#x4FE1;&#x606F;&#x3002;</li>
 </ul>
-<h2 id="todos-demo">todos demo</h2>
+<h2 id="todos-demo"><a name="todos-demo" class="anchor-navigation-ex-anchor" href="#todos-demo"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. todos demo</h2>
 <p>TODO</p>
-<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
-<h3 id="github">GitHub</h3>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a name="&#x53C2;&#x8003;&#x8D44;&#x6599;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
+<h3 id="github"><a name="github" class="anchor-navigation-ex-anchor" href="#github"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1. GitHub</h3>
 <ul>
 <li><a href="https://github.com/istio" target="_blank">https://github.com/istio</a></li>
 </ul>
-<h3 id="website">WebSite</h3>
+<h3 id="website"><a name="website" class="anchor-navigation-ex-anchor" href="#website"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.2. WebSite</h3>
 <ul>
 <li><a href="https://istio.io/" target="_blank">https://istio.io/</a></li>
 <li><a href="https://istio.io/zh/docs/" target="_blank">https://istio.io/zh/docs/</a></li>
 </ul>
-<h3 id="books">Books</h3>
+<h3 id="books"><a name="books" class="anchor-navigation-ex-anchor" href="#books"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.3. Books</h3>
 <ul>
 <li>&#x300A;&#x6DF1;&#x5165;&#x6D45;&#x51FA;Istio&#xFF1A;Service Mesh&#x5FEB;&#x901F;&#x5165;&#x95E8;&#x4E0E;&#x5B9E;&#x8DF5;&#x300B;</li>
 </ul>
@@ -667,29 +687,34 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Istio","level":"1.6.13","depth":2,"next":{"title":"OpenShift 4","level":"1.6.14","depth":2,"path":"micros/openshift-4.md","ref":"micros/openshift-4.md","articles":[]},"previous":{"title":"Serverless","level":"1.6.12","depth":2,"path":"micros/serverless.md","ref":"micros/serverless.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"micros/istio.md","mtime":"2019-06-06T04:23:31.962Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:13:44.387Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Istio","level":"1.6.13","depth":2,"next":{"title":"OpenShift 4","level":"1.6.14","depth":2,"path":"micros/openshift-4.md","ref":"micros/openshift-4.md","articles":[]},"previous":{"title":"Serverless","level":"1.6.12","depth":2,"path":"micros/serverless.md","ref":"micros/serverless.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-gb3","splitter","anchor-navigation-ex","expandable-chapters","-lunr","-search","search-pro"],"pluginsConfig":{"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"micros/istio.md","mtime":"2019-06-06T04:23:31.962Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:23:10.290Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
         
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
         
     
         
@@ -700,6 +725,8 @@
         <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
 
     </body>
 </html>

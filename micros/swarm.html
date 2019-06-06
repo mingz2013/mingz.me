@@ -12,16 +12,33 @@
         
         
     
+    
     <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
@@ -44,6 +61,9 @@
         
     
         
+    
+
+
     
 
         
@@ -561,7 +581,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="docker-swarm">Docker Swarm</h1>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#docker-swarm"><b>1. </b>Docker Swarm</a></li><ul><li><span class="title-icon "></span><a href="#docker-machine"><b>1.1. </b>Docker Machine</a></li><li><span class="title-icon "></span><a href="#docker-compose"><b>1.2. </b>Docker Compose</a></li><li><span class="title-icon "></span><a href="#docker-swarm_1"><b>1.3. </b>Docker Swarm</a></li><li><span class="title-icon "></span><a href="#docker-node"><b>1.4. </b>Docker Node</a></li><li><span class="title-icon "></span><a href="#docker-service"><b>1.5. </b>Docker Service</a></li><li><span class="title-icon "></span><a href="#docker-stack"><b>1.6. </b>Docker Stack</a></li><li><span class="title-icon "></span><a href="#&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;"><b>1.7. </b>&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;</a></li><li><span class="title-icon "></span><a href="#&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;"><b>1.8. </b>&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;</a></li><li><span class="title-icon "></span><a href="#&#x57FA;&#x4E8E;docker&#x7684;paas&#x5E73;&#x53F0;"><b>1.9. </b>&#x57FA;&#x4E8E;Docker&#x7684;PaaS&#x5E73;&#x53F0;</a></li><li><span class="title-icon "></span><a href="#docker&#x6301;&#x7EED;&#x96C6;&#x6210;"><b>1.10. </b>Docker&#x6301;&#x7EED;&#x96C6;&#x6210;</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><b>1.11. </b>&#x53C2;&#x8003;&#x8D44;&#x6599;</a></li><ul><li><span class="title-icon "></span><a href="#books"><b>1.11.1. </b>Books</a></li></ul></ul></ul></div><a href="#docker-swarm" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="docker-swarm"><a name="docker-swarm" class="anchor-navigation-ex-anchor" href="#docker-swarm"><i class="fa fa-link" aria-hidden="true"></i></a>1. Docker Swarm</h1>
 <ul>
 <li>Docker Machine &#x521B;&#x5EFA; Docker &#x4E3B;&#x673A;</li>
 <li>Docker Swarm &#x914D;&#x7F6E;&#x96C6;&#x7FA4;&#x8282;&#x70B9;</li>
@@ -571,44 +591,44 @@
 <li><p>docker-machine&#x3001;docker swarm&#x3001;docker node&#x3001;docker service &#x548C; docker stack &#x5E38;&#x7528;&#x547D;&#x4EE4;</p>
 </li>
 </ul>
-<h2 id="docker-machine">Docker Machine</h2>
+<h2 id="docker-machine"><a name="docker-machine" class="anchor-navigation-ex-anchor" href="#docker-machine"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. Docker Machine</h2>
 <p>Docker Machine&#x662F;Docker&#x5B98;&#x65B9;&#x7F16;&#x6392;&#x9879;&#x76EE;&#x4E4B;&#x4E00;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x7B80;&#x5316;Docker&#x5B89;&#x88C5;&#x7684;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#xFF0C;&#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x7528;&#x6237;&#x6784;&#x5EFA;&#x62E5;&#x6709;Docker&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x7684;&#x865A;&#x62DF;&#x673A;&#xFF0C;&#x5E76;&#x80FD;&#x591F;&#x8FDC;&#x7A0B;&#x7BA1;&#x7406;&#x865A;&#x62DF;&#x673A;&#x53CA;&#x5176;&#x91CC;&#x9762;&#x7684;&#x5BB9;&#x5668;&#x3002;</p>
-<h2 id="docker-compose">Docker Compose</h2>
+<h2 id="docker-compose"><a name="docker-compose" class="anchor-navigation-ex-anchor" href="#docker-compose"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. Docker Compose</h2>
 <p>Docker Compose&#x662F;Docker&#x7684;&#x4E00;&#x79CD;&#x7F16;&#x6392;&#x670D;&#x52A1;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x5728;Docker&#x4E0A;&#x5B9A;&#x4E49;&#x5E76;&#x8FD0;&#x884C;&#x590D;&#x6742;&#x5E94;&#x7528;&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA9;&#x7528;&#x6237;&#x5728;&#x96C6;&#x7FA4;&#x4E2D;&#x90E8;&#x7F72;&#x5206;&#x5E03;&#x5F0F;&#x5E94;&#x7528;&#x3002;&#x901A;&#x8FC7;Compose&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x5F88;&#x5BB9;&#x6613;&#x7684;&#x7528;&#x4E00;&#x4E2A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x591A;&#x5BB9;&#x5668;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x5B89;&#x88C5;&#x8FD9;&#x4E2A;&#x5E94;&#x7528;&#x7684;&#x6240;&#x6709;&#x4F9D;&#x8D56;&#xFF0C;&#x5B8C;&#x6210;&#x6784;&#x5EFA;&#x3002;Docker Compose&#x89E3;&#x51B3;&#x4E86;&#x5BB9;&#x5668;&#x4E0E;&#x5BB9;&#x5668;&#x4E4B;&#x95F4;&#x5982;&#x4F55;&#x7BA1;&#x7406;&#x7F16;&#x6392;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x9002;&#x5408;&#x5F00;&#x53D1;&#x548C;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#x3002;</p>
-<h2 id="docker-swarm">Docker Swarm</h2>
+<h2 id="docker-swarm_1"><a name="docker-swarm_1" class="anchor-navigation-ex-anchor" href="#docker-swarm_1"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. Docker Swarm</h2>
 <p>Swarm&#x662F;Docker&#x516C;&#x53F8;&#x5728;2014&#x5E74;12&#x6708;&#x521D;&#x53D1;&#x5E03;&#x7684;&#x4E00;&#x5957;&#x8F83;&#x4E3A;&#x7B80;&#x5355;&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x7528;&#x6765;&#x7BA1;&#x7406;Docker&#x96C6;&#x7FA4;&#xFF0C;&#x5B83;&#x5C06;&#x4E00;&#x7FA4;Docker&#x5BBF;&#x4E3B;&#x673A;&#x53D8;&#x6210;&#x4E00;&#x4E2A;&#x5355;&#x4E00;&#x7684;&#xFF0C;&#x865A;&#x62DF;&#x7684;&#x4E3B;&#x673A;&#xFF0C;&#x4F7F;&#x7528;Swarm&#x64CD;&#x4F5C;&#x96C6;&#x7FA4;&#xFF0C;&#x4F1A;&#x4F7F;&#x7528;&#x6237;&#x611F;&#x89C9;&#x5C31;&#x50CF;&#x662F;&#x5728;&#x4E00;&#x53F0;&#x4E3B;&#x673A;&#x4E0A;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;Swarm&#x4F7F;&#x7528;&#x6807;&#x51C6;&#x7684;Docker API&#x63A5;&#x53E3;&#x4F5C;&#x4E3A;&#x5176;&#x524D;&#x7AEF;&#x8BBF;&#x95EE;&#x5165;&#x53E3;&#xFF0C;&#x6362;&#x8A00;&#x4E4B;&#xFF0C;&#x5404;&#x79CD;&#x5F62;&#x5F0F;&#x7684;Docker Client&#x90FD;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4E0E;Swarm&#x901A;&#x4FE1;&#x3002;</p>
-<h2 id="docker-node">Docker Node</h2>
-<h2 id="docker-service">Docker Service</h2>
-<h2 id="docker-stack">Docker Stack</h2>
-<h2 id="&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;">&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;</h2>
+<h2 id="docker-node"><a name="docker-node" class="anchor-navigation-ex-anchor" href="#docker-node"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. Docker Node</h2>
+<h2 id="docker-service"><a name="docker-service" class="anchor-navigation-ex-anchor" href="#docker-service"><i class="fa fa-link" aria-hidden="true"></i></a>1.5. Docker Service</h2>
+<h2 id="docker-stack"><a name="docker-stack" class="anchor-navigation-ex-anchor" href="#docker-stack"><i class="fa fa-link" aria-hidden="true"></i></a>1.6. Docker Stack</h2>
+<h2 id="&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;"><a name="&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;" class="anchor-navigation-ex-anchor" href="#&#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.7. &#x96C6;&#x7FA4;&#x7BA1;&#x7406;&#x9762;&#x677F;</h2>
 <ul>
 <li>Shipyard</li>
 <li>Portainer</li>
 <li>Panamax</li>
 <li>Seagull</li>
 </ul>
-<h2 id="&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;">&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;</h2>
+<h2 id="&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;"><a name="&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;" class="anchor-navigation-ex-anchor" href="#&#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;"><i class="fa fa-link" aria-hidden="true"></i></a>1.8. &#x76D1;&#x63A7;&#x4E0E;&#x65E5;&#x5FD7;</h2>
 <ul>
 <li>cAdvisor &#x539F;&#x751F;&#x96C6;&#x7FA4;&#x76D1;&#x63A7;</li>
 <li>Logspout &#x65E5;&#x5FD7;&#x5904;&#x7406;</li>
 <li>Grafana  &#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;</li>
 </ul>
-<h2 id="&#x57FA;&#x4E8E;docker&#x7684;paas&#x5E73;&#x53F0;">&#x57FA;&#x4E8E;Docker&#x7684;PaaS&#x5E73;&#x53F0;</h2>
+<h2 id="&#x57FA;&#x4E8E;docker&#x7684;paas&#x5E73;&#x53F0;"><a name="&#x57FA;&#x4E8E;docker&#x7684;paas&#x5E73;&#x53F0;" class="anchor-navigation-ex-anchor" href="#&#x57FA;&#x4E8E;docker&#x7684;paas&#x5E73;&#x53F0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.9. &#x57FA;&#x4E8E;Docker&#x7684;PaaS&#x5E73;&#x53F0;</h2>
 <ul>
 <li>Deis &#x8F7B;&#x91CF;&#x7EA7;PaaS&#x5E73;&#x53F0;</li>
 <li>Tsuru &#x53EF;&#x6269;&#x5C55;PaaS&#x5E73;&#x53F0;, &#x57FA;&#x4E8E;Swarm</li>
 <li>Flynn &#x6A21;&#x5757;&#x5316;PaaS&#x5E73;&#x53F0;</li>
 <li>openshift</li>
 </ul>
-<h2 id="docker&#x6301;&#x7EED;&#x96C6;&#x6210;">Docker&#x6301;&#x7EED;&#x96C6;&#x6210;</h2>
+<h2 id="docker&#x6301;&#x7EED;&#x96C6;&#x6210;"><a name="docker&#x6301;&#x7EED;&#x96C6;&#x6210;" class="anchor-navigation-ex-anchor" href="#docker&#x6301;&#x7EED;&#x96C6;&#x6210;"><i class="fa fa-link" aria-hidden="true"></i></a>1.10. Docker&#x6301;&#x7EED;&#x96C6;&#x6210;</h2>
 <ul>
 <li><p>Drone &#x8F7B;&#x91CF;&#x7EA7;CI&#x5DE5;&#x5177;</p>
 </li>
 <li><p>Travis CI &#x8457;&#x540D;&#x7684;CI/CD&#x670D;&#x52A1;&#x5546;</p>
 </li>
 </ul>
-<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
-<h3 id="books">Books</h3>
+<h2 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a name="&#x53C2;&#x8003;&#x8D44;&#x6599;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><i class="fa fa-link" aria-hidden="true"></i></a>1.11. &#x53C2;&#x8003;&#x8D44;&#x6599;</h2>
+<h3 id="books"><a name="books" class="anchor-navigation-ex-anchor" href="#books"><i class="fa fa-link" aria-hidden="true"></i></a>1.11.1. Books</h3>
 <ul>
 <li>&#x300A;&#x5BB9;&#x5668;&#x4E91;&#x8FD0;&#x7EF4;&#x5B9E;&#x6218;&#xFF1A;Docker&#x4E0E;Kubernetes&#x96C6;&#x7FA4;&#x300B;</li>
 </ul>
@@ -655,29 +675,34 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Docker Swarm","level":"1.6.7","depth":2,"next":{"title":"Mesos","level":"1.6.8","depth":2,"path":"micros/mesos.md","ref":"micros/mesos.md","articles":[]},"previous":{"title":"Docker Compose","level":"1.6.6","depth":2,"path":"micros/compose.md","ref":"micros/compose.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"micros/swarm.md","mtime":"2019-06-06T04:23:31.971Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:13:44.387Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Docker Swarm","level":"1.6.7","depth":2,"next":{"title":"Mesos","level":"1.6.8","depth":2,"path":"micros/mesos.md","ref":"micros/mesos.md","articles":[]},"previous":{"title":"Docker Compose","level":"1.6.6","depth":2,"path":"micros/compose.md","ref":"micros/compose.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-gb3","splitter","anchor-navigation-ex","expandable-chapters","-lunr","-search","search-pro"],"pluginsConfig":{"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"micros/swarm.md","mtime":"2019-06-06T04:23:31.971Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-06T05:23:10.290Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
     
         
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
         
     
         
@@ -688,6 +713,8 @@
         <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
 
     </body>
 </html>
