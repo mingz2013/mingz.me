@@ -160,7 +160,7 @@ Once the agent is started and the service is synced, we can query the service us
 For the web service we registered, these conventions and settings yield a fully-qualified domain name of web.service.consul
 
 ```
-$ dig &127.0.0.1 -p 8600 web.service.consul
+$ dig @127.0.0.1 -p 8600 web.service.consul
 
 ```
 
