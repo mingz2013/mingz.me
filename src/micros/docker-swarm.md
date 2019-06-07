@@ -98,6 +98,12 @@ stack 是一组相互关联的服务，它是服务的上一层，这些服务�
 
 https://github.com/mingz2013/demo-todos-go-micro
 
+### 演示
+- 搭建单节点swarm集群
+- 用栈部署todos demo
+- 部署Portainer
+- 用Portainer管理页面管理todos demo。
+
 
 
 ## 参考资料
