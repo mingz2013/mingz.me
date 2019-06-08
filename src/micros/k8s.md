@@ -57,6 +57,7 @@ K8s类似于微服务层的操作系统，Helm类似于操作系统上的包管�
 ## 使用
 
 
+## dashboard
 
 ## todos demo
 
