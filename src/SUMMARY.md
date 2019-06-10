@@ -54,6 +54,11 @@
 * [Unix-like](unix-like/index.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
 
+
+* [Distribution](distribution/index.md)
+    * [Cache](distribution/cache.md)
+    * [MQ](distribution/mq.md)
+
 * [micros](micros/index.md)
     - [MicroService](micros/microservice.md)
     - [Consul](micros/consul.md)
@@ -77,3 +82,9 @@
     * [network](network/network.md)
 
 * [db](db/index.md)
+    * [redis](db/redis.md)
+    * [mongodb](db/mongo.md)
+    * [hbase](db/hbase.md)
+    * [memcache](db/memcache.md)
+
+

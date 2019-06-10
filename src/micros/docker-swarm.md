@@ -50,48 +50,6 @@ stack 是一组相互关联的服务，它是服务的上一层，这些服务�
 ## Docker Network
 
 
-## 集群管理面板
-- Shipyard
-- Portainer  **
-- Panamax
-- Seagull
-
-
-
-
-
-
-## 监控与日志
-- cAdvisor 原生集群监控
-- Logspout 日志处理
-- Grafana  数据可视化
-
-
-
-## 基于Docker的PaaS平台
-
-- Deis 轻量级PaaS平台
-- Tsuru 可扩展PaaS平台, 基于Swarm
-- Flynn 模块化PaaS平台
-- openshift
-
-
-## Docker持续集成
-
-- Drone 轻量级CI工具
-
-- Travis CI 著名的CI/CD服务商
-
-
-
-
-## 私有镜像仓库
-
-- https://github.com/docker/distribution 
-- VMWare Harbor
-- SUSE Portus
-
-
 
 
 ## todos demo

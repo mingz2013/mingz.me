@@ -61,17 +61,29 @@ Service Mesh主要功能：
 
 
 
+![Servie Mesh网络架构演进](./images/servicemesh-06.png)
+
+
+![Servie Mesh网络架构演进](./images/servicemesh-05.png)
+
+
+![Servie Mesh网络架构演进](./images/servicemesh-04.png)
+
+
+![Servie Mesh网络架构演进](./images/servicemesh-03.png)
+
+
+![Servie Mesh网络架构演进](./images/servicemesh-02.png)
+
+
+![Servie Mesh网络架构](./images/servicemesh-01.png)
+
 
 Service Mesh类似于更高级的一层网络栈。
 
 k8s就是微服务级别的操作系统。
 
 Helm是k8s的包管理工具，类似于yum，apt-get。
-
-
-
-![Servie Mesh网络架构](./images/servicemesh-01.png)
-
 
 
 
