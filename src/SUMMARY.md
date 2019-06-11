@@ -51,11 +51,11 @@
     * [ollvm](compiler/ollvm.md)
 
 * [lang](lang/index.md)
-    * [golang](lang/golang/index.md)
-    * [html](lang/html/index.md)
-    * [js](lang/js/index.md)
-    * [python](lang/python/index.md)
-    * [c](lang/c/index.md)
+    * [Golang](lang/golang/index.md)
+    * [HTML](lang/html/index.md)
+    * [JS](lang/js/index.md)
+    * [Python](lang/python/index.md)
+    * [C](lang/c/index.md)
     * [Assembly](lang/assembly/index.md)
     
 
@@ -65,7 +65,11 @@
 
 
 * [network](network/index.md)
-    * [network](network/network.md)
+    - [network](network/network.md)
+    - [IP](network/ip.md)
+    - [TCP](network/tcp.md)
+    - [HTTP](network/http.md)
+
 
 
 * [db](db/index.md)
