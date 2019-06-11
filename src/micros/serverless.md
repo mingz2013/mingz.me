@@ -1,6 +1,6 @@
 | Title                | Date             | Modified         | Category          |
 |:--------------------:|:----------------:|:----------------:|:-----------------:|
-| micros              | 2019-05-29 12:00 | 2019-05-29 12:00 | micros            |
+| serverless              | 2019-06-11 12:00 | 2019-06-11 12:00 | micros            |
 
 
 
@@ -9,6 +9,9 @@
 
 
 ## 概述
+
+![serverless02](./images/serverless-02.png)
+
 
 
 
@@ -39,3 +42,5 @@ Serverless适用场景:
 
 
 ## 参考资料
+### books
+- 《基于Kubernetes的容器云平台实战》

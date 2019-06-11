@@ -10,6 +10,19 @@
 
 
 
+
+
+
+
+
+## 微服务监控方案
+
+![zipkin02](./images/zipkin-02.png)
+
+
+## Zipkin
+
+
 Zipkin在系统设计上参考了Google Dapper，它是Google公司内部所使用的大规模分布式系统追踪基础设施。
 
 可以毫不夸张的说，Zipkin是开源社区中调用追踪中心的首选方案，我们可从Zipkin官网上了解更多关于它的相关介绍与使用方法。

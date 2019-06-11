@@ -90,6 +90,7 @@
     - [Docker Swarm](micros/docker-swarm.md)
     - [Mesos](micros/mesos.md)
     - [Kubernetes](micros/k8s.md)
+    - [Helm](micros/helm.md)
     - [DevOps](micros/devops.md)
     - [OpenShift 3](micros/openshift-3.md)
     - [Serverless](micros/serverless.md)
@@ -98,7 +99,9 @@
     - [Rancher](micros/rancher.md)
     - [Chaos Engineering](micros/chaos-engineering.md)
     - [ELK](micros/elk.md)
+    - [EFK](micros/efk.md)
     - [Monitoring](micros/monitoring.md)
+    - [Prometheus](micros/prometheus.md)
     - [Zipkin](micros/zipkin.md)
     
     

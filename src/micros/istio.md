@@ -138,3 +138,4 @@ TODO
 
 ### Books
 - 《深入浅出Istio：Service Mesh快速入门与实践》
+- 《基于Kubernetes的容器云平台实战》

@@ -29,6 +29,7 @@
 - [Docker Swarm](./docker-swarm.md)
 - [Mesos](./mesos.md)
 - [Kubernetes](./k8s.md)
+- [Helm](./helm.md)
 - [DevOps](./devops.md)
 - [OpenShift 3](./openshift-3.md)
 - [Serverless](./serverless.md)
@@ -37,7 +38,9 @@
 - [Rancher](./rancher.md)
 - [Chaos Engineering](./chaos-engineering.md)
 - [ELK](./elk.md)
+- [EFK](./efk.md)
 - [Monitoring](./monitoring.md)
+- [Prometheus](./prometheus.md)
 - [Zipkin](./zipkin.md)
 
 
