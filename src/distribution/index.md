@@ -31,4 +31,5 @@
 
 - [HACluster](./hacluster.md)
 - [cache](./cache.md)
-- [mq](./mq.md)
+- [mq](./mq/index.md)
+    - [Kafka](./mq/kafka.md)

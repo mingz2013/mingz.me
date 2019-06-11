@@ -82,7 +82,9 @@
 * [Distribution](distribution/index.md)
     * [HACluster](distribution/hacluster.md)
     * [Cache](distribution/cache.md)
-    * [MQ](distribution/mq.md)
+    * [MQ](distribution/mq/index.md)
+        * [kafka](distribution/mq/kafka.md)
+        
 
 * [micros](micros/index.md)
     - [MicroService](micros/microservice.md)
