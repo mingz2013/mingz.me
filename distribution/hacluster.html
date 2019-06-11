@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>memcache · GitBook</title>
+        <title>HACluster · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -77,10 +77,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../distribution/" />
+    <link rel="next" href="cache.html" />
     
     
-    <link rel="prev" href="hbase.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -759,9 +759,9 @@
         
         
     
-        <li class="chapter " data-level="7.1" data-path="./">
+        <li class="chapter " data-level="7.1" data-path="../db/">
             
-                <a href="./">
+                <a href="../db/">
             
                     
                     db
@@ -773,9 +773,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="7.1.1" data-path="redis.html">
+        <li class="chapter " data-level="7.1.1" data-path="../db/redis.html">
             
-                <a href="redis.html">
+                <a href="../db/redis.html">
             
                     
                     redis
@@ -786,9 +786,9 @@
             
         </li>
     
-        <li class="chapter " data-level="7.1.2" data-path="mongo.html">
+        <li class="chapter " data-level="7.1.2" data-path="../db/mongo.html">
             
-                <a href="mongo.html">
+                <a href="../db/mongo.html">
             
                     
                     mongodb
@@ -799,9 +799,9 @@
             
         </li>
     
-        <li class="chapter " data-level="7.1.3" data-path="hbase.html">
+        <li class="chapter " data-level="7.1.3" data-path="../db/hbase.html">
             
-                <a href="hbase.html">
+                <a href="../db/hbase.html">
             
                     
                     hbase
@@ -812,9 +812,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="7.1.4" data-path="memcache.html">
+        <li class="chapter " data-level="7.1.4" data-path="../db/memcache.html">
             
-                <a href="memcache.html">
+                <a href="../db/memcache.html">
             
                     
                     memcache
@@ -837,9 +837,9 @@
         
         
     
-        <li class="chapter " data-level="8.1" data-path="../distribution/">
+        <li class="chapter " data-level="8.1" data-path="./">
             
-                <a href="../distribution/">
+                <a href="./">
             
                     
                     Distribution
@@ -851,9 +851,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="8.1.1" data-path="../distribution/hacluster.html">
+        <li class="chapter active" data-level="8.1.1" data-path="hacluster.html">
             
-                <a href="../distribution/hacluster.html">
+                <a href="hacluster.html">
             
                     
                     HACluster
@@ -864,9 +864,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.1.2" data-path="../distribution/cache.html">
+        <li class="chapter " data-level="8.1.2" data-path="cache.html">
             
-                <a href="../distribution/cache.html">
+                <a href="cache.html">
             
                     
                     Cache
@@ -877,9 +877,9 @@
             
         </li>
     
-        <li class="chapter " data-level="8.1.3" data-path="../distribution/mq.html">
+        <li class="chapter " data-level="8.1.3" data-path="mq.html">
             
-                <a href="../distribution/mq.html">
+                <a href="mq.html">
             
                     
                     MQ
@@ -1289,7 +1289,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >memcache</a>
+        <a href=".." >HACluster</a>
     </h1>
 </div>
 
@@ -1304,24 +1304,66 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <table>
-<thead>
-<tr>
-<th style="text-align:center">Title</th>
-<th style="text-align:center">Date</th>
-<th style="text-align:center">Modified</th>
-<th style="text-align:center">Category</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">db</td>
-<td style="text-align:center">2019-06-10 12:00</td>
-<td style="text-align:center">2019-06-10 12:00</td>
-<td style="text-align:center">db</td>
-</tr>
-</tbody>
-</table>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#hacluster"><b>1. </b>HACluster</a></li><ul><li><span class="title-icon "></span><a href="#&#x9AD8;&#x53EF;&#x7528;&#x8861;&#x91CF;&#x6807;&#x51C6;"><b>1.1. </b>&#x9AD8;&#x53EF;&#x7528;&#x8861;&#x91CF;&#x6807;&#x51C6;</a></li><li><span class="title-icon "></span><a href="#&#x5E38;&#x89C1;&#x9AD8;&#x53EF;&#x7528;&#x65B9;&#x6848;"><b>1.2. </b>&#x5E38;&#x89C1;&#x9AD8;&#x53EF;&#x7528;&#x65B9;&#x6848;</a></li><li><span class="title-icon "></span><a href="#&#x865A;&#x62DF;&#x670D;&#x52A1;"><b>1.3. </b>&#x865A;&#x62DF;&#x670D;&#x52A1;</a></li><ul><li><span class="title-icon "></span><a href="#dns&#x8F6E;&#x8BE2;"><b>1.3.1. </b>DNS&#x8F6E;&#x8BE2;</a></li><li><span class="title-icon "></span><a href="#&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;"><b>1.3.2. </b>&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;</a></li><li><span class="title-icon "></span><a href="#&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;"><b>1.3.3. </b>&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;</a></li><li><span class="title-icon "></span><a href="#ip&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;"><b>1.3.4. </b>IP&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5DE5;&#x5177;"><b>1.4. </b>&#x5DE5;&#x5177;</a></li></ul><li><span class="title-icon "></span><a href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><b>2. </b>&#x53C2;&#x8003;&#x8D44;&#x6599;</a></li><ul><li><span class="title-icon "></span><a href="#books"><b>2.1. </b>books</a></li></ul></ul></div><a href="#hacluster" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="hacluster"><a name="hacluster" class="anchor-navigation-ex-anchor" href="#hacluster"><i class="fa fa-link" aria-hidden="true"></i></a>1. HACluster</h1>
+<p>&#x9AD8;&#x53EF;&#x7528;&#x96C6;&#x7FA4;&#xFF08;High Availability Cluster&#xFF0C;HACluster&#xFF09;&#x4E00;&#x822C;&#x81F3;&#x5C11;&#x7531;&#x4E24;&#x53F0;&#x4EE5;&#x4E0A;&#x670D;&#x52A1;&#x5668;&#x7EC4;&#x6210;&#xFF0C;&#x8FD9;&#x4E00;&#x7EC4;&#x670D;&#x52A1;&#x5668;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6574;&#x4F53;&#x5411;&#x7528;&#x6237;&#x63D0;&#x4F9B;&#x53EF;&#x9760;&#x7684;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#xFF0C;&#x5176;&#x4E2D;&#x7684;&#x5355;&#x53F0;&#x670D;&#x52A1;&#x5668;&#x5C31;&#x53EB;&#x4F5C;&#x8282;&#x70B9;&#xFF08;Node&#xFF09;&#x3002;</p>
+<p>&#x9AD8;&#x53EF;&#x7528;&#x96C6;&#x7FA4;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x591A;&#x79CD;&#x6280;&#x672F;&#x624B;&#x6BB5;&#x5B9E;&#x73B0;&#xFF0C;&#x800C;&#x670D;&#x52A1;&#x5668;&#x96C6;&#x7FA4;&#x662F;&#x5B9E;&#x73B0;&#x9AD8;&#x53EF;&#x7528;&#x6700;&#x6D41;&#x884C;&#x7684;&#x65B9;&#x6848;&#x4E4B;&#x4E00;&#x3002;</p>
+<p>&#x96C6;&#x7FA4;&#x8D1F;&#x8F7D;&#x5728;&#x9AD8;&#x53EF;&#x7528;&#x96C6;&#x7FA4;&#x4E2D;&#x8D77;&#x7740;&#x6838;&#x5FC3;&#x7684;&#x63A7;&#x5236;&#x4F5C;&#x7528;&#xFF0C;&#x901A;&#x8FC7;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x8F6F;&#x4EF6;&#x5B9E;&#x73B0;&#x6545;&#x969C;&#x68C0;&#x67E5;&#x548C;&#x4E1A;&#x52A1;&#x5207;&#x6362;&#x7684;&#x81EA;&#x52A8;&#x5316;&#x3002;</p>
+<h2 id="&#x9AD8;&#x53EF;&#x7528;&#x8861;&#x91CF;&#x6807;&#x51C6;"><a name="&#x9AD8;&#x53EF;&#x7528;&#x8861;&#x91CF;&#x6807;&#x51C6;" class="anchor-navigation-ex-anchor" href="#&#x9AD8;&#x53EF;&#x7528;&#x8861;&#x91CF;&#x6807;&#x51C6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x9AD8;&#x53EF;&#x7528;&#x8861;&#x91CF;&#x6807;&#x51C6;</h2>
+<p>&#x9AD8;&#x53EF;&#x7528;&#xFF08;High Available&#xFF0C;HA&#xFF09;&#x96C6;&#x7FA4;&#x901A;&#x8FC7;&#x7CFB;&#x7EDF;&#x7684;&#x53EF;&#x9760;&#x6027;&#xFF08;reliability&#xFF09;&#x548C;&#x53EF;&#x7EF4;&#x62A4;&#x6027;&#xFF08;maintainability&#xFF09;&#x6765;&#x8861;&#x91CF;&#x3002;</p>
+<p>&#x901A;&#x5E38;&#x4F7F;&#x7528;&#x5E73;&#x5747;&#x65E0;&#x6545;&#x969C;&#x65F6;&#x95F4;&#xFF08;MTTF&#xFF09;&#x6765;&#x8861;&#x91CF;&#x7CFB;&#x7EDF;&#x7684;&#x53EF;&#x9760;&#x6027;&#xFF0C;&#x7528;&#x5E73;&#x5747;&#x7EF4;&#x4FEE;&#x65F6;&#x95F4;&#xFF08;MTTR&#xFF09;&#x6765;&#x8861;&#x91CF;&#x7CFB;&#x7EDF;&#x7684;&#x53EF;&#x7EF4;&#x62A4;&#x6027;&#x3002;&#x4E8E;&#x662F;&#x53EF;&#x7528;&#x6027;&#x88AB;&#x5B9A;&#x4E49;&#x4E3A;&#xFF1A;HA=MTTF/(MTTF+MTTR)*100%&#x3002;</p>
+<p>&#x6309;&#x7167;&#x8FD9;&#x4E2A;&#x6982;&#x5FF5;&#xFF0C;&#x5177;&#x4F53;&#x7684;HA&#x8861;&#x91CF;&#x6807;&#x51C6;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>99%&#x4E3A;&#x4E00;&#x5E74;&#x5B95;&#x673A;&#x65F6;&#x95F4;&#x4E0D;&#x8D85;&#x8FC7;4&#x5929;</li>
+<li>99.9%&#x4E3A;&#x4E00;&#x5E74;&#x5B95;&#x673A;&#x65F6;&#x95F4;&#x4E0D;&#x8D85;&#x8FC7;10&#x5C0F;&#x65F6;</li>
+<li>99.99%&#x4E3A;&#x4E00;&#x5E74;&#x5B95;&#x673A;&#x65F6;&#x95F4;&#x4E0D;&#x8D85;&#x8FC7;1&#x5C0F;&#x65F6;</li>
+<li>99.999%&#x4E3A;&#x4E00;&#x5E74;&#x5B95;&#x673A;&#x65F6;&#x95F4;&#x4E0D;&#x8D85;&#x8FC7;6&#x5206;&#x949F;</li>
+</ul>
+<h2 id="&#x5E38;&#x89C1;&#x9AD8;&#x53EF;&#x7528;&#x65B9;&#x6848;"><a name="&#x5E38;&#x89C1;&#x9AD8;&#x53EF;&#x7528;&#x65B9;&#x6848;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x89C1;&#x9AD8;&#x53EF;&#x7528;&#x65B9;&#x6848;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x5E38;&#x89C1;&#x9AD8;&#x53EF;&#x7528;&#x65B9;&#x6848;</h2>
+<ul>
+<li>&#x5171;&#x4EAB;&#x5B58;&#x50A8;</li>
+<li>&#x6545;&#x969C;&#x8F6C;&#x79FB;</li>
+<li>&#x8D1F;&#x8F7D;&#x5747;&#x8861;</li>
+<li>&#x5206;&#x5E03;&#x96C6;&#x7FA4;</li>
+</ul>
+<h2 id="&#x865A;&#x62DF;&#x670D;&#x52A1;"><a name="&#x865A;&#x62DF;&#x670D;&#x52A1;" class="anchor-navigation-ex-anchor" href="#&#x865A;&#x62DF;&#x670D;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x865A;&#x62DF;&#x670D;&#x52A1;</h2>
+<p>&#x5728;&#x6240;&#x6709;&#x7684;&#x5DF2;&#x77E5;&#x7684;&#x53EF;&#x4F38;&#x7F29;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x7ED3;&#x6784;&#x4E2D;&#xFF0C;&#x5B83;&#x4EEC;&#x90FD;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x6216;&#x8005;&#x591A;&#x4E2A;&#x524D;&#x7AEF;&#x7684;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x5668;&#xFF0C;&#x901A;&#x8FC7;&#x8C03;&#x5EA6;&#x5668;&#x7684;&#x8C03;&#x5EA6;&#x5B9E;&#x73B0;&#x865A;&#x62DF;&#x670D;&#x52A1;&#x3002;</p>
+<p>&#x5728;&#x5927;&#x90E8;&#x5206;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x4E2D;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x4E0E;&#x670D;&#x52A1;&#x7AEF;&#x4E4B;&#x95F4;&#x90FD;&#x6709;&#x4E00;&#x5C42;&#x6216;&#x8005;&#x591A;&#x5C42;&#x4EE3;&#x7406;&#x7A0B;&#x5E8F;&#x3002;&#x8FD9;&#x4E9B;&#x4EE3;&#x7406;&#x7A0B;&#x5E8F;&#x4FBF;&#x662F;&#x4E00;&#x5957;&#x5B8C;&#x6574;&#x7684;&#x865A;&#x62DF;&#x670D;&#x52A1;&#x5B9E;&#x73B0;&#x65B9;&#x6848;&#x3002;&#x8FD9;&#x4E9B;&#x65B9;&#x6848;&#x53EF;&#x4EE5;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x5C42;&#x6B21;&#x4E0A;&#x5B9E;&#x73B0;&#x591A;&#x53F0;&#x670D;&#x52A1;&#x5668;&#x7684;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x3002;</p>
+<p>&#x76EE;&#x524D;&#xFF0C;&#x7528;&#x96C6;&#x7FA4;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x6027;&#x80FD;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x5206;&#x4E3A;&#x4EE5;&#x4E0B;&#x56DB;&#x7C7B;&#xFF1A;</p>
+<ul>
+<li>DNS&#x8F6E;&#x8BE2;&#xFF0C;</li>
+<li>&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;&#xFF0C;</li>
+<li>&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;</li>
+<li>&#x548C;IP&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x3002;</li>
+</ul>
+<h3 id="dns&#x8F6E;&#x8BE2;"><a name="dns&#x8F6E;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#dns&#x8F6E;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.1. DNS&#x8F6E;&#x8BE2;</h3>
+<p>DNS&#x8F6E;&#x8BE2;&#x4E5F;&#x79F0;&#x4E3A;RR-DNS(Round-Robin Domain Name System), DNS&#x670D;&#x52A1;&#x5668;&#x4F1A;&#x628A;&#x57DF;&#x540D;&#x8F6E;&#x6D41;&#x89E3;&#x6790;&#x8FD9;&#x7EC4;&#x670D;&#x52A1;&#x5668;&#x7684;&#x4E0D;&#x540C;IP&#x5730;&#x5740;&#xFF0C;&#x4ECE;&#x800C;&#x5C06;&#x8BBF;&#x95EE;&#x8D1F;&#x8F7D;&#x5206;&#x5230;&#x5404;&#x53F0;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x3002;&#x8FD9;&#x662F;&#x5B83;&#x7684;&#x57FA;&#x672C;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#xFF0C;&#x4F46;&#x5B9E;&#x9645;&#x4E0A;&#x5546;&#x7528;&#x7684;DNS&#x8D1F;&#x8F7D;&#x4F1A;&#x66F4;&#x4E3A;&#x590D;&#x6742;&#xFF08;&#x6210;&#x672C;&#x66F4;&#x5927;&#xFF09;&#xFF0C;&#x8FD9;&#x91CC;&#x6709;&#x4EE5;&#x4E0B;&#x4E09;&#x4E2A;&#x660E;&#x663E;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+<ul>
+<li>TTL&#x95EE;&#x9898;</li>
+<li>&#x8D1F;&#x8F7D;&#x538B;&#x529B;&#x95EE;&#x9898;</li>
+<li>&#x7CFB;&#x7EDF;&#x6269;&#x5C55;&#x7EF4;&#x62A4;&#x95EE;&#x9898;</li>
+</ul>
+<p>&#x9274;&#x4E8E;&#x4EE5;&#x4E0A;&#x8FD9;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x76EE;&#x524D;DNS&#x8F6E;&#x8BE2;&#x7684;&#x65B9;&#x6848;&#x4E00;&#x822C;&#x53EA;&#x7528;&#x4E8E;&#x8DE8;&#x533A;&#x57DF;&#x7684;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x573A;&#x666F;&#xFF0C;&#x4F8B;&#x5982;&#x4E00;&#x5B9A;&#x89C4;&#x6A21;&#x7684;&#x96C6;&#x7FA4;&#x4E2D;&#xFF0C;&#x901A;&#x8FC7;DNS&#x8F6E;&#x8BE2;&#x4F7F;&#x5317;&#x65B9;&#x7684;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x5317;&#x65B9;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5357;&#x65B9;&#x7684;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x5357;&#x65B9;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x56E0;&#x4E3A;&#x5728;&#x8DE8;&#x533A;&#x57DF;&#x7684;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x4E2D;&#xFF0C;DNS&#x8F6E;&#x8BE2;&#x7684;&#x6210;&#x672C;&#x6700;&#x4F4E;&#x3002;</p>
+<h3 id="&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;"><a name="&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;" class="anchor-navigation-ex-anchor" href="#&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.2. &#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;</h3>
+<p>&#x5BA2;&#x6237;&#x7AEF;&#x8C03;&#x5EA6;&#x7684;&#x65B9;&#x5F0F;&#x6BD4;&#x8F83;&#x5C11;&#x89C1;&#xFF0C;&#x4E5F;&#x4E0D;&#x5177;&#x6709;&#x666E;&#x904D;&#x7684;&#x9002;&#x7528;&#x6027;&#x3002;</p>
+<h3 id="&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;"><a name="&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;" class="anchor-navigation-ex-anchor" href="#&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.3. &#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;</h3>
+<p>&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#xFF0C;&#x53C8;&#x53EB;&#x4E03;&#x5C42;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#xFF0C;&#x4E5F;&#x53EB;&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x3002;</p>
+<p>&#x5176;&#x7ED3;&#x6784;&#x57FA;&#x672C;&#x4E0A;&#x5C31;&#x662F;&#x591A;&#x53F0;&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;&#x901A;&#x8FC7;&#x9AD8;&#x901F;&#x7684;&#x7F51;&#x7EDC;&#x8FDE;&#x63A5;&#x6210;&#x4E00;&#x4E2A;&#x96C6;&#x7FA4;&#x7CFB;&#x7EDF;&#xFF0C;&#x5728;&#x524D;&#x7AEF;&#x6709;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x5E94;&#x7528;&#x5C42;&#x7684;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x5668;&#x3002;&#x5F53;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x8BF7;&#x6C42;&#x5230;&#x8FBE;&#x8C03;&#x5EA6;&#x5668;&#x65F6;&#xFF0C;&#x8BF7;&#x6C42;&#x4F1A;&#x63D0;&#x4EA4;&#x7ED9;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x8C03;&#x5EA6;&#x5668;&#xFF0C;&#x5B83;&#x5206;&#x6790;&#x8BF7;&#x6C42;&#x5E76;&#x6839;&#x636E;&#x5404;&#x4E2A;&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;&#x7684;&#x8D1F;&#x8F7D;&#x60C5;&#x51B5;&#xFF0C;&#x91CD;&#x5199;&#x8BF7;&#x6C42;&#x5E76;&#x53D1;&#x9001;&#x5230;&#x5176;&#x4E2D;&#x4E00;&#x53F0;&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x53D6;&#x5F97;&#x7ED3;&#x679C;&#x540E;&#xFF0C;&#x518D;&#x8FD4;&#x56DE;&#x7ED9;&#x7528;&#x6237;&#x3002;</p>
+<p>&#x8FD9;&#x79CD;&#x8D1F;&#x8F7D;&#x65B9;&#x6848;&#x5E94;&#x7528;&#x975E;&#x5E38;&#x5E7F;&#x6CDB;&#xFF0C;</p>
+<p>&#x5F53;&#x7136;&#x4ED6;&#x4E5F;&#x5B58;&#x5728;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#x3002;&#x4E3B;&#x8981;&#x662F;&#x7CFB;&#x7EDF;&#x5904;&#x7406;&#x5F00;&#x9500;&#x8F83;&#x5927;&#xFF0C;&#x5F53;&#x8BF7;&#x6C42;&#x5230;&#x8FBE;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x8C03;&#x5EA6;&#x5668;&#xFF0C;&#x4E00;&#x76F4;&#x5230;&#x5904;&#x7406;&#x7ED3;&#x675F;&#xFF0C;&#x8C03;&#x5EA6;&#x5668;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x56DB;&#x6B21;&#x4ECE;&#x6838;&#x5FC3;&#x7A7A;&#x95F4;&#x5230;&#x7528;&#x6237;&#x7A7A;&#x95F4;&#x6216;&#x4ECE;&#x7528;&#x6237;&#x7A7A;&#x95F4;&#x5230;&#x6838;&#x5FC3;&#x7A7A;&#x95F4;&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x5207;&#x6362;&#x548C;&#x5185;&#x5B58;&#x590D;&#x5236;&#xFF1B;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x4E8C;&#x6B21;TCP&#x8FDE;&#x63A5;&#xFF0C;&#x4E00;&#x6B21;&#x662F;&#x4ECE;&#x7528;&#x6237;&#x5230;&#x8C03;&#x5EA6;&#x5668;&#xFF0C;&#x53E6;&#x4E00;&#x6B21;&#x662F;&#x4ECE;&#x8C03;&#x5EA6;&#x5668;&#x5230;&#x5E94;&#x7528;&#x670D;&#x52A1;&#x5668;&#xFF1B;&#x9700;&#x8981;&#x5BF9;&#x8BF7;&#x6C42;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x548C;&#x91CD;&#x5199;&#x3002;&#x8FD9;&#x4E9B;&#x5904;&#x7406;&#x90FD;&#x9700;&#x8981;&#x4E00;&#x5B9A;&#x7684;CPU&#xFF0C;&#x5185;&#x5B58;&#x548C;&#x7F51;&#x7EDC;&#x7B49;&#x8D44;&#x6E90;&#x3002;&#x5F53;&#x670D;&#x52A1;&#x89C4;&#x6A21;&#x6269;&#x589E;&#x65F6;&#xFF0C;&#x8C03;&#x5EA6;&#x5668;&#x672C;&#x8EAB;&#x53EF;&#x80FD;&#x4F1A;&#x6210;&#x4E3A;&#x7CFB;&#x7EDF;&#x7684;&#x74F6;&#x9888;&#x3002;</p>
+<p>&#x8FD9;&#x79CD;&#x9632;&#x8303;&#x4F18;&#x70B9;&#x5341;&#x5206;&#x7A81;&#x51FA;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x7A0B;&#x5EA6;&#x9AD8;&#xFF0C;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x8981;&#x6C42;&#x8BBE;&#x8BA1;&#x51FA;&#x6EE1;&#x8DB3;&#x5404;&#x79CD;&#x573A;&#x666F;&#x7684;&#x8D1F;&#x8F7D;&#x8981;&#x6C42;&#x3002;</p>
+<h3 id="ip&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;"><a name="ip&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;" class="anchor-navigation-ex-anchor" href="#ip&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.4. IP&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;</h3>
+<p>&#x4E0E;&#x5E94;&#x7528;&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x65B9;&#x6848;&#x76F8;&#x6BD4;&#xFF0C;IP&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x7684;&#x53EF;&#x914D;&#x7F6E;&#x7A0B;&#x5EA6;&#x8FDC;&#x4E0D;&#x53CA;&#x524D;&#x8005;&#xFF0C;&#x4F46;&#x662F;&#x540E;&#x8005;&#x7684;&#x6548;&#x7387;&#x786E;&#x5B9E;&#x662F;&#x6700;&#x9AD8;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x5728;&#x5F88;&#x591A;&#x4F01;&#x4E1A;&#x4E2D;&#x90FD;&#x613F;&#x610F;&#x9009;&#x62E9;IP&#x5C42;&#x8D1F;&#x8F7D;&#x8C03;&#x5EA6;&#x65B9;&#x6848;&#x3002;</p>
+<h2 id="&#x5DE5;&#x5177;"><a name="&#x5DE5;&#x5177;" class="anchor-navigation-ex-anchor" href="#&#x5DE5;&#x5177;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x5DE5;&#x5177;</h2>
+<ul>
+<li>Nginx</li>
+<li>HA</li>
+<li>LVS</li>
+</ul>
+<h1 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a name="&#x53C2;&#x8003;&#x8D44;&#x6599;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x53C2;&#x8003;&#x8D44;&#x6599;</h1>
+<h2 id="books"><a name="books" class="anchor-navigation-ex-anchor" href="#books"><i class="fa fa-link" aria-hidden="true"></i></a>2.1. books</h2>
+<ul>
+<li>&#x300A;&#x5BB9;&#x5668;&#x4E91;&#x8FD0;&#x7EF4;&#x5B9E;&#x6218;&#xFF1A;Docker&#x4E0E;Kubernetes&#x96C6;&#x7FA4;&#x300B;</li>
+</ul>
 
                                 
                                 </section>
@@ -1349,12 +1391,12 @@
 
             
                 
-                <a href="hbase.html" class="navigation navigation-prev " aria-label="Previous page: hbase">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Distribution">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../distribution/" class="navigation navigation-next " aria-label="Next page: Distribution">
+                <a href="cache.html" class="navigation navigation-next " aria-label="Next page: Cache">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1365,7 +1407,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"memcache","level":"7.1.4","depth":2,"next":{"title":"Distribution","level":"8.1","depth":1,"path":"distribution/index.md","ref":"distribution/index.md","articles":[{"title":"HACluster","level":"8.1.1","depth":2,"path":"distribution/hacluster.md","ref":"distribution/hacluster.md","articles":[]},{"title":"Cache","level":"8.1.2","depth":2,"path":"distribution/cache.md","ref":"distribution/cache.md","articles":[]},{"title":"MQ","level":"8.1.3","depth":2,"path":"distribution/mq.md","ref":"distribution/mq.md","articles":[]}]},"previous":{"title":"hbase","level":"7.1.3","depth":2,"path":"db/hbase.md","ref":"db/hbase.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-gb3","splitter","anchor-navigation-ex","expandable-chapters","-lunr","-search","search-pro"],"pluginsConfig":{"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"db/memcache.md","mtime":"2019-06-10T15:25:42.124Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-11T06:50:36.913Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HACluster","level":"8.1.1","depth":2,"next":{"title":"Cache","level":"8.1.2","depth":2,"path":"distribution/cache.md","ref":"distribution/cache.md","articles":[]},"previous":{"title":"Distribution","level":"8.1","depth":1,"path":"distribution/index.md","ref":"distribution/index.md","articles":[{"title":"HACluster","level":"8.1.1","depth":2,"path":"distribution/hacluster.md","ref":"distribution/hacluster.md","articles":[]},{"title":"Cache","level":"8.1.2","depth":2,"path":"distribution/cache.md","ref":"distribution/cache.md","articles":[]},{"title":"MQ","level":"8.1.3","depth":2,"path":"distribution/mq.md","ref":"distribution/mq.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-gb3","splitter","anchor-navigation-ex","expandable-chapters","-lunr","-search","search-pro"],"pluginsConfig":{"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"distribution/hacluster.md","mtime":"2019-06-11T03:25:05.394Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-11T06:50:36.913Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
