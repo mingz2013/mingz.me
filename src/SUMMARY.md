@@ -74,6 +74,7 @@
     - [Serverless](micros/serverless.md)
     - [Istio](micros/istio.md)
     - [OpenShift 4](micros/openshift-4.md)
+    - [Rancher](micros/rancher.md)
     - [Chaos Engineering](micros/chaos-engineering.md)
     
 
