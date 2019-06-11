@@ -38,8 +38,12 @@
     
     - [chrome](every_day_use/chrome.md)
     
-
+* [Math](./math/index.md)
 * [algorithm](algorithm/index.md)
+    - [hashmap](algorithm/hashmap.md)
+    - [list](algorithm/list.md)
+    - [tree](algorithm/tree.md)
+
 
 * [compiler](compiler/index.md)
     * [编程语言泛讲](compiler/compiler.md)
@@ -50,9 +54,24 @@
     * [html](lang/html/index.md)
     * [js](lang/js/index.md)
     * [python](lang/python/index.md)
+    * [c](lang/c/index.md)
+    * [Assembly](lang/assembly/index.md)
+    
+
 
 * [Unix-like](unix-like/index.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
+
+
+* [network](network/index.md)
+    * [network](network/network.md)
+
+
+* [db](db/index.md)
+    * [redis](db/redis.md)
+    * [mongodb](db/mongo.md)
+    * [hbase](db/hbase.md)
+    * [memcache](db/memcache.md)
 
 
 * [Distribution](distribution/index.md)
@@ -77,15 +96,13 @@
     - [Rancher](micros/rancher.md)
     - [Chaos Engineering](micros/chaos-engineering.md)
     
+* [ops](ops/index.md)
 
 
-* [network](network/index.md)
-    * [network](network/network.md)
 
-* [db](db/index.md)
-    * [redis](db/redis.md)
-    * [mongodb](db/mongo.md)
-    * [hbase](db/hbase.md)
-    * [memcache](db/memcache.md)
+* [hack](./hack/index.md)
+
+
+* [Tools](./tools/index.md)
 
 
