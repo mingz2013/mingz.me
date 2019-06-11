@@ -2,42 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ops/ansible.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/gitbook.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/adb.md" afterPath="$PROJECT_DIR$/src/every-day-use/adb.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/assembly.md" afterPath="$PROJECT_DIR$/src/every-day-use/assembly.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/brew.md" afterPath="$PROJECT_DIR$/src/every-day-use/brew.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/centos7.md" afterPath="$PROJECT_DIR$/src/every-day-use/centos7.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/chrome.md" afterPath="$PROJECT_DIR$/src/every-day-use/chrome.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/ctf.md" afterPath="$PROJECT_DIR$/src/every-day-use/ctf.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/docker.md" afterPath="$PROJECT_DIR$/src/every-day-use/docker.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/git.md" afterPath="$PROJECT_DIR$/src/every-day-use/git.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/golang.md" afterPath="$PROJECT_DIR$/src/every-day-use/golang.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/idapro.md" afterPath="$PROJECT_DIR$/src/every-day-use/idapro.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/index.md" afterPath="$PROJECT_DIR$/src/every-day-use/index.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/jetbrains.md" afterPath="$PROJECT_DIR$/src/every-day-use/jetbrains.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/k8s.md" afterPath="$PROJECT_DIR$/src/every-day-use/k8s.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/macos.md" afterPath="$PROJECT_DIR$/src/every-day-use/macos.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/markdown.md" afterPath="$PROJECT_DIR$/src/every-day-use/markdown.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/mongo.md" afterPath="$PROJECT_DIR$/src/every-day-use/mongo.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/nginx.md" afterPath="$PROJECT_DIR$/src/every-day-use/nginx.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/nmap.md" afterPath="$PROJECT_DIR$/src/every-day-use/nmap.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/nodejs.md" afterPath="$PROJECT_DIR$/src/every-day-use/nodejs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/python.md" afterPath="$PROJECT_DIR$/src/every-day-use/python.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/redis.md" afterPath="$PROJECT_DIR$/src/every-day-use/redis.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/shell.md" afterPath="$PROJECT_DIR$/src/every-day-use/shell.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/sublime.md" afterPath="$PROJECT_DIR$/src/every-day-use/sublime.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/svn.md" afterPath="$PROJECT_DIR$/src/every-day-use/svn.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/unity.md" afterPath="$PROJECT_DIR$/src/every-day-use/unity.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/vim.md" afterPath="$PROJECT_DIR$/src/every-day-use/vim.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/vscode.md" afterPath="$PROJECT_DIR$/src/every-day-use/vscode.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/every_day_use/wireshark.md" afterPath="$PROJECT_DIR$/src/every-day-use/wireshark.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ops/images/ansible-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/distribution/hacluster.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/micros/elk.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/micros/monitoring.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/micros/zipkin.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/README.md" afterPath="$PROJECT_DIR$/src/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SUMMARY.md" afterPath="$PROJECT_DIR$/src/SUMMARY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/micros/rancher.md" afterPath="$PROJECT_DIR$/src/micros/rancher.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ops/index.md" afterPath="$PROJECT_DIR$/src/ops/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tools/index.md" afterPath="$PROJECT_DIR$/src/tools/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/distribution/index.md" afterPath="$PROJECT_DIR$/src/distribution/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/micros/docker.md" afterPath="$PROJECT_DIR$/src/micros/docker.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/micros/index.md" afterPath="$PROJECT_DIR$/src/micros/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ops/ansible.md" afterPath="$PROJECT_DIR$/src/ops/ansible.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,51 +67,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rancher.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/micros/rancher.md">
+      <file leaf-file-name="monitoring.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/micros/monitoring.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gitbook.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tools/gitbook.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tools/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <first_editor relative-caret-position="469">
+                <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -148,8 +84,21 @@
         <entry file="file://$PROJECT_DIR$/src/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <first_editor relative-caret-position="1134">
+                <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hacluster.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/distribution/hacluster.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="566">
+                <caret line="105" column="12" lean-forward="true" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -158,11 +107,11 @@
         </entry>
       </file>
       <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ops/index.md">
+        <entry file="file://$PROJECT_DIR$/src/micros/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <first_editor relative-caret-position="585">
+                <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -170,12 +119,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ansible.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ops/ansible.md">
+      <file leaf-file-name="zipkin.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/micros/zipkin.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="662">
+                <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="58" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -183,12 +132,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-cloud.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/micros/spring-cloud.md">
+      <file leaf-file-name="elk.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/micros/elk.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <first_editor relative-caret-position="60">
+                <caret line="170" column="21" lean-forward="false" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -196,25 +145,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/list.md">
+      <file leaf-file-name="docker.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/micros/docker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tree.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/tree.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -240,11 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/every_day_use/vscode.md" />
-        <option value="$PROJECT_DIR$/src/every_day_use/idapro.md" />
-        <option value="$PROJECT_DIR$/src/every_day_use/git.md" />
-        <option value="$PROJECT_DIR$/src/every_day_use/python.md" />
-        <option value="$PROJECT_DIR$/src/every_day_use/svn.md" />
         <option value="$PROJECT_DIR$/src/every_day_use/assembly.md" />
         <option value="$PROJECT_DIR$/src/every_day_use/macos.md" />
         <option value="$PROJECT_DIR$/src/every_day_use/markdown.md" />
@@ -267,15 +198,12 @@
         <option value="$PROJECT_DIR$/src/micros/compose.md" />
         <option value="$PROJECT_DIR$/src/micros/consul.md" />
         <option value="$PROJECT_DIR$/src/micros/k8s.md" />
-        <option value="$PROJECT_DIR$/src/micros/index.md" />
         <option value="$PROJECT_DIR$/src/micros/istio.md" />
         <option value="$PROJECT_DIR$/src/micros/docker-swarm.md" />
         <option value="$PROJECT_DIR$/src/micros/devops.md" />
         <option value="$PROJECT_DIR$/src/micros/chaos-engineering.md" />
         <option value="$PROJECT_DIR$/src/micros/cache.md" />
         <option value="$PROJECT_DIR$/src/micros/distribution.md" />
-        <option value="$PROJECT_DIR$/src/micros/docker.md" />
-        <option value="$PROJECT_DIR$/src/distribution/index.md" />
         <option value="$PROJECT_DIR$/src/db/index.md" />
         <option value="$PROJECT_DIR$/src/db/hbase.md" />
         <option value="$PROJECT_DIR$/src/db/memcache.md" />
@@ -290,6 +218,14 @@
         <option value="$PROJECT_DIR$/src/ops/index.md" />
         <option value="$PROJECT_DIR$/src/tools/index.md" />
         <option value="$PROJECT_DIR$/src/README.md" />
+        <option value="$PROJECT_DIR$/src/ops/ansible.md" />
+        <option value="$PROJECT_DIR$/src/micros/hacluster.md" />
+        <option value="$PROJECT_DIR$/src/distribution/index.md" />
+        <option value="$PROJECT_DIR$/src/micros/docker.md" />
+        <option value="$PROJECT_DIR$/src/micros/zipkin.md" />
+        <option value="$PROJECT_DIR$/src/micros/elk.md" />
+        <option value="$PROJECT_DIR$/src/micros/monitoring.md" />
+        <option value="$PROJECT_DIR$/src/micros/index.md" />
         <option value="$PROJECT_DIR$/src/SUMMARY.md" />
       </list>
     </option>
@@ -391,13 +327,32 @@
               <item name="note" type="b2602c69:ProjectViewProjectNode" />
               <item name="note" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="micros" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="note" type="b2602c69:ProjectViewProjectNode" />
               <item name="note" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ops" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="note" type="b2602c69:ProjectViewProjectNode" />
@@ -421,15 +376,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ops" />
-      <recent name="$PROJECT_DIR$/src/lang/c" />
-      <recent name="$PROJECT_DIR$/src/lang" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/distribution" />
       <recent name="$PROJECT_DIR$/src/lang" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ops" />
+      <recent name="$PROJECT_DIR$/src/lang/c" />
+      <recent name="$PROJECT_DIR$/src/lang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,6 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -465,7 +421,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17886178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17886178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16453674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10223642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -498,56 +454,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/every-day-use/markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/every-day-use/mongo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-825">
-            <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/every-day-use/sublime.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/every-day-use/centos7.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/every-day-use/shell.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="508">
-            <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/every-day-use/wireshark.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -772,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/network/network.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="372">
-            <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/micros/devops.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -798,17 +694,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/micros/docker.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="358">
-            <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -891,28 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/distribution/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/micros/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="720">
-            <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -990,17 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ops/ansible.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1023,11 +875,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/network/network.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="372">
+            <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tools/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ops/ansible.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/distribution/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/micros/go-micro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/micros/docker.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/micros/zipkin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="662">
+            <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="58" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/micros/elk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="170" column="21" lean-forward="false" selection-start-line="170" selection-start-column="21" selection-end-line="170" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/micros/monitoring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="469">
+            <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/distribution/hacluster.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="566">
+            <caret line="105" column="12" lean-forward="true" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/micros/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="585">
+            <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1037,8 +1005,8 @@
     <entry file="file://$PROJECT_DIR$/src/SUMMARY.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <first_editor relative-caret-position="1134">
+            <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

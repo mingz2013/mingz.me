@@ -76,6 +76,7 @@
 
 
 * [Distribution](distribution/index.md)
+    * [HACluster](distribution/hacluster.md)
     * [Cache](distribution/cache.md)
     * [MQ](distribution/mq.md)
 
@@ -96,6 +97,10 @@
     - [OpenShift 4](micros/openshift-4.md)
     - [Rancher](micros/rancher.md)
     - [Chaos Engineering](micros/chaos-engineering.md)
+    - [ELK](micros/elk.md)
+    - [Monitoring](micros/monitoring.md)
+    - [Zipkin](micros/zipkin.md)
+    
     
 * [ops](ops/index.md)
     - [ansible](ops/ansible.md)

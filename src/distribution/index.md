@@ -9,6 +9,8 @@
 
 ## CAP
 
+## BASE
+
 
 
 ## RPC
@@ -27,6 +29,6 @@
 
 # 目录
 
-
+- [HACluster](./hacluster.md)
 - [cache](./cache.md)
 - [mq](./mq.md)
