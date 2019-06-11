@@ -13,3 +13,21 @@
 ## 演示
 - 演示Rancher安装
 - Rancher管理macos上单节点k8s集群
+
+
+
+
+
+
+## 参考资料
+
+### github
+- https://github.com/rancher/rancher
+
+
+### website
+
+- https://rancher.com/
+- https://www.cnrancher.com/
+- https://www.cnrancher.com/docs/rancher/v2.x/cn/overview/
+

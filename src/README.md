@@ -2,6 +2,9 @@
 
 
 
+本书地址 http://mingz.me/note/
 
-流程图插件
-https://github.com/knsv/mermaid
+
+本书github  https://github.com/mingz2013/note
+
+
