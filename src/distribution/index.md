@@ -33,3 +33,7 @@
 - [cache](./cache.md)
 - [mq](./mq/index.md)
     - [Kafka](./mq/kafka.md)
+- [byzantine](./byzantine.md)
+- [cap](./cap.md)
+- [paxos](./paxos.md)
+- [raft](./raft.md)

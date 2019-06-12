@@ -85,6 +85,10 @@
     * [Cache](distribution/cache.md)
     * [MQ](distribution/mq/index.md)
         * [kafka](distribution/mq/kafka.md)
+    - [byzantine](distribution/byzantine.md)
+    - [cap](distribution/cap.md)
+    - [paxos](distribution/paxos.md)
+    - [raft](distribution/raft.md)
         
 
 * [micros](micros/index.md)
