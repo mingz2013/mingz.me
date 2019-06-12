@@ -37,3 +37,7 @@
 - [cap](./cap.md)
 - [paxos](./paxos.md)
 - [raft](./raft.md)
+- [registry](./registry/index.md)
+    - [consul](./registry/consul.md)
+    - [etcd](./registry/etcd.md)
+    - [Zookeeper](./registry/zookeeper.md)

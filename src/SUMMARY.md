@@ -81,14 +81,18 @@
 
 
 * [Distribution](distribution/index.md)
-    * [HACluster](distribution/hacluster.md)
-    * [Cache](distribution/cache.md)
-    * [MQ](distribution/mq/index.md)
-        * [kafka](distribution/mq/kafka.md)
+    - [HACluster](distribution/hacluster.md)
+    - [Cache](distribution/cache.md)
+    - [MQ](distribution/mq/index.md)
+        - [kafka](distribution/mq/kafka.md)
     - [byzantine](distribution/byzantine.md)
     - [cap](distribution/cap.md)
     - [paxos](distribution/paxos.md)
     - [raft](distribution/raft.md)
+    - [registry](distribution/registry/index.md)
+        - [consul](distribution/registry/consul.md)
+        - [etcd](distribution/registry/etcd.md)
+        - [Zookeeper](distribution/registry/zookeeper.md)
         
 
 * [micros](micros/index.md)
