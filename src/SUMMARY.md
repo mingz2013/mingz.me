@@ -69,6 +69,7 @@
     - [IP](network/ip.md)
     - [TCP](network/tcp.md)
     - [HTTP](network/http.md)
+    - [dns](network/dns.md)
 
 
 

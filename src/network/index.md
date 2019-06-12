@@ -6,4 +6,5 @@
 - [ip](./ip.md)
 - [tcp](./tcp.md)
 - [http](./http.md)
+- [dns](./dns.md)
 - [network](./network.md)
