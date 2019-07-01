@@ -4,6 +4,20 @@
 
 
 
-- [hashmap](./hashmap.md)
-- [list](./list.md)
+- [数据结构](./data_structures.md)
+- [算法](./algorithm.md)
+- [List](./list.md)
+- [stack](./stack.md)
+- [queue](./queue.md)
+- [string](./string.md)
 - [tree](./tree.md)
+- [graph](./graph.md)
+- [searching](./searching.md)
+- [sort](./sort.md)
+
+
+
+
+# 参考资料
+## books
+- 《大话数据结构》
