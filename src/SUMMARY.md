@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 
 
-* [every day use](every-day-use/index.md)
+* [every day use](every-day-use/README.md)
     - [mongo](every-day-use/mongo.md)
     - [redis](every-day-use/redis.md)
     
@@ -39,32 +39,32 @@
     - [chrome](every-day-use/chrome.md)
     
     
-* [Math](./math/index.md)
-* [algorithm](algorithm/index.md)
+* [Math](./math/README.md)
+* [algorithm](algorithm/README.md)
     - [hashmap](algorithm/hashmap.md)
     - [list](algorithm/list.md)
     - [tree](algorithm/tree.md)
 
 
-* [compiler](compiler/index.md)
+* [compiler](compiler/README.md)
     * [编程语言泛讲](compiler/compiler.md)
     * [ollvm](compiler/ollvm.md)
 
-* [lang](lang/index.md)
-    * [Golang](lang/golang/index.md)
-    * [HTML](lang/html/index.md)
-    * [JS](lang/js/index.md)
-    * [Python](lang/python/index.md)
-    * [C](lang/c/index.md)
-    * [Assembly](lang/assembly/index.md)
+* [lang](lang/README.md)
+    * [Golang](lang/golang/README.md)
+    * [HTML](lang/html/README.md)
+    * [JS](lang/js/README.md)
+    * [Python](lang/python/README.md)
+    * [C](lang/c/README.md)
+    * [Assembly](lang/assembly/README.md)
     
 
 
-* [Unix-like](unix-like/index.md)
+* [Unix-like](unix-like/README.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
 
 
-* [network](network/index.md)
+* [network](network/README.md)
     - [network](network/network.md)
     - [IP](network/ip.md)
     - [TCP](network/tcp.md)
@@ -73,29 +73,29 @@
 
 
 
-* [db](db/index.md)
+* [db](db/README.md)
     * [redis](db/redis.md)
     * [mongodb](db/mongo.md)
     * [hbase](db/hbase.md)
     * [memcache](db/memcache.md)
 
 
-* [Distribution](distribution/index.md)
+* [Distribution](distribution/README.md)
     - [HACluster](distribution/hacluster.md)
     - [Cache](distribution/cache.md)
-    - [MQ](distribution/mq/index.md)
+    - [MQ](distribution/mq/README.md)
         - [kafka](distribution/mq/kafka.md)
     - [byzantine](distribution/byzantine.md)
     - [cap](distribution/cap.md)
     - [paxos](distribution/paxos.md)
     - [raft](distribution/raft.md)
-    - [registry](distribution/registry/index.md)
+    - [registry](distribution/registry/README.md)
         - [consul](distribution/registry/consul.md)
         - [etcd](distribution/registry/etcd.md)
         - [Zookeeper](distribution/registry/zookeeper.md)
         
 
-* [micros](micros/index.md)
+* [micros](micros/README.md)
     - [MicroService](micros/microservice.md)
     - [Consul](micros/consul.md)
     - [go-micro](micros/go-micro.md)
@@ -120,17 +120,17 @@
     - [Zipkin](micros/zipkin.md)
     
     
-* [ops](ops/index.md)
+* [ops](ops/README.md)
     - [ansible](ops/ansible.md)
 
 
-* [hack](./hack/index.md)
+* [hack](./hack/README.md)
     - [JS代码加密](./hack/js代码加密.md)
 
-* [Tools](./tools/index.md)
+* [Tools](./tools/README.md)
     - [gitbook](tools/gitbook.md)
 
 
-* [OpenGL](./opengl/index.md)
-* [Cocos](./cocos/index.md)
-* [Unity](./unity/index.md)
+* [OpenGL](./opengl/README.md)
+* [Cocos](./cocos/README.md)
+* [Unity](./unity/README.md)
