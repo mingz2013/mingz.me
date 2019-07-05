@@ -114,6 +114,11 @@ typedef struct LinkStack
 
 
 
+# 总结
+
+- 顺序栈
+    - 两栈共享空间
+- 链栈
 
 
 # 参考资料
