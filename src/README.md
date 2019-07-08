@@ -2,14 +2,11 @@
 
 
 
-本书地址 http://mingz.me/note/
 
+- 本书地址 http://mingz.me/note/
+- 本书github https://github.com/mingz2013/note
+- 本书讨论区 https://github.com/mingz2013/note/issues
 
-本书github  https://github.com/mingz2013/note
-
-
-
-https://github.com/mingz2013/note/issues
 
 ---
 
