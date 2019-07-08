@@ -41,9 +41,16 @@
     
 * [Math](./math/README.md)
 * [algorithm](algorithm/README.md)
-    - [hashmap](algorithm/hashmap.md)
-    - [list](algorithm/list.md)
+    - [数据结构](algorithm/data_structures.md)
+    - [算法](algorithm/algorithm.md)
+    - [List](algorithm/list.md)
+    - [stack](algorithm/stack.md)
+    - [queue](algorithm/queue.md)
+    - [string](algorithm/string.md)
     - [tree](algorithm/tree.md)
+    - [graph](algorithm/graph.md)
+    - [searching](algorithm/searching.md)
+    - [sort](algorithm/sort.md)
 
 
 * [compiler](compiler/README.md)
