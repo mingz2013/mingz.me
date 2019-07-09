@@ -13,8 +13,14 @@
 - [tree](./tree.md)
 - [graph](./graph.md)
 - [searching](./searching.md)
-- [sort](./sort.md)
-
+- [sort](./sort/README.md)
+    - [冒泡排序（Bubble Sort）](./sort/bubble_sort.md)
+    - [简单选择排序（Simple Selection Sort）](./sort/select_sort.md)
+    - [直接插入排序（Straight Insertion Sort）](./sort/insert_sort.md)
+    - [希尔排序（Shell Sort）](./sort/shell_sort.md)
+    - [堆排序（Heap Sort）](./sort/heap_sort.md)
+    - [归并排序（Merging Sort）](./sort/merging_sort.md)
+    - [快速排序（Quick Sort）](./sort/quick_sort.md)
 
 
 

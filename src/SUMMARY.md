@@ -50,8 +50,14 @@
     - [tree](algorithm/tree.md)
     - [graph](algorithm/graph.md)
     - [searching](algorithm/searching.md)
-    - [sort](algorithm/sort.md)
-
+    - [sort](algorithm/sort/README.md)
+        - [冒泡排序（Bubble Sort）](algorithm/sort/bubble_sort.md)
+        - [简单选择排序（Simple Selection Sort）](algorithm/sort/select_sort.md)
+        - [直接插入排序（Straight Insertion Sort）](algorithm/sort/insert_sort.md)
+        - [希尔排序（Shell Sort）](algorithm/sort/shell_sort.md)
+        - [堆排序（Heap Sort）](algorithm/sort/heap_sort.md)
+        - [归并排序（Merging Sort）](algorithm/sort/merging_sort.md)
+        - [快速排序（Quick Sort）](algorithm/sort/quick_sort.md)
 
 * [compiler](compiler/README.md)
     * [编程语言泛讲](compiler/compiler.md)
