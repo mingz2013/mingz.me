@@ -43,18 +43,23 @@
 * [algorithm](algorithm/README.md)
     - [数据结构](algorithm/data_structures.md)
     - [算法](algorithm/algorithm.md)
+    
     - [List](algorithm/list.md)
     - [stack](algorithm/stack.md)
     - [queue](algorithm/queue.md)
     - [string](algorithm/string.md)
+    
     - [tree](algorithm/tree.md)
+    
     - [graph](algorithm/graph.md)
+    
     - [searching](algorithm/searching/README.md)
         - [顺序表查找](algorithm/searching/sequential_search.md)
         - [有序表查找](algorithm/searching/sorted_search.md)
         - [线性索引查找](algorithm/searching/index_search.md)
         - [二叉排序树查找](algorithm/searching/binary_sort_tree_search.md)
         - [散列表查找](algorithm/searching/hash_search.md)
+        
     - [sort](algorithm/sort/README.md)
         - [冒泡排序（Bubble Sort）](algorithm/sort/bubble_sort.md)
         - [简单选择排序（Simple Selection Sort）](algorithm/sort/select_sort.md)
