@@ -4,7 +4,7 @@ note, gitbook support
 
 
 ```
-$ make help                                                               
+$ make
                                                                           
 Makefile for gitbook note                                                 
                                                                           
@@ -21,5 +21,6 @@ Usage:
    make github                         upload the book via gh-pages       
                                                                           
                                                                           
-$     
+$
+
 ```
