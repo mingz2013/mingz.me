@@ -3,7 +3,7 @@ note, gitbook support
 
 
 
-```bash
+```
 $ make help                                                                                                                                                                                                                        [10:44:28]
                                                                           
 Makefile for gitbook note                                                 

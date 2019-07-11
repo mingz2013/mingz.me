@@ -13,6 +13,8 @@ help:
 	@echo 'Makefile for gitbook note                                                 '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
+	@echo '   make help                           show help                          '
+	@echo '                                                                          '
 	@echo '   make install                        install plugins                    '
 	@echo '                                                                          '
 	@echo '   make clean                          remove the generated files         '
