@@ -20,7 +20,7 @@ help:
 	@echo '   make serve [PORT=4000]              serve site at http://localhost:4000'
 	@echo '                                                                          '
 	@echo '   make publish                        generate using production settings '
-	@echo '   make github                         upload the web site via gh-pages   '
+	@echo '   make github                         upload the book via gh-pages       '
 	@echo '                                                                          '
 	@echo '                                                                          '
 
