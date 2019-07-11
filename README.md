@@ -4,11 +4,13 @@ note, gitbook support
 
 
 ```
-$ make help                                                                                                                                                                                                                        [10:44:28]
+$ make help                                                               
                                                                           
 Makefile for gitbook note                                                 
                                                                           
 Usage:                                                                    
+   make help                           show help                          
+                                                                          
    make install                        install plugins                    
                                                                           
    make clean                          remove the generated files         
@@ -18,5 +20,6 @@ Usage:
    make publish                        generate using production settings 
    make github                         upload the book via gh-pages       
                                                                           
-                                                                              
+                                                                          
+$     
 ```
