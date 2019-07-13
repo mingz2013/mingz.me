@@ -102,6 +102,16 @@
     * [hbase](db/hbase.md)
     * [memcache](db/memcache.md)
 
+* [concurrent](./concurrent/README.md)
+    - [线程与锁](./concurrent/thread.md)
+    - [函数式编程](./concurrent/function.md)
+    - [Clojure之道-分离标识与状态](./concurrent/clojure.md)
+    - [actor](./concurrent/actor.md)
+    - [通信顺序编程](./concurrent/csp.md)
+    - [数据级并行](./concurrent/data_concurrent.md)
+    - [Lambda架构](./concurrent/lambda.md)
+
+
 
 * [Distribution](distribution/README.md)
     - [HACluster](distribution/hacluster.md)
