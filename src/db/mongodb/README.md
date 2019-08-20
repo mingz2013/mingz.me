@@ -8,7 +8,7 @@
 
 
 
-- 介绍
+- [介绍](./introduction.md)
     - 大数据
     - NoSQL
     - mongodb
@@ -36,16 +36,16 @@
         - 内嵌文档
         - _id 和 ObjectId
     
-- 安装
+- [安装](./installation.md)
 
 
-- mongo shell
+- [mongo shell](./the-mongo-shell.md)
 
 
 
 
 
-- CRUD
+- [CRUD](./crud.md)
     - insert
     - update
     - remove
@@ -54,29 +54,30 @@
     - 查询
         - 游标
     
-- 聚合
+- [聚合](./aggregation.md)
     - 管道模式
     - MapReduce
     - 简单聚集函数
     
 
-- 数据模型
+- [数据模型](./data-models.md)
 
 
-- 事务
+- [事务](./transactions.md)
 
-- 索引，性能优化, explain()
-
-
-- 安全
+- [索引](./indexes.md)
+性能优化, explain()
 
 
-- Change Streams
+- [安全](./security.md)
 
 
-- 复制
+- [Change Streams](./change-streams.md)
+
+
+- [复制](./replication.md)
     
-- 分片
+- [分片](./sharding.md)
     - 配置服务器
     - Shard
     - mongos
@@ -86,7 +87,7 @@
     
     
     
-- 管理
+- [管理](./administration.md)
     - 监控
         - mongostat
         - mongotop
@@ -102,7 +103,7 @@
     - 权限控制
 
 
-- 存储
+- [存储](./storage.md)
     - GridFS
     - Journaling日志功能
 
