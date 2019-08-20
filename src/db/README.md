@@ -5,6 +5,6 @@
 
 
 - [redis](./redis.md)
-- [mongo](./mongo.md)
+- [mongo](./mongodb/README.md)
 - [hbase](./hbase.md)
 - [memcache](./memcache.md)

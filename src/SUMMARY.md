@@ -125,7 +125,7 @@
 
 * [db](db/README.md)
     * [redis](db/redis.md)
-    * [mongodb](db/mongo.md)
+    * [mongodb](db/mongodb/README.md)
     * [hbase](db/hbase.md)
     * [memcache](db/memcache.md)
 
