@@ -63,3 +63,88 @@ mongodb将分片数据分割成块。每一个块都有一个基于片键的包�
 
 ### Reads/Writes
 
+读写会被分摊在多个分片上。
+
+
+### Storage Capacity(存储容纳)
+
+### High Availability（高可用）
+
+## Considerations Before Sharding（分片前的注意事项）
+
+分片集群的基础设施和复杂性需要自己的规划，执行和维护。
+
+为了保证集群的性能和效率，在选择片键时要慎重考虑，切分后不能更改片键。也不能取消分片集合的共享。
+
+分片有一定的操作要求和限制。
+
+如果 查询不包括 片键 或复合片键的前缀，那么mongos将执行广播操作，查询分片集群中的所有片。这些查询可能耗时很长。
+
+
+## Sharded and Non-Sharded Collections(分片和未分片的集合)
+
+一个数据库可以混合使用有分片和未分片的集合。
+分片集合在集群中的分片之间进行切割和分布。
+未分片的集合存储在主片上。每个数据库都有自己的主片。
+
+
+![](./images/sharded-cluster-primary-shard.bakedsvg.svg)
+
+
+
+## Connecting to a Sharded Cluster
+
+你必须连接到mongos路由器，才能与分片集群中的任何集合进行交互。这包括分片和未分片的集合。为了执行读写操作，客户端不应该连接到单个的分片。
+
+
+![](./images/sharded-cluster-mixed.bakedsvg.svg)
+
+
+
+你可以用连接mongod一样的方式连接mongos。
+
+
+## Sharding Strategy(分片策略)
+
+
+支持两种分片策略。
+
+
+### Hashed Sharding(哈希分片)
+哈希分片，计算分片片键的散列值，然后根据散列值为每个块分配一个范围。
+
+
+![](./images/sharding-hash-based.bakedsvg.svg)
+
+
+当一个range 片键是关闭状态，但他们的散列值不太可能位于同一块。基于散列值的数据分布有助于更均匀的 数据分布，尤其是在片键单调变化的数据集中。
+
+然而，散列分布，意味着基于片键的查询不太可能以单个片为目标，从而导致更多的集群范围的广播操作。
+
+
+
+### Ranged Sharding （范围分片）
+
+范围分片，根据片键将数据划分为多个范围，然后根据片键值为每个块分配一个范围。
+
+![](./images/sharding-range-based.bakedsvg.svg)
+
+
+
+一个范围的片键个能会位于同一个块。这允许目标操作，只将操作路由到包含所需数据的片。
+
+
+范围分片，的效率取决于选择的片键。考虑不周的片键可能会导致数据分布不均匀，这可能会抵消分片的好处，或导致性能瓶颈。
+
+
+## Zones in Sharded Clusters
+
+
+
+## Collations in Sharding
+
+## Change Streams
+
+## Transactions
+
+
