@@ -51,8 +51,25 @@
 一个仲裁节点永远是一个仲裁节点，一个主节点可能会停止，变成一个辅助节点，一个辅助接点也可能选举变成一个主节点。
 
 
+
+
+## Asynchronous Replication
+
+
+## Automatic Failover¶
+
 ![](./images/replica-set-trigger-election.bakedsvg.svg)
 
 
-
 ![](./images/replica-set-three-members-geographically-distributed.bakedsvg.svg)
+
+
+## Read Operations
+
+## Transactions
+
+
+## Change Streams
+
+## Additional Features¶
+
