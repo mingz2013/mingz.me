@@ -30,4 +30,4 @@
 - https://rancher.com/
 - https://www.cnrancher.com/
 - https://www.cnrancher.com/docs/rancher/v2.x/cn/overview/
-
+- https://www.rancher.cn/
