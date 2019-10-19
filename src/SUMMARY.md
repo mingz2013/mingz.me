@@ -71,7 +71,10 @@
 
 * [compiler](compiler/README.md)
     * [编程语言泛讲](compiler/compiler.md)
+    * [llvm](compiler/llvm.md)
     * [ollvm](compiler/ollvm.md)
+    * [python源码分析](./compiler/python源码分析.md)
+    * [golang源码分析](./compiler/golang源码分析.md)
 
 * [lang](lang/README.md)
     * [Golang](lang/golang/README.md)
