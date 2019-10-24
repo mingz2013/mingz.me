@@ -8,7 +8,7 @@
 
 ## use in macos
 
-- brew install redid
+- brew install redis
 - brew services start redis
 
 - redis-server /usr/local/etc/redis.conf
