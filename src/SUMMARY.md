@@ -171,6 +171,7 @@
         - [etcd](distribution/registry/etcd.md)
         - [Zookeeper](distribution/registry/zookeeper.md)
         
+* [Kernel](./kernel/README.md)
 
 * [micros](micros/README.md)
     - [MicroService](micros/microservice.md)
