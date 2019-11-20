@@ -1,3 +1,3 @@
 | Title                | Date             | Modified         | Category          |
 |:--------------------:|:----------------:|:----------------:|:-----------------:|
-| design patterns      | 2019-07-16 12:00 | 2019-07-16 12:00 | design patterns   |
+| design patterns      | 2019-11-20 12:00 | 2019-11-20 12:00 | design patterns   |
