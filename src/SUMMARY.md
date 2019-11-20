@@ -84,20 +84,17 @@
     * [C](lang/c/README.md)
     * [Assembly](lang/assembly/README.md)
     
-
 * [design](./design/README.md)
+    - [design](./design/design.md)
     - [oo](./design/oo/README.md)
     - [design patterns](./design/design-patterns/README.md)
-    
         - [创建型（creational）](./design/design-patterns/creational/README.md)
             - [Factory Method](./design/design-patterns/creational/factory_method.md)
             - [Abstract Factory](./design/design-patterns/creational/abstract_factory.md)
             - [Builder](./design/design-patterns/creational/builder.md)
             - [Prototype](./design/design-patterns/creational/prototype.md)
             - [Singleton](./design/design-patterns/creational/singleton.md)
-        
         - [结构型（structural）](./design/design-patterns/structural/README.md)
-        
             - [Adapter](./design/design-patterns/structural/adapter.md)
             - [Bridge](./design/design-patterns/structural/bridge.md)
             - [Composite](./design/design-patterns/structural/composite.md)
@@ -105,9 +102,7 @@
             - [Facade](./design/design-patterns/structural/facade.md)
             - [Flyweight](./design/design-patterns/structural/flyweight.md)
             - [Proxy](./design/design-patterns/structural/proxy.md)
-        
         - [行为型（behavioral）](./design/design-patterns/behavioral/README.md)
-        
             - [Interpreter](./design/design-patterns/behavioral/interpreter.md)
             - [Template Method](./design/design-patterns/behavioral/template_method.md)
             - [Chain of Responsibility](./design/design-patterns/behavioral/chain_of_responsibility.md)
@@ -119,7 +114,7 @@
             - [State](./design/design-patterns/behavioral/state.md)
             - [Strategy](./design/design-patterns/behavioral/strategy.md)
             - [Visitor](./design/design-patterns/behavioral/visitor.md)
-
+    - [关于设计模式的探讨](./design/关于设计模式的探讨.md)
 
 * [Unix-like](unix-like/README.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
