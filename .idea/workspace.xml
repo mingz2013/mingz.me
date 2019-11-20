@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/iterator.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/mediator.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/memento.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/observer.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/state.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/strategy.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/template_method.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/visitor.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/abstract_factory.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/builder.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/factory_method.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/prototype.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/singleton.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/adapter.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/bridge.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/composite.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/decorator.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/facade.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/flyweight.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/proxy.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/design/oo/README.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/abstract-factory-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/adapter-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/bridge-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/builder-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/chain-of-responsibility-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/command-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/composite-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/compound-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/decorator-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/facade-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/factory-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/flyweight-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/interpreter-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/iterator-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/mediator-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/memento-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/mvc-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/observer-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/prototype-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/proxy-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/singleton-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/state-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/strategy-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/template-method-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/design-patterns/visitor-pattern.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/design-patterns/README.md" afterPath="$PROJECT_DIR$/src/design/design-patterns/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/README.md" afterPath="$PROJECT_DIR$/src/design/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/design-patterns/README.md" afterPath="$PROJECT_DIR$/src/design/design-patterns/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,12 +58,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iterator.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/design-patterns/behavioral/iterator.md">
+      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <first_editor relative-caret-position="638">
+                <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -167,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="591">
-                <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <first_editor relative-caret-position="425">
+                <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -181,7 +128,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="555">
-                <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -193,21 +140,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/design-patterns/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="500">
-                <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/design-patterns/structural/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <first_editor relative-caret-position="241">
+                <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -216,11 +150,24 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/design/design-patterns/structural/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/design-patterns/behavioral/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -232,8 +179,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/design-patterns/creational/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -284,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/compiler/golang源码分析.md" />
         <option value="$PROJECT_DIR$/src/compiler/README.md" />
         <option value="$PROJECT_DIR$/src/every-day-use/redis.md" />
-        <option value="$PROJECT_DIR$/src/SUMMARY.md" />
         <option value="$PROJECT_DIR$/src/kernel/README.md" />
         <option value="$PROJECT_DIR$/src/design-patterns/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/structural/proxy.md" />
@@ -311,11 +257,12 @@
         <option value="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" />
         <option value="$PROJECT_DIR$/src/design/oo/README.md" />
-        <option value="$PROJECT_DIR$/src/design/design-patterns/README.md" />
-        <option value="$PROJECT_DIR$/src/design/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/behavioral/README.md" />
+        <option value="$PROJECT_DIR$/src/SUMMARY.md" />
+        <option value="$PROJECT_DIR$/src/design/design-patterns/README.md" />
+        <option value="$PROJECT_DIR$/src/design/README.md" />
       </list>
     </option>
   </component>
@@ -424,22 +371,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="note" type="b2602c69:ProjectViewProjectNode" />
@@ -693,17 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SUMMARY.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2370">
-            <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1081,11 +1001,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/README.md">
+    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/creational/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="591">
-            <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/behavioral/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SUMMARY.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="638">
+            <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1096,7 +1038,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="555">
-            <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1106,19 +1048,19 @@
     <entry file="file://$PROJECT_DIR$/src/design/design-patterns/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <first_editor relative-caret-position="241">
+            <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/creational/README.md">
+    <entry file="file://$PROJECT_DIR$/src/design/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <first_editor relative-caret-position="425">
+            <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1128,19 +1070,8 @@
     <entry file="file://$PROJECT_DIR$/src/design/design-patterns/structural/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/behavioral/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

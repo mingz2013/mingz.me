@@ -59,9 +59,7 @@
     - [Builder](./creational/builder.md)
     - [Prototype](./creational/prototype.md)
     - [Singleton](./creational/singleton.md)
-
 - [结构型（structural）](./structural/README.md)
-
     - [Adapter](./structural/adapter.md)
     - [Bridge](./structural/bridge.md)
     - [Composite](./structural/composite.md)
@@ -69,9 +67,7 @@
     - [Facade](./structural/facade.md)
     - [Flyweight](./structural/flyweight.md)
     - [Proxy](./structural/proxy.md)
-
 - [行为型（behavioral）](./behavioral/README.md)
-
     - [Interpreter](./behavioral/interpreter.md)
     - [Template Method](./behavioral/template_method.md)
     - [Chain of Responsibility](./behavioral/chain_of_responsibility.md)

@@ -89,18 +89,16 @@ Kent Beck在《解析极限编程-拥抱变化》中为简单系统制定了4个
 
 
 ## 子主题
+
 - [oo](./oo/README.md)
 - [design patterns](./design-patterns/README.md)
-
     - [创建型（creational）](./design-patterns/creational/README.md)
         - [Factory Method](./design-patterns/creational/factory_method.md)
         - [Abstract Factory](./design-patterns/creational/abstract_factory.md)
         - [Builder](./design-patterns/creational/builder.md)
         - [Prototype](./design-patterns/creational/prototype.md)
         - [Singleton](./design-patterns/creational/singleton.md)
-    
     - [结构型（structural）](./design-patterns/structural/README.md)
-    
         - [Adapter](./design-patterns/structural/adapter.md)
         - [Bridge](./design-patterns/structural/bridge.md)
         - [Composite](./design-patterns/structural/composite.md)
@@ -108,9 +106,7 @@ Kent Beck在《解析极限编程-拥抱变化》中为简单系统制定了4个
         - [Facade](./design-patterns/structural/facade.md)
         - [Flyweight](./design-patterns/structural/flyweight.md)
         - [Proxy](./design-patterns/structural/proxy.md)
-    
     - [行为型（behavioral）](./design-patterns/behavioral/README.md)
-    
         - [Interpreter](./design-patterns/behavioral/interpreter.md)
         - [Template Method](./design-patterns/behavioral/template_method.md)
         - [Chain of Responsibility](./design-patterns/behavioral/chain_of_responsibility.md)
