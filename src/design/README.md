@@ -33,7 +33,7 @@
         - [State](./design-patterns/behavioral/state.md)
         - [Strategy](./design-patterns/behavioral/strategy.md)
         - [Visitor](./design-patterns/behavioral/visitor.md)
-- [关于设计模式的探讨](./关于设计模式的探讨.md)
+- [关于设计模式的探讨(演讲稿)](./关于设计模式的探讨.md)
 
 
 
