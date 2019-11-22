@@ -116,7 +116,8 @@
             - [Visitor](./design/design-patterns/behavioral/visitor.md)
     - [关于设计模式的探讨(演讲稿)](./design/关于设计模式的探讨.md)
     - [关于架构演进的探讨(演讲稿)](./design/关于架构演进的探讨.md)
-
+    - [自己写代码的时候到底是怎么思考的](./design/自己写代码的时候到底是怎么自考的.md)
+    
 * [Unix-like](unix-like/README.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
 
