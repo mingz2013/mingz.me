@@ -5,10 +5,10 @@
 
 # 结构型
 
-- [适配器 Adapter](./adapter.md)
-- [桥接 Bridge](./bridge.md)
-- [组成 Composite](./composite.md)
-- [装饰 Decorator](./decorator.md)
-- [外观 Facade](./facade.md)
-- [享元 Flyweight](./flyweight.md)
-- [代理 Proxy](./proxy.md)
+- [Adapter 适配器](./adapter.md)
+- [Bridge 桥接](./bridge.md)
+- [Composite 组成](./composite.md)
+- [Decorator 装饰](./decorator.md)
+- [Facade 外观](./facade.md)
+- [Flyweight 享元](./flyweight.md)
+- [Proxy 代理](./proxy.md)

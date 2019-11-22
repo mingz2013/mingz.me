@@ -5,8 +5,9 @@
 
 # 创建型
 
-- [工厂方法 Factory Method](./factory_method.md)
-- [抽象工厂 Abstract Factory](./abstract_factory.md)
-- [生成器 Builder](./builder.md)
-- [原型 Prototype](./prototype.md)
-- [单件 Singleton](./singleton.md)
+
+- [Abstract Factory 抽象工厂](./abstract_factory.md)
+- [Builder 生成器](./builder.md)
+- [Factory Method 工厂方法](./factory_method.md)
+- [Prototype 原型](./prototype.md)
+- [Singleton 单件](./singleton.md)
