@@ -7,6 +7,7 @@
 - [design](./design.md)
 - [oo](./oo/README.md)
 - [design patterns](./design-patterns/README.md)
+    - [design-patterns](./design-patterns/design-patterns.md)
     - [创建型（creational）](./design-patterns/creational/README.md)
         - [Abstract Factory 抽象工厂](./design-patterns/creational/abstract_factory.md)
         - [Builder 生成器](./design-patterns/creational/builder.md)
