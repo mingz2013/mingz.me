@@ -116,14 +116,8 @@
             - [Template Method 模板方法](./design/design-patterns/behavioral/template_method.md)
             - [Visitor 访问者](./design/design-patterns/behavioral/visitor.md)
     - [关于设计模式的探讨(演讲稿)](./design/关于设计模式的探讨.md)
-    - [关于架构演进的探讨(演讲稿)](./design/关于架构演进的探讨.md)
-    - [自己写代码的时候到底是怎么思考的](./design/自己写代码的时候到底是怎么自考的.md)
-    - [演讲稿](./design/演讲稿.md)
-    - [演讲稿2](./design/演讲稿2.md)
-    - [敏捷设计](./design/敏捷设计.md)
 * [Unix-like](unix-like/README.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
-
 
 * [network](network/README.md)
     - [network](network/network.md)

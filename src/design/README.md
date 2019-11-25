@@ -35,11 +35,7 @@
         - [Template Method 模板方法](./design-patterns/behavioral/template_method.md)
         - [Visitor 访问者](./design-patterns/behavioral/visitor.md)
 - [关于设计模式的探讨(演讲稿)](./关于设计模式的探讨.md)
-- [关于架构演进的探讨(演讲稿)](./关于架构演进的探讨.md)
-- [自己写代码的时候到底是怎么思考的](./自己写代码的时候到底是怎么自考的.md)
-- [演讲稿](./演讲稿.md)
-- [演讲稿2](./演讲稿2.md)
-- [敏捷设计](./敏捷设计.md)
+
 ## 参考资料
 
 
