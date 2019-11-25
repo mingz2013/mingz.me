@@ -120,6 +120,7 @@
     - [自己写代码的时候到底是怎么思考的](./design/自己写代码的时候到底是怎么自考的.md)
     - [演讲稿](./design/演讲稿.md)
     - [演讲稿2](./design/演讲稿2.md)
+    - [敏捷设计](./design/敏捷设计.md)
 * [Unix-like](unix-like/README.md)
     * [Centos7 UTF8编码配置](linux/centos7_utf8.md)
 
