@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" afterPath="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/design.md" afterPath="$PROJECT_DIR$/src/design/design.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/oo/README.md" afterPath="$PROJECT_DIR$/src/design/oo/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/关于设计模式的探讨.md" afterPath="$PROJECT_DIR$/src/design/关于设计模式的探讨.md" />
@@ -63,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/design-patterns/design-patterns.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <first_editor relative-caret-position="-91">
+                <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -76,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/design.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="640">
-                <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+              <first_editor relative-caret-position="6045">
+                <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -102,8 +103,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/关于设计模式的探讨.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="619">
-                <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+              <first_editor relative-caret-position="596">
+                <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -128,8 +129,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/oo/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="376">
-                <caret line="390" column="0" lean-forward="false" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+              <first_editor relative-caret-position="1555">
+                <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -220,12 +221,12 @@
         <option value="$PROJECT_DIR$/src/design/关于架构演进的探讨.md" />
         <option value="$PROJECT_DIR$/src/design/敏捷设计.md" />
         <option value="$PROJECT_DIR$/src/SUMMARY.md" />
-        <option value="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" />
         <option value="$PROJECT_DIR$/src/design/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/README.md" />
         <option value="$PROJECT_DIR$/src/design/关于设计模式的探讨.md" />
         <option value="$PROJECT_DIR$/src/design/design.md" />
         <option value="$PROJECT_DIR$/src/design/oo/README.md" />
+        <option value="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" />
       </list>
     </option>
   </component>
@@ -287,11 +288,11 @@
       <path value="$PROJECT_DIR$/src/node_modules/util-deprecate/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="683" />
-    <option name="y" value="-1057" />
+    <option name="y" value="-1080" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -440,7 +441,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="683" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -448,7 +449,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17571884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16768293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14483494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -968,8 +969,8 @@
     <entry file="file://$PROJECT_DIR$/src/design/关于设计模式的探讨.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="619">
-            <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <first_editor relative-caret-position="596">
+            <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
@@ -979,19 +980,8 @@
     <entry file="file://$PROJECT_DIR$/src/design/design.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="640">
-            <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/oo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="390" column="0" lean-forward="false" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+          <first_editor relative-caret-position="6045">
+            <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1009,11 +999,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/oo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1555">
+            <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/design-patterns/design-patterns.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <first_editor relative-caret-position="-91">
+            <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
