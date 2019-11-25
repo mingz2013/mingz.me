@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/README.md" afterPath="$PROJECT_DIR$/src/design/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/关于设计模式的探讨.md" afterPath="$PROJECT_DIR$/src/design/关于设计模式的探讨.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/design-patterns/README.md" afterPath="$PROJECT_DIR$/src/design/design-patterns/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/design.md" afterPath="$PROJECT_DIR$/src/design/design.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/oo/README.md" afterPath="$PROJECT_DIR$/src/design/oo/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,12 +59,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="design-patterns.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="design-patterns.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/design/design-patterns/design-patterns.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="383">
-                <caret line="122" column="8" lean-forward="false" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+              <first_editor relative-caret-position="687">
+                <caret line="273" column="7" lean-forward="false" selection-start-line="273" selection-start-column="7" selection-end-line="273" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -75,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/src/design/design.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="694">
-                <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <first_editor relative-caret-position="540">
+                <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/design/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="476">
+              <first_editor relative-caret-position="1080">
                 <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -97,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="关于设计模式的探讨.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="关于设计模式的探讨.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/关于设计模式的探讨.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -127,8 +128,21 @@
         <entry file="file://$PROJECT_DIR$/src/design/oo/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="263" column="6" lean-forward="false" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
+              <first_editor relative-caret-position="416">
+                <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design/design-patterns/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -199,7 +213,6 @@
         <option value="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/behavioral/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" />
-        <option value="$PROJECT_DIR$/src/design/design-patterns/README.md" />
         <option value="$PROJECT_DIR$/src/design/演讲稿2.md" />
         <option value="$PROJECT_DIR$/src/distribution/registry/etcd.md" />
         <option value="$PROJECT_DIR$/src/design/演讲稿.md" />
@@ -207,11 +220,12 @@
         <option value="$PROJECT_DIR$/src/design/关于架构演进的探讨.md" />
         <option value="$PROJECT_DIR$/src/design/敏捷设计.md" />
         <option value="$PROJECT_DIR$/src/SUMMARY.md" />
-        <option value="$PROJECT_DIR$/src/design/oo/README.md" />
         <option value="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" />
-        <option value="$PROJECT_DIR$/src/design/design.md" />
         <option value="$PROJECT_DIR$/src/design/README.md" />
         <option value="$PROJECT_DIR$/src/design/关于设计模式的探讨.md" />
+        <option value="$PROJECT_DIR$/src/design/design.md" />
+        <option value="$PROJECT_DIR$/src/design/oo/README.md" />
+        <option value="$PROJECT_DIR$/src/design/design-patterns/README.md" />
       </list>
     </option>
   </component>
@@ -753,17 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/distribution/byzantine.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -940,39 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/oo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="263" column="6" lean-forward="false" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/design-patterns.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="383">
-            <caret line="122" column="8" lean-forward="false" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/design.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="694">
-            <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SUMMARY.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -984,10 +954,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/关于设计模式的探讨.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-810">
+            <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
+          <first_editor relative-caret-position="1080">
             <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -995,11 +976,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design/关于设计模式的探讨.md">
+    <entry file="file://$PROJECT_DIR$/src/design/design.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-810">
-            <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <first_editor relative-caret-position="540">
+            <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/oo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="416">
+            <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/design-patterns/design-patterns.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="687">
+            <caret line="273" column="7" lean-forward="false" selection-start-line="273" selection-start-column="7" selection-end-line="273" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
