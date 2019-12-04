@@ -5,6 +5,6 @@
 
 # 聚合
 
-- 管道模式
+- Aggregation Pipeline 管道模式
 - MapReduce
 - 简单聚集函数
