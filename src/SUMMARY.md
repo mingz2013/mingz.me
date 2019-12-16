@@ -96,7 +96,7 @@
             - [模块加载](./compiler/python/其他/模块加载.md)
             - [运行环境初始化](./compiler/python/其他/运行环境初始化.md)
 
-    * [golang源码分析](./compiler/golang源码分析.md)
+    * [golang](./compiler/golang源码分析.md)
 
 * [lang](lang/README.md)
     * [Golang](lang/golang/README.md)
