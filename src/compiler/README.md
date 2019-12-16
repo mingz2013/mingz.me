@@ -24,7 +24,7 @@
         - [类机制](./python/VM/类机制.md)
         - [虚拟机框架](./python/VM/虚拟机框架.md)
     
-    - [其他](./python其他/README.md)
+    - [其他](./python/其他/README.md)
         - [内存管理](./python/其他/内存管理.md)
         - [多线程](./python/其他/多线程.md)
         - [模块加载](./python/其他/模块加载.md)

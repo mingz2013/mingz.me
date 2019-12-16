@@ -90,7 +90,7 @@
             - [函数](./compiler/python/VM/函数.md)
             - [类机制](./compiler/python/VM/类机制.md)
             - [虚拟机框架](./compiler/python/VM/虚拟机框架.md)
-        - [其他](./compiler/python其他/README.md)
+        - [其他](./compiler/python/其他/README.md)
             - [内存管理](./compiler/python/其他/内存管理.md)
             - [多线程](./compiler/python/其他/多线程.md)
             - [模块加载](./compiler/python/其他/模块加载.md)
