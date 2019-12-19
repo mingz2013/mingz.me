@@ -33,6 +33,7 @@ Surrogate
 ![](./images/proxy-02.png)
 
 ## 参与者
+
 ### Proxy
 - 保存一个引用使得代理可以访问实体。若RealSubject和Subject的接口相同，Proxy会引用Subject。
 - 控制对实体的存取，并可能负责创建和删除它。
@@ -44,6 +45,7 @@ Surrogate
 
 ### Subject
 定义RealSubject和Proxy的共用接口，这样就在任何使用RealSubject的地方都可以使用Proxy。
+
 ### RealSubject
 定义Proxy所代表的的实体。
 

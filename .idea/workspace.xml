@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" afterDir="false" />
@@ -120,7 +119,7 @@
       <updated>1559807105448</updated>
       <workItem from="1576497812039" duration="708000" />
       <workItem from="1576499607531" duration="5701000" />
-      <workItem from="1576633686006" duration="12061000" />
+      <workItem from="1576633686006" duration="12490000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>

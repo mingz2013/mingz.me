@@ -29,15 +29,20 @@ Flyweight模式的有效性很大程度上取决于如何使用它以及在何�
 ![](./images/flyweight-02.png)
 
 ## 参与者
+
 ### Flyweight
 描述一个接口，通过这个接口flyweight可以接受并作用于外部状态。
+
 ### ConcreteFlyweight
 实现Flyweight接口，并为内部状态（如果有的话）增加存储空间。ConcreteFlyweight对象必须是可共享的。它所存储的状态必须是内部的；即，它必须独立于ConcreteFlyweight对象的场景。
+
 ### UnsharedConcreteFlyweight
 并非所有的Flyweight子类都需要被共享。Flyweight接口使共享成为可能，但它并不强制共享。在Flyweight对象结构的某些层次，UnsharedConcreteFlyweight对象通常将ConcreteFlyweight对象作为子节点。
+
 ### FlyweightFactory
 - 创建并管理flyweight对象。
 - 确保合理地共享flyweight。当用户请求一个flyweight时，FlyweightFactory对象提供一个已创建的实例或者创建一个（如果不存在的话）。
+
 ### Client
 - 维持一个对flyweight的引用。
 - 计算或存储一个（多个）flyweight的外部状态。

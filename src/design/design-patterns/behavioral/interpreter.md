@@ -21,17 +21,22 @@
 ![](./images/interpreter.png)
 
 ## 参与者
+
 ### AbstractExpression（抽象表达式）
 声明一个抽象的解释操作，这个接口为抽象语法树中所有的节点所共享。
+
 ### TerminalExpression（终结符表达式）
 - 实现与文法中的终结符相关联的解释操作。
 - 一个句子中的每个终结符需要该类的一个实例。
+
 ### NonterminalExpression（非终结符表达式）
 - 对文法中的每一条规则R::=R1R2…Rn都需要一个NonterminalExpression类。
 - 为从R1到Rn的每个符号都维护一个AbstractExpression类型的实例变量。
 - 为文法中的非终结符实现解释（Interpret）操作。解释（Interpret）一般要递归的调用表示R1到Rn的那些对象的解释操作。
+
 ### Context（上下文）
 - 包含解释器之外的一些全局信息。
+
 ### Client（客户）
 - 构建（或被给定）表示该文法定义的语言中一个特定的句子的抽象语法树。该抽象语法树由NonterminalExpression和TerminalExpression的实例装配而成。
 调用解释操作。

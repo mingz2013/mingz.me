@@ -21,10 +21,13 @@
 ![](./images/prototype.png)
 
 ## 参与者
+
 ### Prototype
 声明一个克隆自身的接口。
+
 ### ConcretePrototype
 实现一个克隆自身的操作
+
 ### Client
 让一个原型克隆自身从而创建一个新的对象。
 

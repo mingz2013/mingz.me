@@ -21,6 +21,7 @@
 
 
 ## 参与者
+
 ### AbstractClass（抽象类）
 定义抽象的原语操作（primitive operation），具体的子类将重定义它们以实现一个算法的各步骤。
 ![](./images/template_method-02.png)

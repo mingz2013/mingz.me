@@ -26,13 +26,17 @@
 ![](./images/iterator-02.png)
 
 ## 参与者
+
 ### Iterator（迭代器）
 迭代器定义访问和遍历元素的接口。
+
 ### ConcreteIterator（具体迭代器）
 - 具体迭代器实现迭代器接口。
 - 对该聚合遍历时跟踪当前位置。
+
 ### Aggregate（聚合）
 聚合定义创建相应迭代器对象的接口。
+
 ### ConcreteAggregate（具体聚合）
 具体聚合实现创建相应迭代器的接口，该操作返回ConcreteIterator的一个适当的实例。
 

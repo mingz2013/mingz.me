@@ -24,10 +24,13 @@
 
 
 ## 参与者
+
 ### Strategy（策略）
 定义所有支持的算法的公共接口。Context使用这个接口来调用某ConcreteStrategy定义的算法。
+
 ### ConcreteStrategy（具体策略）
 以Strategy接口实现某具体算法。
+
 ### Context（上下文）
 - 用一个ConcreteStrategy对象来配置。
 - 维护一个对Strategy对象的引用。

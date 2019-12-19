@@ -26,14 +26,18 @@
 ![](./images/observer.png)
 
 ## 参与者
+
 ### Subject（目标）
 - 目标知道它的观察者。可以有任意多个观察者观察同一个目标。
 - 提供注册和删除观察者对象的接口。
+
 ### Observer（观察者）
 为那些在目标发生改变时需获得通知的对象定义一个更新接口。
+
 ### ConcreteSubject（具体目标）
 - 将有关状态存入各ConcreteObserver对象。
 - 当它的状态发生改变时，向它的各个观察者发出通知。
+
 ### ConcreteObserver（具体观察者）
 - 维护一个指向ConcreteSubject对象的引用。
 - 存储有关状态，这些状态应与目标的状态保持一致。

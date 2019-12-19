@@ -25,12 +25,16 @@
 ![](./images/decorator.png)
 
 ## 参与者
+
 ### Component
 定义一个对象接口，可以给这些对象动态地添加指责。
+
 ### ConcreteComponent
 定义一个对象，可以给这个对象添加一些指责。
+
 ### Decorator
 维持一个指向Component对象的指针，并定义一个与Component接口一致的接口。
+
 ### ConcreteDecorator
 向组件添加职责
 

@@ -30,12 +30,16 @@
 
 
 ## 参与者
+
 ### Target
 定义Client使用的与特定领域相关的接口。
+
 ### Client
 与符合Target接口的对象协同。
+
 ### Adaptee
 定义一个已经存在的接口，这个接口需要适配。
+
 ### Adapter
 对Adaptee的接口与Target接口进行适配
 

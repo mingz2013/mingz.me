@@ -28,13 +28,17 @@ Handle/Body
 ![](./images/bridge.png)
 
 ## 参与者
+
 ### Abstraction
 - 定义抽象类的接口
 - 维护一个指向Implementor类型对象的指针。
+
 ### RefinedAbstraction
 扩充由Abstraction定义的接口。
+
 ### Implementor
 定义实现类的接口，该接口不一定要与Abstraction的接口完全一致；事实上这两个接口可以完全不同。一般来讲，Implementor接口仅提供基本操作，而Abstraction则定义了基于这些基本操作的较高层次的操作。
+
 ### ConcreteImplementor
 实现Implementor接口并定义它的具体实现
 
