@@ -104,8 +104,8 @@
         - [pypy](./compiler/pypy/pypy.md)
         - [rpython](./compiler/pypy/rpython.md)
         - [jit](./compiler/pypy/jit.md)
-
     - [golang](./compiler/golang/README.md)
+    - [V8](./compiler/v8/README.md)
 
 * [lang](lang/README.md)
     * [Golang](lang/golang/README.md)

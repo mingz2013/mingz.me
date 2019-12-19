@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/gcc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/pypy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/pypy/jit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/pypy/pypy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/pypy/rpython.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/compiler/v8/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitbook/compiler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/compiler/README.md" afterDir="false" />
@@ -65,19 +61,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gitbook/compiler/golang" />
+      <recent name="$PROJECT_DIR$/src/compiler/python" />
+      <recent name="$PROJECT_DIR$/src/db/redis/单机" />
+      <recent name="$PROJECT_DIR$/src/network/协议" />
+      <recent name="$PROJECT_DIR$/src/db/redis" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/design/design-patterns" />
       <recent name="$PROJECT_DIR$/src/design/design-patterns/structural" />
       <recent name="$PROJECT_DIR$/src/design/design-patterns/creational" />
       <recent name="$PROJECT_DIR$/src/ops" />
       <recent name="$PROJECT_DIR$/src/lang/c" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/compiler/python" />
-      <recent name="$PROJECT_DIR$/src/db/redis/单机" />
-      <recent name="$PROJECT_DIR$/src/network/协议" />
-      <recent name="$PROJECT_DIR$/src/db/redis" />
-      <recent name="$PROJECT_DIR$/src/design/oo/images" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -104,7 +100,7 @@
       <updated>1559807105448</updated>
       <workItem from="1576497812039" duration="708000" />
       <workItem from="1576499607531" duration="5701000" />
-      <workItem from="1576633686006" duration="16404000" />
+      <workItem from="1576633686006" duration="17282000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>
