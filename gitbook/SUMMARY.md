@@ -105,7 +105,7 @@
         - [rpython](./compiler/pypy/rpython.md)
         - [jit](./compiler/pypy/jit.md)
 
-    * [golang](./compiler/golang源码分析.md)
+    - [golang](./compiler/golang/README.md)
 
 * [lang](lang/README.md)
     * [Golang](lang/golang/README.md)
