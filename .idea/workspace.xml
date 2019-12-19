@@ -3,35 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/iterator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/iterator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/mediator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/mediator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/memento.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/memento.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/observer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/observer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/state.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/state.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/strategy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/template_method.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/template_method.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/visitor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/visitor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/abstract_factory.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/abstract_factory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/builder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/factory_method.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/factory_method.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/prototype.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/prototype.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/singleton.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/singleton.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/adapter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/bridge.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/bridge.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/composite.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/composite.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/decorator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/decorator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/facade.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/facade.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/flyweight.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/flyweight.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/proxy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +97,7 @@
       <updated>1559807105448</updated>
       <workItem from="1576497812039" duration="708000" />
       <workItem from="1576499607531" duration="5701000" />
-      <workItem from="1576633686006" duration="9138000" />
+      <workItem from="1576633686006" duration="9936000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>
