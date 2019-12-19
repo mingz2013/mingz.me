@@ -40,6 +40,10 @@
     
     
 * [Math](./math/README.md)
+    - [概率统计](./math/概率统计.md)
+    - [线性代数](./math/线性代数.md)
+    - [离散数学](./math/离散数学.md)
+
 * [algorithm](algorithm/README.md)
     - [数据结构](algorithm/data_structures.md)
     - [算法](algorithm/algorithm.md)
