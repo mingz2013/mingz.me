@@ -29,11 +29,16 @@ Kit
 
 ## 参与者
 
-- AbstractFactory 声明一个创建抽象产品对象的操作接口。
-- ConcreteFactory 实现创建具体产品对象的操作。
-- AbstractProduct 为一类产品对象声明一个接口。
-- ConcreteProduct 定义一个将被相应的具体工厂创建的产品对象。实现AbstractProduct接口。
-- Client 仅使用由AbstractFactory和AbstractProduct类声明的接口。
+### AbstractFactory 
+声明一个创建抽象产品对象的操作接口。
+### ConcreteFactory 
+实现创建具体产品对象的操作。
+### AbstractProduct 
+为一类产品对象声明一个接口。
+### ConcreteProduct 
+定义一个将被相应的具体工厂创建的产品对象。实现AbstractProduct接口。
+### Client 
+仅使用由AbstractFactory和AbstractProduct类声明的接口。
 
 
 ## 协作
@@ -42,17 +47,17 @@ AbstractFactory将产品对象的创建延迟到它的ConcreteFactory子类。
 
 ## 效果
 AbstractFactory模式有下面的一些优点和缺点：
-1）它分离了具体的类
-2）它使得易于交换产品系列
-3）它有利于产品的一致性
-4）难以支持新种类的产品
+- 它分离了具体的类
+- 它使得易于交换产品系列
+- 它有利于产品的一致性
+- 难以支持新种类的产品
 
 
 
 ## 实现
-1）将工厂作为单件
-2）创建产品
-3）定义可扩展的工厂
+- 将工厂作为单件
+- 创建产品
+- 定义可扩展的工厂
 
 
 ## 代码示例
@@ -62,8 +67,8 @@ AbstractFactory模式有下面的一些优点和缺点：
 
 
 ## 相关模式
-AbstractFactory类通常用工厂方法（Factory Method）实现，但它们也可以用Prototype实现。
-一个具体的工厂通常是一个单件（Singleton）
+- AbstractFactory类通常用工厂方法（Factory Method）实现，但它们也可以用Prototype实现。
+- 一个具体的工厂通常是一个单件（Singleton）
 
 
 
