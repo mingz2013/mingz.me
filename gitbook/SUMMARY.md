@@ -75,6 +75,7 @@
 
 * [compiler](compiler/README.md)
     * [编程语言泛讲](compiler/compiler.md)
+    - [gcc](./compiler/gcc.md)
     * [llvm](compiler/llvm.md)
     * [ollvm](compiler/ollvm.md)
     * [python](compiler/python/README.md)
@@ -99,6 +100,10 @@
             - [多线程](./compiler/python/其他/多线程.md)
             - [模块加载](./compiler/python/其他/模块加载.md)
             - [运行环境初始化](./compiler/python/其他/运行环境初始化.md)
+    - [pypy](./compiler/pypy/README.md)
+        - [pypy](./compiler/pypy/pypy.md)
+        - [rpython](./compiler/pypy/rpython.md)
+        - [jit](./compiler/pypy/jit.md)
 
     * [golang](./compiler/golang源码分析.md)
 

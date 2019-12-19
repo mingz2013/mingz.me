@@ -3,6 +3,7 @@
 | compiler             | 2019-06-06 12:00 | 2019-05-29 12:00 | compiler          |
 
 - [compiler](./compiler.md)
+- [gcc](./gcc.md)
 - [llvm](./llvm.md)
 - [ollvm](./ollvm.md)
 - [python](python/README.md)
@@ -29,6 +30,10 @@
         - [多线程](./python/其他/多线程.md)
         - [模块加载](./python/其他/模块加载.md)
         - [运行环境初始化](./python/其他/运行环境初始化.md)
+- [pypy](./pypy/README.md)
+    - [pypy](./pypy/pypy.md)
+    - [rpython](./pypy/rpython.md)
+    - [jit](./pypy/jit.md)
 
 
 
