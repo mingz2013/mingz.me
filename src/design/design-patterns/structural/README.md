@@ -5,10 +5,13 @@
 
 # 结构型
 
-- [Adapter 适配器](./adapter.md)
-- [Bridge 桥接](./bridge.md)
-- [Composite 组成](./composite.md)
-- [Decorator 装饰](./decorator.md)
-- [Facade 外观](./facade.md)
-- [Flyweight 享元](./flyweight.md)
-- [Proxy 代理](./proxy.md)
+
+结构型模式涉及到如何组合类和对象以获得更大的结构。
+
+- [Adapter 适配器](./adapter.md)----类对象结构型模式
+- [Bridge 桥接](./bridge.md)——对象结构型模式
+- [Composite 组合](./composite.md)——对象结构型模式
+- [Decorator 装饰](./decorator.md)——对象结构型模式
+- [Facade 外观](./facade.md)——对象结构型模式
+- [Flyweight 享元](./flyweight.md)——对象结构型模式
+- [Proxy 代理](./proxy.md)——对象结构型模式

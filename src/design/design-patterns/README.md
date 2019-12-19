@@ -17,7 +17,7 @@
 - [结构型（structural）](./structural/README.md)
     - [Adapter 适配器](./structural/adapter.md)
     - [Bridge 桥接](./structural/bridge.md)
-    - [Composite 组成](./structural/composite.md)
+    - [Composite 组合](./structural/composite.md)
     - [Decorator 装饰](./structural/decorator.md)
     - [Facade 外观](./structural/facade.md)
     - [Flyweight 享元](./structural/flyweight.md)

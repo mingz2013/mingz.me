@@ -120,7 +120,7 @@
         - [结构型（structural）](./design/design-patterns/structural/README.md)
             - [Adapter 适配器](./design/design-patterns/structural/adapter.md)
             - [Bridge 桥接](./design/design-patterns/structural/bridge.md)
-            - [Composite 组成](./design/design-patterns/structural/composite.md)
+            - [Composite 组合](./design/design-patterns/structural/composite.md)
             - [Decorator 装饰](./design/design-patterns/structural/decorator.md)
             - [Facade 外观](./design/design-patterns/structural/facade.md)
             - [Flyweight 享元](./design/design-patterns/structural/flyweight.md)

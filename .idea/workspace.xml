@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compiler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/compiler/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/chain_of_responsibility.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/command.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/interpreter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/iterator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/iterator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/mediator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/mediator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/memento.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/memento.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/observer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/observer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/state.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/state.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/strategy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/template_method.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/template_method.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/behavioral/visitor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/behavioral/visitor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/abstract_factory.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/abstract_factory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/builder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/factory_method.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/factory_method.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/prototype.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/prototype.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/creational/singleton.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/creational/singleton.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/design-patterns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/adapter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/bridge.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/bridge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/composite.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/composite.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/decorator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/decorator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/facade.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/facade.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/flyweight.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/flyweight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/design-patterns/structural/proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/design-patterns/structural/proxy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +57,6 @@
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
   </component>
   <component name="ProjectId" id="1V41ypxQUMS6fO4x4OtdgCcDWpd" />
   <component name="ProjectViewState">
@@ -103,7 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1559807105448</updated>
       <workItem from="1576497812039" duration="708000" />
-      <workItem from="1576499607531" duration="4788000" />
+      <workItem from="1576499607531" duration="5701000" />
+      <workItem from="1576633686006" duration="9138000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>
@@ -196,9 +219,9 @@
       <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
     <state x="-666" y="-938" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576502865032" />
-    <state x="-677" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1576502874389">
+    <state x="-677" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1576505411467">
       <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="-677" y="-800" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576502874389" />
+    <state x="-677" y="-800" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576505411467" />
   </component>
 </project>
