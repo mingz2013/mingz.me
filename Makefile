@@ -1,7 +1,7 @@
 GITBOOK?=gitbook
 
 BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/src
+INPUTDIR=$(BASEDIR)/gitbook
 OUTPUTDIR=$(BASEDIR)/build
 
 
