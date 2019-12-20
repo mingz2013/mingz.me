@@ -4,7 +4,7 @@
 
 
 
-# heap sort
+# heap sort （堆排序）
 
 ![](./images/heap_sort_01.png)
 

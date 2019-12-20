@@ -2,99 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/searching.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/sort.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/桶排序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/动态规则/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/摊还分析/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/贪心算法/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitbook/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/algorithm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/data_structures.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/graph.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/algorithm_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/images/algorithm_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/algorithm_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/images/algorithm_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/data_structures_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/graph_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/graph_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/list_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/searching_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/stack_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/stack_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/stack_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/stack_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/string_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/string_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/string_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/string_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/images/tree_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/list.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/searching/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/searching/binary_sort_tree_search.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/binary_sort_tree_search.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/searching/hash_search.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/hash_search.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/searching/index_search.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/index_search.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/searching/sequential_search.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/sequential_search.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/searching/sorted_search.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/sorted_search.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/bubble_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/bubble_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/heap_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/heap_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/bubble_sort_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/bubble_sort_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/bubble_sort_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/bubble_sort_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/bubble_sort_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/bubble_sort_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/heap_sort_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/heap_sort_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/heap_sort_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/heap_sort_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/heap_sort_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/sort_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/sort_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/sort_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/images/sort_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/insert_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/insert_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/merging_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/merging_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/quick_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/quick_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/select_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/select_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/sort/shell_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/shell_sort.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/stack.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/stack.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/string.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/string.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/index_search.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/index_search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/bubble_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/bubble_sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/heap_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/heap_sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/insert_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/insert_sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/merging_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/merging_sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/quick_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/quick_sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/select_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/select_sort.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/shell_sort.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/shell_sort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +111,7 @@
       <workItem from="1576497812039" duration="708000" />
       <workItem from="1576499607531" duration="5701000" />
       <workItem from="1576633686006" duration="18071000" />
-      <workItem from="1576829121510" duration="1009000" />
+      <workItem from="1576829121510" duration="3334000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>

@@ -4,7 +4,7 @@
 
 
 
-# merging sort
+# merging sort（归并排序）
 
 归并排序（Merging Sort）就是利用归并的思想实现的排序方法。
 

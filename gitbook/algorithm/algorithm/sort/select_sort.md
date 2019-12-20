@@ -4,7 +4,7 @@
 
 
 
-# select sort
+# select sort（简单选择排序）
 
 简单选择排序法（Simple Selection Sort）就是通过n-1次关键字间的比较，从n-i+1个记录中选出关键字最小的记录，并和第i(1<=i<=n)个记录交换之。
 

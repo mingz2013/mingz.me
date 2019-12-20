@@ -4,7 +4,7 @@
 
 
 
-# insert sort
+# insert sort（直接插入排序）
 
 直接插入排序（Straight Insertion Sort）的基本操作是将一个记录插入到已经排好序的有序表中，从而得到一个新的，记录数增1的有序表。
 
