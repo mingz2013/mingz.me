@@ -24,6 +24,10 @@ help:
 	@echo '   make publish                        generate using production settings '
 	@echo '   make github                         upload the book via gh-pages       '
 	@echo '                                                                          '
+	@echo '   make up                             启动服务                            '
+	@echo '   make down                           停止服务                            '
+	@echo '   make logs                           查看日志                            '
+	@echo '                                                                          '
 	@echo '                                                                          '
 
 
@@ -51,3 +55,18 @@ publish: clean
 github: publish
 	ghp-import -m "make github" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) -p
 	git add .; git commit -m "update node book"; git push origin master
+
+
+.PHONY: up
+up:
+	docker-compose -f ./deployments/docker-compose.yaml up -d
+
+
+.PHONY: down
+down:
+	docker-compose -f ./deployments/docker-compose.yaml down
+
+
+.PHONY: logs
+logs:
+	docker-compose -f ./deployments/docker-compose.yaml logs -f
