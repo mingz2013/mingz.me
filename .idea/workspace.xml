@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler" />
+    <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +28,9 @@
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="pOJizyAf" />
   </component>
   <component name="ProjectId" id="1V41ypxQUMS6fO4x4OtdgCcDWpd" />
   <component name="ProjectViewState">
@@ -56,19 +61,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/design/design-patterns" />
-      <recent name="$PROJECT_DIR$/src/design/design-patterns/structural" />
-      <recent name="$PROJECT_DIR$/src/design/design-patterns/creational" />
-      <recent name="$PROJECT_DIR$/src/ops" />
-      <recent name="$PROJECT_DIR$/src/lang/c" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gitbook/algorithm/data_structures/images" />
       <recent name="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images" />
       <recent name="$PROJECT_DIR$/gitbook/algorithm/algorithm/images" />
       <recent name="$PROJECT_DIR$/gitbook/algorithm/algorithm" />
       <recent name="$PROJECT_DIR$/gitbook/algorithm/data_structures" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/design/design-patterns" />
+      <recent name="$PROJECT_DIR$/src/design/design-patterns/structural" />
+      <recent name="$PROJECT_DIR$/src/design/design-patterns/creational" />
+      <recent name="$PROJECT_DIR$/src/ops" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -97,6 +102,9 @@
       <workItem from="1576499607531" duration="5701000" />
       <workItem from="1576633686006" duration="18071000" />
       <workItem from="1576829121510" duration="3387000" />
+      <workItem from="1577196706195" duration="341000" />
+      <workItem from="1578164543962" duration="212000" />
+      <workItem from="1578166163365" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>
