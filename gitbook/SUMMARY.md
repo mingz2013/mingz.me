@@ -107,12 +107,15 @@
     - [V8](./compiler/v8/README.md)
 
 * [lang](lang/README.md)
-    * [Golang](lang/golang/README.md)
-    * [HTML](lang/html/README.md)
-    * [JS](lang/js/README.md)
-    * [Python](lang/python/README.md)
-    * [C](lang/c/README.md)
-    * [Assembly](lang/assembly/README.md)
+    - [assembly](./lang/assembly/README.md)
+    - [c](./lang/c/README.md)
+        - [oo](./lang/c/oo.md)
+    - [golang](./lang/golang/README.md)
+    - [html](./lang/html/README.md)
+    - [js](./lang/js/README.md)
+    - [python](./lang/python/README.md)
+        - [install python](./lang/python/install-python-with-mac.md)
+
     
 * [design](./design/README.md)
     - [design](./design/design.md)
