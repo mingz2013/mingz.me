@@ -12,3 +12,5 @@
 - [js](./js/README.md)
 - [python](./python/README.md)
     - [install python](./python/install-python-with-mac.md)
+- [cpp](./cpp/README.md)
+- [rust](./rust/README.md)

@@ -97,11 +97,11 @@
             - [bitmap排序](./algorithm/algorithm/sort/bitmap排序.md)
 
 * [compiler](compiler/README.md)
-    * [编程语言泛讲](compiler/compiler.md)
+    - [编程语言泛讲](compiler/compiler.md)
     - [gcc](./compiler/gcc.md)
-    * [llvm](compiler/llvm.md)
-    * [ollvm](compiler/ollvm.md)
-    * [python](compiler/python/README.md)
+    - [llvm](compiler/llvm.md)
+    - [ollvm](compiler/ollvm.md)
+    - [python](compiler/python/README.md)
         - [词法分析](./compiler/python/词法分析/README.md)
         - [语法分析](./compiler/python/语法分析/README.md)
         - [语法树](./compiler/python/语法树/README.md)
@@ -129,6 +129,8 @@
         - [jit](./compiler/pypy/jit.md)
     - [golang](./compiler/golang/README.md)
     - [V8](./compiler/v8/README.md)
+    - [lua](./compiler/lua/README.md)
+    - [JVM](./compiler/JVM/README.md)
 
 * [lang](lang/README.md)
     - [assembly](./lang/assembly/README.md)
@@ -139,7 +141,8 @@
     - [js](./lang/js/README.md)
     - [python](./lang/python/README.md)
         - [install python](./lang/python/install-python-with-mac.md)
-
+    - [cpp](./lang/cpp/README.md)
+    - [rust](./lang/rust/README.md)
     
 * [design](./design/README.md)
     - [design](./design/design.md)
@@ -186,7 +189,7 @@
 
 
 * [db](db/README.md)
-    * [redis](db/redis/README.md)
+    - [redis](db/redis/README.md)
         - [数据结构](./db/redis/数据结构/README.md)
             - [简单动态字符串](./db/redis/数据结构/简单动态字符串.md)
             - [链表](./db/redis/数据结构/链表.md)
@@ -218,7 +221,7 @@
             - [事务](./db/redis/其他/事务.md)
             - [慢查询日志](./db/redis/其他/慢查询日志.md)
             - [监视器](./db/redis/其他/监视器.md)
-    * [mongodb](db/mongodb/README.md)
+    - [mongodb](db/mongodb/README.md)
         - [介绍](db/mongodb/introduction.md)
         - [安装](db/mongodb/installation.md)
         - [mongo shell](db/mongodb/the-mongo-shell.md)
@@ -233,8 +236,8 @@
         - [分片](db/mongodb/sharding.md)
         - [管理](db/mongodb/administration.md)
         - [存储](db/mongodb/storage.md)
-    * [hbase](db/hbase.md)
-    * [memcache](db/memcache.md)
+    - [hbase](db/hbase.md)
+    - [memcache](db/memcache.md)
 
 * [concurrent](./concurrent/README.md)
     - [线程与锁](./concurrent/thread.md)

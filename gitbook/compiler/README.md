@@ -36,3 +36,5 @@
     - [jit](./pypy/jit.md)
 - [golang](./golang/README.md)
 - [V8](./v8/README.md)
+- [lua](./lua/README.md)
+- [JVM](./JVM/README.md)
