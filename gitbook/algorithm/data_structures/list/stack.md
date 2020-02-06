@@ -17,7 +17,7 @@
 栈的删除操作，叫作出栈，也有的叫作弹栈。
 
 
-![](./images/stack_01.png)
+![](../images/stack_01.png)
 
 
 
@@ -55,7 +55,7 @@ typedef struct
 }SqStack;
 
 ```
-![](./images/stack_02.png)
+![](../images/stack_02.png)
 
 ### 顺序存储结构的 进栈 出栈 操作
 
@@ -65,7 +65,7 @@ typedef struct
 
 如果我们有两个相同类型的栈，我们为它们各自开辟了数组空间，极有可能是第一个栈已经满了，再进栈就溢出了，而另一个栈还有很多存储空间空闲。
 
-![](./images/stack_03.png)
+![](../images/stack_03.png)
 
 
 ```C
@@ -84,7 +84,7 @@ typedef struct
 
 栈的链式存储结构，简称为链栈。
 
-![](./images/stack_04.png)
+![](../images/stack_04.png)
 
 
 ```C

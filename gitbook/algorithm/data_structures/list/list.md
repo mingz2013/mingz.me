@@ -10,14 +10,14 @@
 线性表（List）：零个或多个数据元素的有限序列。
 
 若将线性表记为（a1,…,ai-1,ai,ai+1,…,an）,则表中ai-1领先于ai, ai领先于ai+1，称ai-1是ai的直接前驱元素，ai+1是ai的直接后继元素。当i=1,2…,n-1时，ai有且仅有一个直接后继，当i=2,3,…n时，ai有且仅有一个直接前驱。如图3-2-1所示。
-![](./images/list_01.png)
+![](../images/list_01.png)
 
 
 线性表元素的个数n（n>=0）定义为线性表的长度，当n=0时，称为空表。
 
 
 在较复杂的线性表中，一个数据元素可以由若干个数据项组成。
-![](./images/list_02.png)
+![](../images/list_02.png)
 
 
 ## 线性表的抽象数据类型
@@ -48,7 +48,7 @@ endADT
 线性表的顺序存储结构，指的是用一段地址连续的存储单元依次存储线性表中的数据元素。
 
 线性表（a1,a2,…an）的顺序存储示意图如下：
-![](./images/list_03.png)
+![](../images/list_03.png)
 
 
 
@@ -91,23 +91,23 @@ typedef struct
 
 
 ### 地址计算方法
-![](./images/list_04.png)
+![](../images/list_04.png)
 
 用数组存储顺序表意味着要分配固定长度的数组空间，由于线性表中可以进行插入和删除操作，因此分配的数组空间要大于等于当前线性表的长度。
 
 存储器中的每个存储单元都有自己的编号，这个编号称为地址。
 
 假设每个数据元素占用的是C个存储单元，那么线性表中第i+1个数据元素的存储位置和第i个数据元素的存储位置满足下列关系（LOC表示获得存储位置的函数）。
-![](./images/list_05.png)
+![](../images/list_05.png)
 
 所以对于第i个数据元素ai的存储位置可以由a1推算得出：
 
-![](./images/list_06.png)
+![](../images/list_06.png)
 
 
 
 从图3-4-4来理解：
-![](./images/list_07.png)
+![](../images/list_07.png)
 
 
 
@@ -129,7 +129,7 @@ typedef struct
 
 
 ### 线性表顺序存储结构的优缺点
-![](./images/list_08.png)
+![](../images/list_08.png)
 
 
 
@@ -143,26 +143,26 @@ typedef struct
 
 n个节点（ai的存储映像）链接成一个链表，即为线性表（a1,a2,…an）的链式存储结构，因为此链表的每个节点中只包含一个指针域，所以叫做单链表。
 
-![](./images/list_09.png)
+![](../images/list_09.png)
 
 
 我们把链表中第一个节点的存储位置叫做头指针。
 
 
-![](./images/list_10.png)
+![](../images/list_10.png)
 
 
 为了更加方便对链表进行操作，会在单链表的第一个节点前附设一个节点，称为头结点。
 
 
-![](./images/list_11.png)
+![](../images/list_11.png)
 
 
 
 
 ### 头指针与头结点的异同
 
-![](./images/list_12.png)
+![](../images/list_12.png)
 
 
 
@@ -205,7 +205,7 @@ typedef struct Node * LinkList; /* 定义LinkList */
 
 ## 单链表结构和顺序存储结构优缺点
 
-![](./images/list_13.png)
+![](../images/list_13.png)
 
 
 
@@ -241,7 +241,7 @@ typedef struct
 
 
 ### 静态链表优缺点
-![](./images/list_14.png)
+![](../images/list_14.png)
 
 
 ## 循环链表
@@ -271,7 +271,7 @@ typedef struct DulNode
 
 # 总结
 
-![](./images/list_15.png)
+![](../images/list_15.png)
 
 
 

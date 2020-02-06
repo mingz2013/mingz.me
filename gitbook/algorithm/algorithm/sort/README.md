@@ -11,3 +11,9 @@
 - [归并排序（Merging Sort）](./merging_sort.md)
 - [快速排序（Quick Sort）](./quick_sort.md)
 
+- [计数排序](./计数排序.md)
+- [基数排序](./基数排序.md)
+- [桶排序](./桶排序.md)
+
+- [Tim排序](./tim_sort.md)
+- [bitmap排序](./bitmap排序.md)

@@ -1,6 +1,17 @@
 # algorithm
 
 - [算法](./algorithm.md)
+- [动态规划](./动态规则/README.md)
+- [摊还分析](./摊还分析/README.md)
+- [贪心算法](./贪心算法/README.md)
+- [分治法](./分治法/README.md)
+- [searching](./searching/README.md)
+    - [searching](./searching/searching.md)
+    - [顺序表查找](./searching/sequential_search.md)
+    - [有序表查找](./searching/sorted_search.md)
+    - [线性索引查找](./searching/index_search.md)
+    - [二叉排序树查找](./searching/binary_sort_tree_search.md)
+    - [散列表查找](./searching/hash_search.md)
 - [sort](./sort/README.md)
     - [sort](./sort/sort.md)
     - [冒泡排序（Bubble Sort）](./sort/bubble_sort.md)
@@ -10,12 +21,11 @@
     - [堆排序（Heap Sort）](./sort/heap_sort.md)
     - [归并排序（Merging Sort）](./sort/merging_sort.md)
     - [快速排序（Quick Sort）](./sort/quick_sort.md)
-- [searching](./searching/README.md)
-    - [searching](./searching/searching.md)
-    - [顺序表查找](./searching/sequential_search.md)
-    - [有序表查找](./searching/sorted_search.md)
-    - [线性索引查找](./searching/index_search.md)
-    - [二叉排序树查找](./searching/binary_sort_tree_search.md)
-    - [散列表查找](./searching/hash_search.md)
+    
+    - [计数排序](./sort/计数排序.md)
+    - [基数排序](./sort/基数排序.md)
+    - [桶排序](./sort/桶排序.md)
+    - [Tim排序](./sort/tim_sort.md)
+    - [bitmap排序](./sort/bitmap排序.md)
 
 
