@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/JVM/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/compiler/lua/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/lang/cpp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/lang/rust/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/computer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/cpu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/cpu/riscv.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/kernel/IO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/kernel/线程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/kernel/进程.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/compiler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/compiler/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/lang/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/lang/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,7 @@
       <workItem from="1578385598611" duration="153000" />
       <workItem from="1578934166737" duration="665000" />
       <workItem from="1580230709941" duration="440000" />
-      <workItem from="1580973910738" duration="2328000" />
+      <workItem from="1580973910738" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>
