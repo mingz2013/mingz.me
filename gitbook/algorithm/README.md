@@ -22,6 +22,7 @@
         - [基数树](./data_structures/tree/基数树.md)
         - [B树](./data_structures/tree/B树.md)
         - [B+树](./data_structures/tree/B+树.md)
+        - [LSM树](./data_structures/tree/LSM树.md)
     
     - [graph](./data_structures/graph/README.md)
     - [hashtable](./data_structures/hashtable/README.md)

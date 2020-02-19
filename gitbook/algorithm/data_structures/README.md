@@ -15,6 +15,7 @@
     - [基数树](./tree/基数树.md)
     - [B树](./tree/B树.md)
     - [B+树](./tree/B+树.md)
+    - [LSM树](./tree/LSM树.md)
 
 - [graph](graph/README.md)
 - [hashtable](./hashtable/README.md)

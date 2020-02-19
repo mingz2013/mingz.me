@@ -62,7 +62,8 @@
             - [红黑树](./algorithm/data_structures/tree/红黑树.md)
             - [基数树](./algorithm/data_structures/tree/基数树.md)
             - [B树](./algorithm/data_structures/tree/B树.md)
-            - [B+树](./algorithmdata_structures/tree/B+树.md)
+            - [B+树](./algorithm/data_structures/tree/B+树.md)
+            - [LSM树](./algorithm/data_structures/tree/LSM树.md)
         
         - [graph](./algorithm/data_structures/graph/README.md)
         - [hashtable](./algorithm/data_structures/hashtable/README.md)
