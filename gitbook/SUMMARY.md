@@ -316,3 +316,6 @@
     - [pelican的建站过程](./formoney/pelican的建站过程.md)
     - [网站的部署](./formoney/网站的部署.md)
     - [关于免费的和低成本的服务选择](./formoney/关于免费的和低成本的服务选择.md)
+    - [百度统计](./formoney/百度统计.md)
+    - [关于站群](./formoney/关于站群.md)
+
