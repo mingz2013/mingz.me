@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/seo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/seo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/formoney/关于免费的和低成本的服务选择.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/formoney/关于免费的和低成本的服务选择.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/formoney/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +117,8 @@
       <workItem from="1582095051269" duration="429000" />
       <workItem from="1583433732858" duration="504000" />
       <workItem from="1583643407035" duration="7874000" />
-      <workItem from="1583651610305" duration="840000" />
+      <workItem from="1583651610305" duration="2524000" />
+      <workItem from="1583671573837" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>
@@ -203,9 +207,10 @@
       <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
     <state x="-528" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576501799533" />
-    <state x="-666" y="-938" key="CommitChangelistDialog2" timestamp="1576502865032">
-      <screen x="-1237" y="-1080" width="1920" height="1080" />
+    <state x="428" y="105" key="CommitChangelistDialog2" timestamp="1583654463064">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="428" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583654463064" />
     <state x="-666" y="-938" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576502865032" />
     <state x="-677" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1576505411467">
       <screen x="-1237" y="-1080" width="1920" height="1080" />

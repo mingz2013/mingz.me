@@ -318,4 +318,6 @@
     - [关于免费的和低成本的服务选择](./formoney/关于免费的和低成本的服务选择.md)
     - [百度统计](./formoney/百度统计.md)
     - [关于站群](./formoney/关于站群.md)
-
+    - [关于站群](./formoney/关于站群.md)
+    - [如何变现](./formoney/如何变现.md)
+    - [seo](./formoney/seo.md)
