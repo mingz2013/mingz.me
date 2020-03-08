@@ -306,3 +306,13 @@
 * [OpenGL](./opengl/README.md)
 * [Cocos](./cocos/README.md)
 * [Unity](./unity/README.md)
+
+
+- [formoney](./formoney/README.md)
+    - [起因](./formoney/起因.md)
+    - [起始点](./formoney/起始点.md)
+    - [如何建立一个博客类的网站](./formoney/如何建立一个博客类的网站.md)
+    - [静态博客工具的选择](./formoney/静态博客工具的选择.md)
+    - [pelican的建站过程](./formoney/pelican的建站过程.md)
+    - [网站的部署](./formoney/网站的部署.md)
+    - [关于免费的和低成本的服务选择](./formoney/关于免费的和低成本的服务选择.md)

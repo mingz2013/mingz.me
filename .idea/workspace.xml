@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/LSM树.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/pelican的建站过程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/关于免费的和低成本的服务选择.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/如何建立一个博客类的网站.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/网站的部署.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/起因.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/起始点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/静态博客工具的选择.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/algorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/algorithm/algorithm/algorithm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/book.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +121,9 @@
       <workItem from="1578934166737" duration="665000" />
       <workItem from="1580230709941" duration="440000" />
       <workItem from="1580973910738" duration="3219000" />
-      <workItem from="1582095051269" duration="240000" />
+      <workItem from="1582095051269" duration="429000" />
+      <workItem from="1583433732858" duration="504000" />
+      <workItem from="1583643407035" duration="7712000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm">
       <created>1561991317942</created>

@@ -6,7 +6,12 @@
     "expandable-chapters",
     "-lunr",
     "-search",
-    "search-pro"
+    "search-pro",
+    "github"
   ],
-  "pluginsConfig": {}
+  "pluginsConfig": {
+    "github": {
+            "url": "https://github.com/mingz2013/note"
+        }
+  }
 }
