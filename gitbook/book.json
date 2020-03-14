@@ -4,8 +4,8 @@
   "description": "Mingz's note",
   "language": "zh-hans",
   "styles": {
-        "website": "styles/website.css"
-    },
+    "website": "styles/website.css"
+  },
   "plugins": [
     "mermaid-gb3",
     "splitter",
@@ -25,18 +25,26 @@
     "donate",
     "gtalk",
     "tbfed-pagefooter",
-    "ad"
+    "ad",
+    "adsense"
   ],
   "pluginsConfig": {
+    "adsense": {
+      "client": "ca-pub-XXXXXXXXXXXXXXXX",
+      "slot": "XXXXXXXXXX",
+      "format": "auto",
+      "element": ".page-inner section",
+      "position": "top"
+    },
     "ad": {
       "contentTop": "<div>Ads at the top of the page</div>",
       "contentBottom": "%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"
     },
     "ga": {
-        "token": "UA-XXXX-Y"
+      "token": "UA-XXXX-Y"
     },
     "sitemap": {
-        "hostname": "http://mingz.me/"
+      "hostname": "http://mingz.me/"
     },
     "github": {
       "url": "https://github.com/mingz2013/mingz.me"
@@ -83,7 +91,9 @@
       "clientSecret": "c403fe6a7df5b40e69e3665c1d9b350194b2500b",
       "repo": "mingz.me",
       "owner": "mingz2013",
-      "admin": ["mingz2013"]
+      "admin": [
+        "mingz2013"
+      ]
     }
   }
 }
