@@ -76,7 +76,7 @@
     "gtalk": {
       "clientID": "5587595a61a162870d7f",
       "clientSecret": "c403fe6a7df5b40e69e3665c1d9b350194b2500b",
-      "repo": "https://github.com/mingz2013/mingz.me/",
+      "repo": "mingz.me",
       "owner": "mingz2013",
       "admin": ["mingz2013"]
     }
