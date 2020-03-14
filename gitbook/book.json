@@ -24,8 +24,7 @@
     "sitemap",
     "donate",
     "gtalk",
-    "tbfed-pagefooter",
-    "adsense"
+    "tbfed-pagefooter"
   ],
   "pluginsConfig": {
     "adsense": {
