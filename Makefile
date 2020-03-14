@@ -70,3 +70,8 @@ down:
 .PHONY: logs
 logs:
 	docker-compose -f ./deployments/docker-compose.yaml logs -f
+
+
+docker-build: publish
+	docker build . -t mingz2013/mingz
+	docker push mingz2013/mingz

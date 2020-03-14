@@ -1,84 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler">
-      <change afterPath="$PROJECT_DIR$/gitbook/formoney/seo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/seo/README.md" afterDir="false" />
+    <list default="true" id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/note.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/formoney/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/formoney/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/book.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>GITHUB_PAGES_BRANCH</find>
-      <find>ranc</find>
-      <find>index.md</find>
-      <find>mongo</find>
-      <find>python</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>README.md</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/micros</dir>
-      <dir>$PROJECT_DIR$/src</dir>
-    </dirStrings>
-  </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="pOJizyAf" />
+    <option name="directoryName" value="OriffIMv" />
   </component>
-  <component name="ProjectId" id="1V41ypxQUMS6fO4x4OtdgCcDWpd" />
+  <component name="ProjectId" id="1Z8DkmrtvX6J2TKbYK55F2pI2oI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.jscs" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.jscs" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
-    <property name="node.js.selected.package.jscs" value="/usr/local/lib/node_modules/jscs" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/design/design-patterns" />
-      <recent name="$PROJECT_DIR$/src/design/design-patterns/structural" />
-      <recent name="$PROJECT_DIR$/src/design/design-patterns/creational" />
-      <recent name="$PROJECT_DIR$/src/ops" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gitbook/algorithm/data_structures/graph" />
-      <recent name="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree" />
-      <recent name="$PROJECT_DIR$/gitbook/algorithm/data_structures/list" />
-      <recent name="$PROJECT_DIR$/gitbook/algorithm/data_structures/images" />
-      <recent name="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -98,123 +55,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce063d54-b042-482c-9039-6153922bf366" name="Default Changelist" comment="compiler" />
-      <created>1559807105448</created>
+      <changelist id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="" />
+      <created>1584211972700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559807105448</updated>
-      <workItem from="1576497812039" duration="708000" />
-      <workItem from="1576499607531" duration="5701000" />
-      <workItem from="1576633686006" duration="18071000" />
-      <workItem from="1576829121510" duration="3387000" />
-      <workItem from="1577196706195" duration="341000" />
-      <workItem from="1578164543962" duration="212000" />
-      <workItem from="1578166163365" duration="80000" />
-      <workItem from="1578385598611" duration="153000" />
-      <workItem from="1578934166737" duration="665000" />
-      <workItem from="1580230709941" duration="440000" />
-      <workItem from="1580973910738" duration="3219000" />
-      <workItem from="1582095051269" duration="429000" />
-      <workItem from="1583433732858" duration="504000" />
-      <workItem from="1583643407035" duration="7874000" />
-      <workItem from="1583651610305" duration="2524000" />
-      <workItem from="1583671573837" duration="270000" />
+      <updated>1584211972700</updated>
+      <workItem from="1584211973992" duration="128000" />
+      <workItem from="1584212458935" duration="552000" />
     </task>
-    <task id="LOCAL-00001" summary="algorithm">
-      <created>1561991317942</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1561991317942</updated>
-    </task>
-    <task id="LOCAL-00002" summary="doc">
-      <created>1571015504159</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1571015504159</updated>
-    </task>
-    <task id="LOCAL-00003" summary="compiler">
-      <created>1571471804622</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1571471804622</updated>
-    </task>
-    <task id="LOCAL-00004" summary="fix">
-      <created>1571879725287</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1571879725287</updated>
-    </task>
-    <task id="LOCAL-00005" summary="mongodb">
-      <created>1575469182461</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1575469182461</updated>
-    </task>
-    <task id="LOCAL-00006" summary="mongo">
-      <created>1575469623925</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1575469623925</updated>
-    </task>
-    <task id="LOCAL-00007" summary="compiler">
-      <created>1576497955535</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1576497955535</updated>
-    </task>
-    <task id="LOCAL-00008" summary="redis">
-      <created>1576501002355</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1576501002355</updated>
-    </task>
-    <task id="LOCAL-00009" summary="python">
-      <created>1576502865152</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1576502865152</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
-    <MESSAGE value="algorithm" />
-    <MESSAGE value="doc" />
-    <MESSAGE value="fix" />
-    <MESSAGE value="mongodb" />
-    <MESSAGE value="mongo" />
-    <MESSAGE value="compiler" />
-    <MESSAGE value="redis" />
-    <MESSAGE value="python" />
-    <option name="LAST_COMMIT_MESSAGE" value="python" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-528" y="-730" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576501799533">
-      <screen x="-1237" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="-528" y="-730" key="#com.intellij.fileTypes.FileTypeChooser/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576501799533" />
-    <state x="428" y="105" key="CommitChangelistDialog2" timestamp="1583654463064">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="428" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583654463064" />
-    <state x="-666" y="-938" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576502865032" />
-    <state x="-677" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1576505411467">
-      <screen x="-1237" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="-677" y="-800" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1576505411467" />
   </component>
 </project>
