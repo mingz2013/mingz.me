@@ -1,17 +1,84 @@
 {
+  "title": "Mingz note",
+  "author": "Mingz",
+  "description": "Mingz's note",
+  "language": "zh-hans",
+  "styles": {
+        "website": "styles/website.css"
+    },
   "plugins": [
     "mermaid-gb3",
     "splitter",
     "anchor-navigation-ex",
     "expandable-chapters",
+    "search-plus",
     "-lunr",
     "-search",
-    "search-pro",
-    "github"
+    "github-buttons",
+    "github",
+    "theme-comscore",
+    "copy-code-button",
+    "donate",
+    "tbfed-pagefooter",
+    "baidu-tongji",
+    "edit-link",
+    "ga",
+    "sitemap",
+    "gtalk"
   ],
   "pluginsConfig": {
+    "ga": {
+        "token": "UA-XXXX-Y"
+    },
+    "sitemap": {
+        "hostname": "http://mingz.me/"
+    },
     "github": {
-            "url": "https://github.com/mingz2013/mingz.me"
+      "url": "https://github.com/mingz2013/mingz.me"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "mingz2013",
+          "repo": "mingz.me",
+          "type": "star",
+          "count": true,
+          "size": "small"
+        },
+        {
+          "user": "mingz2013",
+          "width": "160",
+          "type": "follow",
+          "count": true,
+          "size": "small"
         }
+      ]
+    },
+    "donate": {
+      "button": "打赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏",
+      "alipay": "/images/alipay-reward.png",
+      "wechat": "/images/wechat-reward.JPG"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy mingz.me 2020",
+      "modify_label": "modify：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "baidu-tongji": {
+      "token": "bd25115b8037d897ecc53ed1d4951537"
+    },
+    "edit-link": {
+      "base": "https://github.com/mingz2013/mingz.me/blob/master/gitbook",
+      "label": "Edit"
+    },
+    "gtalk": {
+      "clientID": "5587595a61a162870d7f",
+      "clientSecret": "c403fe6a7df5b40e69e3665c1d9b350194b2500b",
+      "repo": "https://github.com/mingz2013/mingz.me/",
+      "owner": "mingz2013",
+      "admin": ["mingz2013"]
+    }
   }
 }
