@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitbook/images/alipay-reward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/images/wechat-reward.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitbook/styles/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/images/wechat-reward.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/book.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/images/wechat-reward.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584211972700</updated>
       <workItem from="1584211973992" duration="128000" />
-      <workItem from="1584212458935" duration="4917000" />
+      <workItem from="1584212458935" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="blog">
       <created>1584213022097</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584214258277</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="blog">
+      <created>1584219142090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584219142090</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,13 +101,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1584214258175">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1584219141935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584214258175" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584214268271">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584219141935" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584219148911">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584214268271" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584219148911" />
   </component>
 </project>

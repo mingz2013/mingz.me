@@ -4,14 +4,14 @@
 
 
 
-之前的 [blog](https://github.com/mingz2013/blog)项目实在不好用，以后的笔记都转移到这里来
+之前的 blog 项目实在不好用，以后的笔记都转移到这里来
 
 
 
 
-- 本书地址 http://mingz.me/note/
-- 本书github https://github.com/mingz2013/note
-- 本书讨论区 https://github.com/mingz2013/note/issues
+- 本书地址 http://mingz.me
+- 本书github https://github.com/mingz2013/mingz.me
+- 本书讨论区 https://github.com/mingz2013/mingz.me/issues
 
 
 ---
