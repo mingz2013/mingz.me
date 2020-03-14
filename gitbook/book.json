@@ -18,13 +18,13 @@
     "github",
     "theme-comscore",
     "copy-code-button",
-    "donate",
-    "tbfed-pagefooter",
     "baidu-tongji",
     "edit-link",
     "ga",
     "sitemap",
-    "gtalk"
+    "donate",
+    "gtalk",
+    "tbfed-pagefooter"
   ],
   "pluginsConfig": {
     "ga": {
