@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitbook/images/wechat-reward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/book.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/images/wechat-reward.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +32,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gitbook/images" />
@@ -67,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584211972700</updated>
       <workItem from="1584211973992" duration="128000" />
-      <workItem from="1584212458935" duration="5147000" />
+      <workItem from="1584212458935" duration="7296000" />
+      <workItem from="1584243647669" duration="1098000" />
     </task>
     <task id="LOCAL-00001" summary="blog">
       <created>1584213022097</created>
@@ -90,7 +99,63 @@
       <option name="project" value="LOCAL" />
       <updated>1584219142090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="blog">
+      <created>1584219532568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584219532568</updated>
+    </task>
+    <task id="LOCAL-00005" summary="blog">
+      <created>1584220672873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584220672873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="blog">
+      <created>1584221086567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584221086567</updated>
+    </task>
+    <task id="LOCAL-00007" summary="blog">
+      <created>1584221357569</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584221357569</updated>
+    </task>
+    <task id="LOCAL-00008" summary="blog">
+      <created>1584221446742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584221446742</updated>
+    </task>
+    <task id="LOCAL-00009" summary="blog">
+      <created>1584221751163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584221751163</updated>
+    </task>
+    <task id="LOCAL-00010" summary="blog">
+      <created>1584222145216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584222145216</updated>
+    </task>
+    <task id="LOCAL-00011" summary="blog">
+      <created>1584243998323</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584243998323</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,13 +166,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1584219141935">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1584243998144">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584219141935" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584219148911">
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584243998144" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584244007110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584219148911" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584244007110" />
   </component>
 </project>
