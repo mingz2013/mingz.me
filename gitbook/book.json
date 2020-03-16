@@ -41,6 +41,9 @@
     "ga": {
       "token": "UA-160039413-9"
     },
+    "baidu-tongji": {
+      "token": "bd25115b8037d897ecc53ed1d4951537"
+    },
     "sitemap": {
       "hostname": "http://mingz.me/"
     },
@@ -76,9 +79,6 @@
       "copyright": "Copyright &copy mingz.me 2020",
       "modify_label": "modify：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
-    },
-    "baidu-tongji": {
-      "token": "bd25115b8037d897ecc53ed1d4951537"
     },
     "edit-link": {
       "base": "https://github.com/mingz2013/mingz.me/blob/master/gitbook",

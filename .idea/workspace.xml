@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/errors/sogousiteverification.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/book.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gitbook/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/errors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,8 +47,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/errors" />
       <recent name="$PROJECT_DIR$/gitbook/images" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/errors" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -74,6 +80,9 @@
       <workItem from="1584211973992" duration="128000" />
       <workItem from="1584212458935" duration="7296000" />
       <workItem from="1584243647669" duration="1336000" />
+      <workItem from="1584245423849" duration="355000" />
+      <workItem from="1584333743428" duration="1231000" />
+      <workItem from="1584362819133" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="blog">
       <created>1584213022097</created>
@@ -159,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584244994620</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="blog">
+      <created>1584245456165</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584245456165</updated>
+    </task>
+    <task id="LOCAL-00014" summary="blog">
+      <created>1584333819004</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584333819004</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,13 +193,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1584244994487">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-833" y="-1018" key="CommitChangelistDialog2" timestamp="1584333818889">
+      <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584244994487" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584245004871">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584245456035" />
+    <state x="-833" y="-1018" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584333818889" />
+    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2" timestamp="1584334966286">
+      <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584245004871" />
+    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584334966286" />
   </component>
 </project>
