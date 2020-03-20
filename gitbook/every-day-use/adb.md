@@ -8,9 +8,9 @@
 
 - adb install
 
-- adb uninstall com.xiuxayo.numbers_blast
+- adb uninstall com.xxx.xxx
 - adb install -r final.apk
-- adb shell am start -n com.xiuxayo.numbers_blast/com.xiuxayo.numbers_blast.MainActivity
+- adb shell am start -n com.xxx.xxx/com.xxx.xxx.MainActivity
 
 
 

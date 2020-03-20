@@ -43,9 +43,9 @@ gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc
 ```
 
 ### 使用
-- `use spider`
-- `db.createUser({user:”spider",pwd:"spider2016",roles:[{role:"dbOwner",db:"spider"}]})`
-- `db.auth(spider, spider2016)`
+- `use datadbname`
+- `db.createUser({user:”username",pwd:"password",roles:[{role:"dbOwner",db:"datadbname"}]})`
+- `db.auth(username, password)`
 
 
 
@@ -78,7 +78,7 @@ gpgkey=https://www.mongodb.org/static/pgp/server-4.0.asc
 
 - `mongodump -h dbhost -d dbname -o dbdir`
 - `mongostore -h dbhost -d dbname --directoryerdb dbdir`
-- `mongoexport --csv -f company_name,item_category,site -d dbName -c collectionName -q '{"item_category_num":102}' -o 102.csv`
+- `mongoexport --csv -f company_name,item_category,site -d dbName -c collectionName -q '{"key":102}' -o 102.csv`
 - `mongoimport --db dbName --collection collectionName --file file.json`
 
 
