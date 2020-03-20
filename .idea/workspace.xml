@@ -44,13 +44,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/errors" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/errors" />
       <recent name="$PROJECT_DIR$/gitbook/images" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/errors" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -81,6 +81,8 @@
       <workItem from="1584245423849" duration="355000" />
       <workItem from="1584333743428" duration="1231000" />
       <workItem from="1584362819133" duration="1709000" />
+      <workItem from="1584378640177" duration="416000" />
+      <workItem from="1584671468532" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="blog">
       <created>1584213022097</created>
@@ -187,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584363677090</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="blog">
+      <created>1584378670972</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584378670972</updated>
+    </task>
+    <task id="LOCAL-00017" summary="blog">
+      <created>1584672922235</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584672922235</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,15 +214,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1584363676972">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-833" y="-1018" key="CommitChangelistDialog2" timestamp="1584672922069">
+      <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584363676972" />
-    <state x="-833" y="-1018" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584333818889" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584363684218">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584378670774" />
+    <state x="-833" y="-1018" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584672922069" />
+    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2" timestamp="1584672929254">
+      <screen x="-1237" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584363684218" />
-    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584334966286" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584378676798" />
+    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584672929254" />
+    <state x="-597" y="-778" width="639" height="476" key="find.popup" timestamp="1584672294398">
+      <screen x="-1237" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-597" y="-778" width="639" height="476" key="find.popup/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584672294398" />
   </component>
 </project>
