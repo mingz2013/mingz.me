@@ -321,4 +321,5 @@
     - [关于站群](./formoney/关于站群.md)
     - [如何变现](./formoney/如何变现.md)
     - [seo](./formoney/seo.md)
+    - [钻石资本](./formoney/Diamonds-Capital.md)
 - [seo](./seo/README.md)

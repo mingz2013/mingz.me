@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/errors/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/Diamonds-Capital.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/images/00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/images/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/images/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/images/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitbook/formoney/images/04.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/formoney/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gitbook/formoney/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,6 +57,7 @@
       <recent name="$PROJECT_DIR$/errors" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gitbook/formoney/images" />
       <recent name="$PROJECT_DIR$/errors" />
       <recent name="$PROJECT_DIR$/gitbook/images" />
       <recent name="$PROJECT_DIR$" />
@@ -83,6 +93,9 @@
       <workItem from="1584362819133" duration="1709000" />
       <workItem from="1584378640177" duration="416000" />
       <workItem from="1584671468532" duration="1960000" />
+      <workItem from="1585144387035" duration="1827000" />
+      <workItem from="1585147011813" duration="23000" />
+      <workItem from="1586677534848" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="blog">
       <created>1584213022097</created>
@@ -210,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584673400076</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="blog">
+      <created>1585144488950</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585144488950</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,15 +241,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-833" y="-1018" key="CommitChangelistDialog2" timestamp="1584673399967">
-      <screen x="-1237" y="-1080" width="1920" height="1080" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1585144488779">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584378670774" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585144488779" />
     <state x="-833" y="-1018" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584673399967" />
-    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2" timestamp="1584673406134">
-      <screen x="-1237" y="-1080" width="1920" height="1080" />
+    <state x="513" y="168" key="RollbackChangesDialog" timestamp="1585146461644">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584378676798" />
+    <state x="513" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1585146461644" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585144496087">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585144496087" />
     <state x="-810" y="-852" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584673406134" />
     <state x="-597" y="-778" width="639" height="476" key="find.popup" timestamp="1584672294398">
       <screen x="-1237" y="-1080" width="1920" height="1080" />
