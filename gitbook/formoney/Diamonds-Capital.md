@@ -1,4 +1,4 @@
-
+# 钻石资本 Diamonds Capital, 如何两个月赚10万？是赚钱利器，还是庞氏骗局？高风险，高回报的项目，你敢做吗？
 
 > 钻石资本注册邀请：  [https://diamonds.capital/zh_CN/join/?ref=2zfGa7](https://diamonds.capital/zh_CN/join/?ref=2zfGa7)
 
