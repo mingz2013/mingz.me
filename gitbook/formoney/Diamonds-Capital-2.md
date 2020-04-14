@@ -57,7 +57,6 @@ https://beta.companieshouse.gov.uk/company/12184245/filing-history
 
 
 
-其他链接：
 
-https://zhuanlan.zhihu.com/p/129296995
+> 钻石资本邀请链接： https://diamonds.capital/zh_CN/join/?ref=2zfGa7
 
