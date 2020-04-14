@@ -16,4 +16,5 @@
 - [关于站群](./关于站群.md)
 - [如何变现](./如何变现.md)
 - [seo](./seo.md)
-- [钻石资本](./Diamonds-Capital.md)
+- [钻石资本 Diamonds Capital, 如何两个月赚10万？是赚钱利器，还是庞氏骗局？高风险，高回报的项目，你敢做吗？](./Diamonds-Capital.md)
+- [钻石资本 Diamonds Capital, 如何两个月赚10万？2020年最火爆的赚钱项目](./Diamonds-Capital-2.md)
