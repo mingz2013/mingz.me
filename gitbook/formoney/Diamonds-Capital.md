@@ -1,6 +1,6 @@
 # 钻石资本 Diamonds Capital, 如何两个月赚10万？是赚钱利器，还是庞氏骗局？高风险，高回报的项目，你敢做吗？
 
-> 钻石资本注册邀请：  [https://diamonds.capital/zh_CN/join/?ref=2zfGa7](https://diamonds.capital/zh_CN/join/?ref=2zfGa7)
+> 钻石资本注册邀请：  [https://diamonds.capital/en/join/?ref=EWBmr2](https://diamonds.capital/en/join/?ref=EWBmr2)
 
 最近在油管(Youtube)上看到很多Youtuber在推广一个赚钱利器，钻石资本。Diamonds Capital。
 
@@ -77,12 +77,12 @@ Youtube上很多Youtuber都演示了，可以**每日提取收益**。所以，�
 
 
 感兴趣的可以点击这个链接注册个账号看一下，具体是否要投资，慎重考虑：
-[https://diamonds.capital/zh_CN/join/?ref=2zfGa7](https://diamonds.capital/zh_CN/join/?ref=2zfGa7)
+[https://diamonds.capital/en/join/?ref=EWBmr2](https://diamonds.capital/en/join/?ref=EWBmr2)
 
 
 如果你是通过这篇文章了解到的钻石资本，如果这篇文章给您提供了新知。希望您在注册账号的时候，点击
 
-[https://diamonds.capital/zh_CN/join/?ref=2zfGa7](https://diamonds.capital/zh_CN/join/?ref=2zfGa7)
+[https://diamonds.capital/en/join/?ref=EWBmr2](https://diamonds.capital/en/join/?ref=EWBmr2)
 
 这是我的一个分享链接，您通过这个链接进入注册，就是对我提供新知的一个回报。
 

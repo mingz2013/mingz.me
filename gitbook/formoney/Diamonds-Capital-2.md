@@ -3,9 +3,9 @@
 钻石资本,Diamonds Capital, Diamonds, Capital, Diamond, Diamond Capital,赚钱,网赚,暴利,快速赚钱,被动收入,项目,财富自由
 
 
-> 钻石资本体验链接： https://diamonds.capital/zh_CN/join/?ref=2zfGa7
+> 钻石资本体验链接： https://diamonds.capital/en/join/?ref=EWBmr2
 
-> 钻石资本邀请链接： https://diamonds.capital/zh_CN/join/?ref=2zfGa7
+> 钻石资本邀请链接： https://diamonds.capital/en/join/?ref=EWBmr2
 
 ## 钻石资本是什么？
 
@@ -58,5 +58,5 @@ https://beta.companieshouse.gov.uk/company/12184245/filing-history
 
 
 
-> 钻石资本邀请链接： https://diamonds.capital/zh_CN/join/?ref=2zfGa7
+> 钻石资本邀请链接： https://diamonds.capital/en/join/?ref=EWBmr2
 

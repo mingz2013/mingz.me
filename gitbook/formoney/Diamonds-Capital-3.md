@@ -1,5 +1,5 @@
 # 钻石资本第一次派息，躺赚560
-> 钻石资本体验链接： [https://diamonds.capital/zh_CN/join/?ref=2zfGa7](https://diamonds.capital/zh_CN/join/?ref=2zfGa7)
+> 钻石资本体验链接： [https://diamonds.capital/en/join/?ref=EWBmr2](https://diamonds.capital/en/join/?ref=EWBmr2)
 
 今天收到了***钻石资本*** ***Diamonds Capital***的第一次派息。
 
@@ -51,4 +51,4 @@
 
 
 ### 体验链接
-> 钻石资本体验链接： [https://diamonds.capital/zh_CN/join/?ref=2zfGa7](https://diamonds.capital/zh_CN/join/?ref=2zfGa7)
+> 钻石资本体验链接： [https://diamonds.capital/en/join/?ref=EWBmr2](https://diamonds.capital/en/join/?ref=EWBmr2)
