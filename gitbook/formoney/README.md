@@ -18,3 +18,5 @@
 - [seo](./seo.md)
 - [钻石资本 Diamonds Capital, 如何两个月赚10万？是赚钱利器，还是庞氏骗局？高风险，高回报的项目，你敢做吗？](./Diamonds-Capital.md)
 - [钻石资本 Diamonds Capital, 如何两个月赚10万？2020年最火爆的赚钱项目](./Diamonds-Capital-2.md)
+- [钻石资本第一次派息，躺赚560](./Diamonds-Capital-3.md)
+- [钻石资本，Diamonds Capital投资，第二笔收益已到账，并且我也多了一位合作伙伴](./Diamonds-Capital-4.md)
