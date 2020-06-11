@@ -313,7 +313,8 @@ js
 - [py.calc](https://github.com/mingz2013/py.calc)
 - [py.cond](https://github.com/mingz2013/py.cond)
 - [py.script](https://github.com/mingz2013/py.script)
-
+- [vm-py](https://github.com/mingz2013/vm-py)
+- [lang-py](https://github.com/mingz2013/lang-py)
 
 # 参考资料
 
