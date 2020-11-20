@@ -1,7 +1,0 @@
-| Title                | Date             | Modified         | Category          |
-|:--------------------:|:----------------:|:----------------:|:-----------------:|
-| python               | 2019-06-06 12:00 | 2019-05-29 12:00 | lang              |
-
-# python
-
-- [install python](./install-python-with-mac.md)

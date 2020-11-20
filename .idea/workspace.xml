@@ -2,8 +2,512 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c93a18a-4111-4c56-997d-8ba69478a998" name="Default Changelist" comment="blog">
+      <change afterPath="$PROJECT_DIR$/create_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/概率统计.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/离散数学.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitbook/compiler/compiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/gitbook/compiler/compiler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/create.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/28c29adc5f519143fd5abb5d7a5edcd0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/50x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/shenma-site-verification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/sogousiteverification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/algorithm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/algorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/algorithm/algorithm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/images/algorithm_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/images/algorithm_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/binary_sort_tree_search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/hash_search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/images/searching_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/index_search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/searching.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/sequential_search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/searching/sorted_search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/bitmap排序.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/bubble_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/heap_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/bubble_sort_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/bubble_sort_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/bubble_sort_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/heap_sort_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/images/sort_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/insert_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/merging_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/quick_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/select_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/shell_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/tim_sort.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/基数排序.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/桶排序.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/sort/计数排序.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/分治法/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/动态规则/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/摊还分析/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/algorithm/贪心算法/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/data_structures.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/graph/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/hashtable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/data_structures_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/graph_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/list_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/stack_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/string_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/string_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/images/tree_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/list/list.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/list/queue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/list/stack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/list/string.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/AVL树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/B+树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/B树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/LSM树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/二叉搜索树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/二叉树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/基数树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/algorithm/data_structures/tree/红黑树.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/book.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/cocos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cocos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/JVM/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/compiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/compiler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/gcc.md" beforeDir="false" afterPath="$PROJECT_DIR$/create.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/golang/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/images/compiler-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/images/compiler-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/llvm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/llvm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/lua/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/ollvm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/ollvm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/pypy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/pypy/jit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/pypy/pypy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/pypy/rpython.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/Code对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/一般表达式.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/函数.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/控制流.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/类机制.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/VM/虚拟机框架.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/其他/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/其他/内存管理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/其他/多线程.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/其他/模块加载.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/其他/运行环境初始化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/对象/Dict对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/对象/List对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/对象/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/对象/字符串对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/对象/对象机制.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/对象/整数对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/词法分析/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/语法分析/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/python/语法树/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/compiler/v8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/computer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/actor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/compiler/gcc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/clojure.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/actor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/csp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/clojure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/data_concurrent.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/csp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/function.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/data_concurrent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/images/concurrent_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/images/concurrent_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/lambda.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/function.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/concurrent/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/lambda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/cpu/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/computer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/cpu/riscv.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/concurrent/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/db/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/hbase.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/db/hbase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/memcache.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/db/memcache.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/administration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/aggregation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/change-streams.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/crud.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/data-models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/drivers-and-odm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/frequently-asked-questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/replica-set-primary-with-secondary-and-arbiter.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/replica-set-primary-with-two-secondaries.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/replica-set-read-write-operations-primary.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/replica-set-three-members-geographically-distributed.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/replica-set-trigger-election.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-hashed-distribution.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-mixed.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-monotonic-distribution.bakedsvg (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-monotonic-distribution.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-primary-shard.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-production-architecture.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-ranged-distribution-frequency.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-ranged-distribution-good.bakedsvg (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-ranged-distribution-good.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-ranged-distribution-low-cardinal.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-test-architecture.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharded-cluster-zones.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharding-hash-based.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharding-migrating.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharding-range-based.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/images/sharding-splitting.bakedsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/indexes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/replication.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/sharding.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/storage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/the-mongo-shell.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/mongodb/transactions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/Lua脚本.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/bitmap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/pubsub.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/事务.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/慢查询日志.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/其他/监视器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/单机/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/单机/事件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/单机/客户端.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/单机/持久化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/单机/数据库.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/单机/服务器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/多机/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/多机/哨兵.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/多机/复制.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/多机/集群.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/对象/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/对象/列表对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/对象/哈希对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/对象/字符串对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/对象/有序集合对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/对象/集合对象.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/quicklist.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/压缩列表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/字典.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/整数集合.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/简单动态字符串.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/跳跃表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/db/redis/数据结构/链表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/chain_of_responsibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design/design-patterns/behavioral/chain_of_responsibility.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/command.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/chain_of_responsibility-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/chain_of_responsibility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/command-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/command.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/interpreter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/iterator-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/iterator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/mediator-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/mediator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/memento-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/memento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/observer-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/observer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/state.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/strategy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/template_method-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/template_method.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/visitor-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/visitor-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/images/visitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/interpreter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/iterator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/mediator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/memento.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/observer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/state.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/strategy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/template_method.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/behavioral/visitor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/abstract_factory.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/builder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/factory_method.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/images/abstract_factory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/images/builder-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/images/builder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/images/factory_method.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/images/prototype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/images/singleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/prototype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/creational/singleton.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/design-patterns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/images/design-patterns-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/images/design-patterns-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/images/design-patterns-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/adapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/bridge.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/composite.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/decorator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/facade.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/flyweight.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/adapter-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/adapter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/bridge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/composite-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/composite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/decorator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/facade-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/facade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/flyweight-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/flyweight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/proxy-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/images/proxy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design-patterns/structural/proxy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design/design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/oo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/oo/images/design-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/design/关于设计模式的探讨.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/design/关于设计模式的探讨.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/byzantine.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/byzantine.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/cache.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/cache.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/cap.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/cap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/hacluster.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/hacluster.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/mq/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/mq/kafka.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/paxos.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/paxos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/raft.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/distribution/raft.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/registry/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/registry/consul.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/registry/etcd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/distribution/registry/zookeeper.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/adb.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/adb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/assembly.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/assembly.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/brew.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/brew.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/centos7.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/centos7.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/chrome.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/chrome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/ctf.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/ctf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/golang.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/golang.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/idapro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/idapro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/jetbrains.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/jetbrains.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/k8s.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/k8s.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/macos.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/macos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/markdown.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/mongo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/mongo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/nginx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/nmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/nmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/nodejs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/nodejs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/shell.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/shell.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/sublime.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/sublime.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/svn.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/svn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/unity.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/unity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/vim.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/vim.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/vscode.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/vscode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/every-day-use/wireshark.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/every-day-use/wireshark.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/pelican的建站过程.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/pelican的建站过程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/seo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/seo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/关于免费的和低成本的服务选择.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/关于免费的和低成本的服务选择.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/关于站群.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/关于站群.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/如何变现.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/如何变现.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/如何建立一个博客类的网站.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/如何建立一个博客类的网站.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/百度统计.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/百度统计.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/网站的部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/网站的部署.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/起因.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/起因.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/起始点.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/起始点.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/formoney/静态博客工具的选择.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/formoney/静态博客工具的选择.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/hack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hack/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/hack/js代码加密.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hack/js代码加密.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/images/alipay-reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/alipay-reward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/images/wechat-reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/wechat-reward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/kernel/IO.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cpu/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/kernel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kernel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/kernel/线程.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cpu/riscv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/kernel/进程.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kernel/IO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lang/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/assembly/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/c/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/c/oo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/cpp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/golang/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/html/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/python/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/python/install-python-with-mac.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/lang/rust/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/math/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/math/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/math/概率统计.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kernel/线程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/math/离散数学.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kernel/进程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/math/线性代数.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/math/线性代数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/chaos-engineering.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/chaos-engineering.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/consul.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/consul.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/devops.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/devops.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/docker-compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/docker-compose.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/docker-swarm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/docker-swarm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/efk.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/efk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/elk.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/elk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/go-micro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/go-micro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/helm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/helm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/consul-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/containers-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/devops-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/devops-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/devops-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/docker-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/docker-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/docker-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/docker-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/efk-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/efk-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/efk-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/efk-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/elk-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/elk-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/elk-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/go-micro-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/k8s-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/k8s-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/k8s-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/network-01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/okd_catalog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/okd_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/okd_project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/openshift-3-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/prometheus-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/prometheus-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/serverless-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/serverless-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/servicemesh-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/servicemesh-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/servicemesh-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/servicemesh-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/servicemesh-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/servicemesh-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/sidecar-01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/zipkin-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/images/zipkin-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/istio.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/istio.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/k8s.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/k8s.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/mesos.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/mesos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/microservice.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/microservice.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/monitoring.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/monitoring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/openshift-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/openshift-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/openshift-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/openshift-4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/prometheus.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/prometheus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/rancher.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/rancher.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/serverless.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/serverless.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/spring-cloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/spring-cloud.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/micros/zipkin.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/micros/zipkin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/network.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/network.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/协议/dns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/协议/http.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/协议/ip.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/协议/tcp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/network/网络编程/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/opengl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/opengl/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/ops/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ops/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/ops/ansible.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ops/ansible.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/ops/images/ansible-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/seo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/seo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/styles/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/styles/website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/tools/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tools/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/tools/gitbook.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tools/gitbook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/unity/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unity/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/unix-like/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unix-like/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbook/unix-like/centos7_utf8.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unix-like/centos7_utf8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +518,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -33,7 +538,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gitbook/formoney/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,6 +548,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="/usr/local/lib/node_modules/stylelint" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,6 +560,35 @@
       <recent name="$PROJECT_DIR$/gitbook/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="create_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mingz.me" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.create_config" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -99,6 +634,8 @@
       <workItem from="1590396964745" duration="679000" />
       <workItem from="1591860410682" duration="14000" />
       <workItem from="1591860457421" duration="408000" />
+      <workItem from="1605814423559" duration="12000" />
+      <workItem from="1605814438842" duration="10715000" />
     </task>
     <task id="LOCAL-00001" summary="blog">
       <created>1584213022097</created>
@@ -307,25 +844,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1590397444551">
+    <state x="427" y="61" key="#create_config" timestamp="1605814937958">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590397444551" />
-    <state x="-833" y="-1018" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584673399967" />
-    <state x="303" y="52" key="CommitChangelistDialog2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586861068274" />
-    <state x="513" y="168" key="RollbackChangesDialog" timestamp="1585146461644">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="513" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1585146461644" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1590397452836">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590397452836" />
-    <state x="-810" y="-852" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584673406134" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586861077214" />
-    <state x="-597" y="-778" width="639" height="476" key="find.popup" timestamp="1584672294398">
-      <screen x="-1237" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="-597" y="-778" width="639" height="476" key="find.popup/683.-1080.1920.1080/-1237.-1080.1920.1080/0.0.1440.900@-1237.-1080.1920.1080" timestamp="1584672294398" />
+    <state x="427" y="61" key="#create_config/0.0.1440.900@0.0.1440.900" timestamp="1605814937958" />
   </component>
 </project>

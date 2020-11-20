@@ -1,0 +1,27 @@
+{
+  "name": "mingz.me",
+  "version": "1.0.0",
+  "description": "note, gitbook support",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingz2013/mingz.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingz2013/mingz.me/issues"
+  },
+  "homepage": "https://github.com/mingz2013/mingz.me#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
