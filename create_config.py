@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-@FileName: create_config.py
-@Time: 11/20/20 3:40 AM
+@FileName: create_config
+@Time: 11/20/20 10:20 AM
 @Author: zhaojm
 
 Module Description
 
 """
+
+
+
 
 
 import os
@@ -84,7 +87,7 @@ def do_result(obj):
             if not k:
                 k = '/'
             result.append({
-                'title': k,
+                'title': k.split('/')[-1],
                 'path': "/" + k + '/',
                 'children': do_result(v)
              })
